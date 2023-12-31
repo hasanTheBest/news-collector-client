@@ -1,0 +1,64 @@
+/* eslint-disable no-prototype-builtins */
+// import React from "react";
+
+import news from "./data/janakantha.json";
+import "./App2.css";
+
+const App2 = () => {
+  return (
+    <div className="lg:container mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4">
+        {news.map((item) => {
+          const hasImgSrc = item.hasOwnProperty("imgSrc");
+          const hasExcerpt = item.hasOwnProperty("excerpt");
+          const hasTime = item.hasOwnProperty("time");
+
+          let classes;
+
+          if (hasImgSrc && hasExcerpt) classes = "col-span-2 row-span-2";
+          else if (hasExcerpt) classes = "row-span-2";
+          // else if (hasImgSrc) classes = "col-span-2";
+          else classes = "cols-span-1 row-span-1";
+
+          // const bgImage = hasImgSrc && item.imgSrc;
+
+          return (
+            <>
+              <div
+                className={`card card-compact w-full rounded-none image-full ${classes}`}
+              >
+                {hasImgSrc && (
+                  <figure>
+                    <img src={item.imgSrc} alt={item.title} />
+                  </figure>
+                )}
+
+                <div className="card-body">
+                  {hasImgSrc && hasExcerpt ? (
+                    <h2 className="card-title">
+                      <a href={item.link}>{item.title}</a>
+                    </h2>
+                  ) : (
+                    <h2 className="text-base font-medium">
+                      <a href={item.link}>{item.title}</a>
+                    </h2>
+                  )}
+
+                  {hasExcerpt && <p>{item.excerpt}</p>}
+
+                  {hasTime && (
+                    <div className="card-actions justify-end">
+                      <span className="badge">{item.time}</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+export default App2;
