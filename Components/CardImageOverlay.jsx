@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-prototype-builtins */
 
-const CardImageOverlay = ({ item }) => {
+const CardImageOverlay = ({ item, title, url }) => {
   const hasImgSrc = item.hasOwnProperty("imgSrc");
   const hasExcerpt = item.hasOwnProperty("excerpt");
   const hasTime = item.hasOwnProperty("time");
@@ -40,6 +40,9 @@ const CardImageOverlay = ({ item }) => {
           {hasTime && (
             <div className="card-actions justify-end">
               <span className="badge">{item.time}</span>
+              <a href={url} className="badge">
+                {title}
+              </a>
             </div>
           )}
         </div>

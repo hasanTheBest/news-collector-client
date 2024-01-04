@@ -1,0 +1,1383 @@
+{
+  "message": "Scraping 'and saving to MongoDB' successful",
+  "data": [
+    {
+      "title": "The Bangladesh Today | Uniting people everyday",
+      "url": "https://thebangladeshtoday.com/",
+      "news": [
+        {
+          "title": "Army CGS, PSO call on President",
+          "link": "https://thebangladeshtoday.com/?p=58180",
+          "imgSrc": "https://thebangladeshtoday.com/wp-content/uploads/2024/01/President-army-570x264.jpg",
+          "excerpt": "Newly appointed Army Chief of General Staff (CGS) Lieutenant General Waker-Uz-Zaman and Principal Staff Officer (PSO) of the Armed Forces Division (AFD) Lt Gen Mizanur Rahman Shamim..."
+        },
+        {
+          "title": "Polls violence isn’t acceptable anyhow as it creates panic: CEC",
+          "link": "https://thebangladeshtoday.com/?p=58176",
+          "imgSrc": "https://thebangladeshtoday.com/wp-content/uploads/2024/01/CEC-375x211.jpg"
+        },
+        {
+          "title": "Dr Yunus gets 6-month jail for violating labour law",
+          "link": "https://thebangladeshtoday.com/?p=58173",
+          "imgSrc": "https://thebangladeshtoday.com/wp-content/uploads/2024/01/Dr.-Yunus-360x211.jpg"
+        },
+        {
+          "title": "New textbooks are PM’s New Year gift for kids: Zakir",
+          "link": "https://thebangladeshtoday.com/?p=58170",
+          "imgSrc": "https://thebangladeshtoday.com/wp-content/uploads/2024/01/zakir-375x211.jpg"
+        },
+        {
+          "title": "Major Japan quake triggers tsunami waves, residents told to run",
+          "link": "https://thebangladeshtoday.com/?p=58166",
+          "imgSrc": "https://thebangladeshtoday.com/wp-content/uploads/2024/01/japan-earth-quak-375x211.jpg"
+        }
+      ]
+    },
+    {
+      "title": "The Business Standard | BENEATH THE SURFACE",
+      "url": "https://www.tbsnews.net/",
+      "news": [
+        {
+          "title": "Dr Yunus gets 6-month jail, but avoids prison as court grants 1-month bail",
+          "link": "https://www.tbsnews.net/bangladesh/dr-yunus-gets-6-months-jail-labour-law-violation-case-767758",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2023/09/05/yunus_0.jpeg",
+          "excerpt": "Also, the court granted a month's Dr Yunus bail, on condition of filing an appeal against the verdict in the labour law violation case",
+          "time": "6h | Bangladesh"
+        },
+        {
+          "title": "Verdict on Yunus won't affect relations with US: Foreign Secretary",
+          "link": "https://www.tbsnews.net/bangladesh/verdict-yunus-wont-affect-relations-us-foreign-secretary-767978",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2024/01/01/foreignsecretary.png",
+          "time": "30m | Bangladesh"
+        },
+        {
+          "title": "We are being punished for a crime we did not commit: Dr Yunus on labour court verdict",
+          "link": "https://www.tbsnews.net/bangladesh/we-are-being-punished-crime-we-did-not-commit-dr-yunus-labour-court-verdict-767782",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2023/06/21/muhammad_yunus.jpg",
+          "time": "5h | Bangladesh"
+        },
+        {
+          "title": "Cast votes on 7 Jan as reply to BNP-Jamaat arsonists: PM",
+          "link": "https://www.tbsnews.net/bangladesh/politics/pm-addressing-al-campaign-rally-kalabagan-767806",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2024/01/01/pm_0.jpg",
+          "time": "4h | Politics"
+        },
+        {
+          "title": "Can't confirm if we'll stick with election until final day: GM Quader",
+          "link": "https://www.tbsnews.net/bangladesh/politics/cant-confirm-if-well-stick-election-until-final-day-gm-quader-767858",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2021/01/14/gm-quader_3.jpg",
+          "time": "3h | Politics"
+        },
+        {
+          "title": "Verdict against Yunus is stage-managed: Rizvi",
+          "link": "https://www.tbsnews.net/bangladesh/politics/verdict-against-yunus-stage-managed-rizvi-767938",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2023/11/04/rizvi.jpg",
+          "time": "1h | Politics"
+        },
+        {
+          "title": "IRI, NDI technical assessment team meets EC for updates on polls preparation",
+          "link": "https://www.tbsnews.net/bangladesh/iri-ndi-technical-assessment-team-meets-ec-updates-polls-preparation-767946",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/uploads/2023/12/24/election_commission_3.jpg",
+          "time": "1h | Bangladesh"
+        },
+        {
+          "title": "EC orders sending polls results of remote areas thru verified WhatsApp",
+          "link": "https://www.tbsnews.net/bangladesh/politics/ec-orders-sending-polls-results-remote-areas-thru-verified-whatsapp-767882",
+          "imgSrc": "",
+          "time": "2h | Politics"
+        },
+        {
+          "title": "Fire-breathing stunt accident leaves 3 injured in Dhaka's Kamrangirchar",
+          "link": "https://www.tbsnews.net/bangladesh/fire-breathing-stunt-accident-leaves-3-injured-dhakas-kamrangirchar-767954",
+          "imgSrc": "",
+          "time": "1h | Bangladesh"
+        },
+        {
+          "title": "CMP launches robust patrolling to ensure security ahead of polls",
+          "link": "https://www.tbsnews.net/bangladesh/cmp-launches-robust-patrolling-ensure-security-ahead-polls-767974",
+          "imgSrc": "",
+          "time": "40m | Bangladesh"
+        },
+        {
+          "title": "Massive earthquake slams Japan, residents flee some coastal areas",
+          "link": "https://www.tbsnews.net/world/japan-warns-another-7-magnitude-earthquake-tsunami-hits-shore-767778",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2024/01/01/japan-quake_0.jpg",
+          "time": "5h | World+Biz"
+        },
+        {
+          "title": "Sirajganj-5: BNP expels 5 leaders for taking part in election campaign of independent candidates",
+          "link": "https://www.tbsnews.net/bangladesh/politics/sirajganj-5-bnp-expels-5-leaders-taking-part-election-campaign-independent",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2024/01/01/bnp_leaders_0.jpg",
+          "time": "15m | Politics"
+        },
+        {
+          "title": "AL rally creates traffic gridlock in Dhanmondi",
+          "link": "https://www.tbsnews.net/bangladesh/al-rally-creates-traffic-gridlock-dhanmondi-767842",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2024/01/01/dhanmondi_2_0.jpg",
+          "time": "3h | Bangladesh"
+        },
+        {
+          "title": "BNP to observe mass campaign, leaflet distribution till 4 Jan",
+          "link": "https://www.tbsnews.net/bangladesh/politics/bnp-observe-mass-campaign-leaflet-distribution-till-4-jan-767822",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2023/10/23/bnp_logo.png",
+          "time": "3h | Politics"
+        },
+        {
+          "title": "Man sentenced to 10-year imprisonment for assaulting father",
+          "link": "https://www.tbsnews.net/bangladesh/court/man-sentenced-10-years-imprisonment-assaulting-father-767970",
+          "imgSrc": "https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/05/21/background-close-up-court-1415558.jpg",
+          "time": "45m | Court"
+        }
+      ]
+    },
+    {
+      "title": "Daily Observer || Daily Newspaper in Bangladesh",
+      "url": "https://www.observerbd.com/",
+      "news": [
+        {
+          "title": "I've been punished for a crime I didn’t commit: Dr Yunus",
+          "link": "https://www.observerbd.com/news.php?id=453344",
+          "imgSrc": "https://www.observerbd.com/2024/01/02/ob_1704122567.jpg"
+        },
+        {
+          "title": "Cast votes on Jan 7 to foil BNP-Jamaat arsonists: Hasina tells people",
+          "link": "https://www.observerbd.com/news.php?id=453336",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704119961.jpg"
+        },
+        {
+          "title": "Say farewell to BNP forever by showing red card on Jan 7: Quader",
+          "link": "https://www.observerbd.com/news.php?id=453333",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704114009.jpg"
+        },
+        {
+          "title": "BNP to hold mass contact, leaflet distribution till Jan 4",
+          "link": "https://www.observerbd.com/news.php?id=453329",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704111769.jpg"
+        },
+        {
+          "title": "Students excited getting new books",
+          "link": "https://www.observerbd.com/news.php?id=453310",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704099037.jpg"
+        },
+        {
+          "title": "Dr Yunus sued for not paying workers’ dues: Hasan",
+          "link": "https://www.observerbd.com/news.php?id=453338",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704116949_th.jpg"
+        },
+        {
+          "title": "Hasina to address election rally in Faridpur Tuesday",
+          "link": "https://www.observerbd.com/news.php?id=453328",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704110614_th.jpg"
+        },
+        {
+          "title": "Actions will be taken if anyone obstructs voters: IGP",
+          "link": "https://www.observerbd.com/news.php?id=453324",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704108140_th.jpg"
+        },
+        {
+          "title": "School teacher show-caused over polls code violation in Pabna-3",
+          "link": "https://www.observerbd.com/news.php?id=453343",
+          "imgSrc": "https://www.observerbd.com/2024/01/02/ob_1704121820_th.jpg"
+        },
+        {
+          "title": "Year begins with zero dengue death",
+          "link": "https://www.observerbd.com/news.php?id=453342",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704119720_th.jpg"
+        },
+        {
+          "title": "25 injured in police, Chhatra Dal clash in Habiganj",
+          "link": "https://www.observerbd.com/news.php?id=453337",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704115489_th.jpg"
+        },
+        {
+          "title": "Dr Yunus granted conditional bail",
+          "link": "https://www.observerbd.com/news.php?id=453335",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704114491_th.jpg"
+        },
+        {
+          "title": "DU gets 15 new departments in 15 years",
+          "link": "https://www.observerbd.com/news.php?id=453334",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704114297_th.jpg"
+        },
+        {
+          "title": "Teen killed in Sunamganj clash, 6 arrested",
+          "link": "https://www.observerbd.com/news.php?id=453331",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704112583_th.jpg"
+        },
+        {
+          "title": "Can weight loss help in treating psoriasis?",
+          "link": "https://www.observerbd.com/news.php?id=453330",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704111840_th.jpg"
+        },
+        {
+          "title": "Busiest year awaits for Bangladesh in Test cricket",
+          "link": "https://www.observerbd.com/news.php?id=453327",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704110498_th.jpg"
+        },
+        {
+          "title": "Japan warns of another 7 magnitude earthquake as tsunami hits shore",
+          "link": "https://www.observerbd.com/news.php?id=453325",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704108412_th.jpg"
+        },
+        {
+          "title": "BCB announces squad for U-19 World Cup",
+          "link": "https://www.observerbd.com/news.php?id=453323",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704108092_th.jpg"
+        },
+        {
+          "title": "Teen electrocuted celebrating 31st night",
+          "link": "https://www.observerbd.com/news.php?id=453322",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704107811_th.jpg"
+        },
+        {
+          "title": "18 BNP men jailed in sabotage case",
+          "link": "https://www.observerbd.com/news.php?id=453320",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704106233_th.jpg"
+        },
+        {
+          "title": "Two killed in Jhenaidah road crash",
+          "link": "https://www.observerbd.com/news.php?id=453319",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704105574_th.jpg"
+        },
+        {
+          "title": "EC to brief nation about election preparations January 6",
+          "link": "https://www.observerbd.com/news.php?id=453314",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704103151_th.jpg"
+        },
+        {
+          "title": "Palli Kabi Jasimuddin’s 121st birth anniv today",
+          "link": "https://www.observerbd.com/news.php?id=453306",
+          "imgSrc": "https://www.observerbd.com/2024/01/01/ob_1704099511_th.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Daily Sun | Twenty-Four Hour News",
+      "url": "https://www.daily-sun.com/",
+      "news": [
+        {
+          "title": "Verdict against Yunus won’t affect Bangladesh-US relations",
+          "link": "https://www.daily-sun.com/post/728504",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704115148-484df51282f8523cb876d5bac4258e59.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704115148-484df51282f8523cb876d5bac4258e59.jpg&w=1920&q=100 2x",
+          "excerpt": "Says Foreign Secretary Momen at a press conference on Monday."
+        },
+        {
+          "title": "“I was punished in a crime I did not commit”: Yunus",
+          "link": "https://www.daily-sun.com/post/728500",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704112352-97ce45b8652969bcb227883780433fdc.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704112352-97ce45b8652969bcb227883780433fdc.jpg&w=1920&q=100 2x",
+          "excerpt": "",
+          "time": "2 hours ago"
+        },
+        {
+          "title": "Coastal vigilance persists as Japan eases highest Tsunami alert amid quake aftermath",
+          "link": "https://www.daily-sun.com/post/728507",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704119464-95eb431d64cff9514ea5d58a19f8576e.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704119464-95eb431d64cff9514ea5d58a19f8576e.jpg&w=1920&q=100 2x",
+          "excerpt": "",
+          "time": "1 hour ago"
+        },
+        {
+          "title": "Labour law violation: Dr Yunus jailed for six months",
+          "link": "https://www.daily-sun.com/post/728492",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704108486-497da2347b48ce9426862d4a599f301d.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704108486-497da2347b48ce9426862d4a599f301d.jpg&w=1920&q=100 2x",
+          "time": "2 hours ago"
+        },
+        {
+          "title": "BNP extends mass contact programme till 4 January",
+          "link": "https://www.daily-sun.com/post/728499",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704109877-7411515f41c8a337ed0ac9ace3c9b0f3.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704109877-7411515f41c8a337ed0ac9ace3c9b0f3.jpg&w=1920&q=100 2x",
+          "time": "3 hours ago"
+        },
+        {
+          "title": "Half of polling centres in Dhaka risky: DMP",
+          "link": "https://www.daily-sun.com/post/728489",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704097632-b826871aedd8217aa90893d34b0d4fba.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704097632-b826871aedd8217aa90893d34b0d4fba.jpg&w=1920&q=100 2x",
+          "time": "7 hours ago"
+        },
+        {
+          "title": "Dirty sides of clean electric vehicles uncovered",
+          "link": "https://www.daily-sun.com/post/728508",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704119640-a838b52f7bda965ae4ba3420148503cc.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704119640-a838b52f7bda965ae4ba3420148503cc.jpg&w=1920&q=100 2x",
+          "time": "51 minutes ago"
+        },
+        {
+          "title": "Cast vote for Boat: PM urges new voters",
+          "link": "https://www.daily-sun.com/post/728506",
+          "imgSrc": "/_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704116773-cf4a054559aa7dbf7a21d1b0d7ed426a.jpg&w=828&q=100 1x, /_next/image?url=https%3A%2F%2Fcdn.daily-sun.com%2Fpublic%2Fnews_images%2F2024%2F01%2F01%2Fthumbnails%2F1704116773-cf4a054559aa7dbf7a21d1b0d7ed426a.jpg&w=1920&q=100 2x",
+          "excerpt": "",
+          "time": "51 minutes ago"
+        }
+      ]
+    },
+    {
+      "title": "Dhaka Tribune - Current & Breaking News Bangladesh & World",
+      "url": "https://www.dhakatribune.com/",
+      "news": [
+        {
+          "title": "PM Hasina: Cast votes on Jan 7 to foil BNP-Jamaat arsonists",
+          "link": "https://www.dhakatribune.com/bangladesh/election/335527/pm-hasina-cast-votes-on-jan-7-to-foil-bnp-jamaat",
+          "excerpt": "‘BNP, Jamaat want to snatch your votes’ Urges voters to go to polling stations PM asks the people of Bangladesh to stay vigilant"
+        },
+        {
+          "title": "Quader: Say farewell to BNP forever by showing red card on January 7",
+          "link": "https://www.dhakatribune.com/bangladesh/politics/335531/quader-say-farewell-to-bnp-forever-by-showing-red"
+        },
+        {
+          "title": "DMP: Half of Dhaka’s polling centres risky",
+          "link": "https://www.dhakatribune.com/bangladesh/election/335499/dmp-half-of-dhaka%E2%80%99s-polling-centres-risky"
+        },
+        {
+          "title": "Dr Yunus sentenced to 6 months in jail",
+          "link": "https://www.dhakatribune.com/bangladesh/court/335501/dr-yunus-sentenced-to-6-months-in-jail"
+        },
+        {
+          "title": "BNP’s leaflet distribution, mass contact extended till Thursday",
+          "link": "https://www.dhakatribune.com/bangladesh/politics/335515/bnp%E2%80%99s-leaflet-distribution-mass-contact-extended"
+        },
+        {
+          "title": "GM Quader criticizes candidates' withdrawal announcement",
+          "link": "https://www.dhakatribune.com/bangladesh/election/335528/gm-quader-criticizes-candidates-withdrawal"
+        },
+        {
+          "title": "Sino-Bangladesh normalization",
+          "link": "https://www.dhakatribune.com/opinion/op-ed/335484/sino-bangladesh-normalization"
+        },
+        {
+          "title": "Moyeen: Democracy will be 'restored' peacefully in 2024",
+          "link": "https://www.dhakatribune.com/bangladesh/politics/335530/moyeen-democracy-will-be-restored-peacefully-in"
+        },
+        {
+          "title": "Dr Yunus on labour court verdict: Being punished for crime we did not commit",
+          "link": "https://www.dhakatribune.com/bangladesh/court/335514/dr-yunus-decries-labour-court-verdict"
+        },
+        {
+          "title": "Parjatak Express: BR decides on name for new Dhaka-Cox's Bazar train",
+          "link": "https://www.dhakatribune.com/bangladesh/335511/parjatak-express-br-decides-on-name-for-new"
+        },
+        {
+          "title": "Evening Brief",
+          "link": "https://www.dhakatribune.com/brief/evening-brief/335533/evening-brief"
+        },
+        {
+          "title": "Will the world see more wars or unrest in 2024?",
+          "link": "https://www.dhakatribune.com/world/335500/will-the-world-see-more-wars-or-unrest-in-2024"
+        },
+        {
+          "title": "FS: Dr Yunus sentencing won’t affect state ties",
+          "link": "https://www.dhakatribune.com/bangladesh/335537/fs-dr-yunus-sentencing-won%E2%80%99t-affect-state-ties"
+        },
+        {
+          "title": "CEC stresses taking electoral process seriously",
+          "link": "https://www.dhakatribune.com/bangladesh/election/335495/cec-stresses-taking-election-process-seriously"
+        },
+        {
+          "title": "CPD urges political parties to ensure energy transition to renewables",
+          "link": "https://www.dhakatribune.com/business/335526/cpd-urges-political-parties-to-ensure-energy"
+        },
+        {
+          "title": "Denmark's Queen Margrethe II announces surprise abdication",
+          "link": "https://www.dhakatribune.com/world/europe/335507/denmark-s-queen-margrethe-ii-to-abdicate-after-52"
+        },
+        {
+          "title": "PM Hasina to address election rally in Faridpur Tuesday",
+          "link": "https://www.dhakatribune.com/bangladesh/election/335510/pm-hasina-to-address-election-rally-in-faridpur"
+        },
+        {
+          "title": "971 noise complaints made during New Year celebrations",
+          "link": "https://www.dhakatribune.com/bangladesh/335497/971-noise-complaints-made-during-new-year"
+        },
+        {
+          "title": "An abject surrender",
+          "link": "https://www.dhakatribune.com/opinion/op-ed/335482/an-abject-surrender"
+        }
+      ]
+    },
+    {
+      "title": "New Age | The Most Popular Outspoken English Daily in Bangladesh",
+      "url": "https://www.newagebd.net/",
+      "news": [
+        {
+          "title": "PM urges new voters to cast vote for ‘boat’",
+          "link": "https://www.newagebd.net/article/221708/pm-urges-new-voters-to-cast-vote-for-boat",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221708_111.jpg"
+        },
+        {
+          "title": "Railway / New ‘Tourist Express’ trains on Dhaka-Cox’s Bazar route from Jan 10",
+          "link": "https://www.newagebd.net/article/221710/new-tourist-express-trains-on-dhaka-coxs-bazar-route-from-jan-10",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221710_345.png"
+        },
+        {
+          "title": "Corruption / ACC sues RCC councillor, wife for amassing wealth illegally",
+          "link": "https://www.newagebd.net/article/221709/acc-sues-rcc-councillor-wife-for-amassing-wealth-illegally",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221709_319.jpg"
+        },
+        {
+          "title": "Politics / 18 BNP leaders, activists jailed in sabotage case",
+          "link": "https://www.newagebd.net/article/221706/18-bnp-leaders-activists-jailed-in-sabotage-case",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221706_226.jpg"
+        },
+        {
+          "title": "Yunus trial / Bangladesh court jails Nobel laureate Dr Yunus for labour law...",
+          "link": "https://www.newagebd.net/article/221699/bangladesh-court-jails-nobel-laureate-dr-yunus-for-labour-law-violation",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221699_262.png"
+        },
+        {
+          "title": "Politics / 15 injured as police charge baton on JCD procession in...",
+          "link": "https://www.newagebd.net/article/221705/15-injured-as-police-charge-baton-on-jcd-procession-in-pabna",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221705_223.JPG"
+        },
+        {
+          "title": "Army / Army CGS, PSO call on president Shahabuddin",
+          "link": "https://www.newagebd.net/article/221704/army-cgs-pso-call-on-president-shahabuddin",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221704_278.JPG"
+        },
+        {
+          "title": "Electrocution / Teenage electrocuted while playing sound box to celebrate New Year",
+          "link": "https://www.newagebd.net/article/221707/teenage-electrocuted-while-playing-sound-box-to-celebrate-new-year",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221707_258.jpg"
+        },
+        {
+          "title": "Asia / Major Japan quake triggers tsunami waves, residents asked to run",
+          "link": "https://www.newagebd.net/article/221702/major-japan-quake-triggers-tsunami-waves-residents-asked-to-run",
+          "imgSrc": "https://www.newagebd.com/files/records/news/202401/221702_212.JPG"
+        }
+      ]
+    },
+    {
+      "title": "The New Nation – Breaking News, International News & Multimedia",
+      "url": "https://newnation.live/",
+      "news": [
+        {
+          "title": "Nobel laureate Dr Yunus gets six months jail in labour law violation case",
+          "link": "https://newnation.live/nobel-laureate-dr-yunus-gets-six-months-jail-in-labour-law-violation-case/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2024/01/sefgre-839x453.jpg"
+        },
+        {
+          "title": "Fireworks explode over the Sydney Harbour Bridge and Sydney Opera House during New Year’s Eve celebrations in Sydney on January 1, 2024.",
+          "link": "https://newnation.live/fireworks-explode-over-the-sydney-harbour-bridge-and-sydney-opera-house-during-new-years-eve-celebrations-in-sydney-on-january-1-2024/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2023/12/f1-25-839x529.jpg"
+        },
+        {
+          "title": "Police thwart a procession of Islami Andolon Bangladesh at Dainik Bangla intersection in the capital on Sunday, demanding end to holding one-sided election, dissolution of parliament and revocation of new education curriculum.",
+          "link": "https://newnation.live/police-thwart-a-procession-of-islami-andolon-bangladesh-at-dainik-bangla-intersection-in-the-capital-on-sunday-demanding-end-to-holding-one-sided-election-dissolution-of-parliament-and-revocation-of/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2023/12/b1-6-362x362.jpg"
+        },
+        {
+          "title": "Changes in edn initiated to keep pace with world Says PM",
+          "link": "https://newnation.live/changes-in-edn-initiated-to-keep-pace-with-world-says-pm/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2023/12/f2-26-362x362.jpg"
+        },
+        {
+          "title": "Adv Khandker Mahbub Hossain’s first death anniv observed",
+          "link": "https://newnation.live/adv-khandker-mahbub-hossains-first-death-anniv-observed/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2024/01/b6-362x362.jpg"
+        },
+        {
+          "title": "US urges court to reject Trump immunity claim",
+          "link": "https://newnation.live/us-urges-court-to-reject-trump-immunity-claim/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2023/12/b5-2-362x340.jpg"
+        },
+        {
+          "title": "BNP calls for boycotting polls",
+          "link": "https://newnation.live/bnp-calls-for-boycotting-polls/",
+          "imgSrc": "https://newnation.live/wp-content/uploads/2023/12/b3-2-362x362.jpg"
+        }
+      ]
+    },
+    {
+      "title": "The Daily Star – Leading English Daily among Bangladesh Newspapers",
+      "url": "https://www.thedailystar.net/",
+      "news": [
+        {
+          "title": "Punished for a crime I didn't commit: Prof Yunus",
+          "link": "https://www.thedailystar.net/news/bangladesh/crime-justice/news/punished-crime-i-didnt-commit-prof-yunus-3508281",
+          "imgSrc": "https://tds-images.thedailystar.net/sites/default/files/styles/big_201/public/images/2024/01/01/web_0.jpg",
+          "excerpt": "Nobel Laureate Prof Muhammad Yunus, in his first reaction to the court verdict against him, said he was handed over a sentence for a crime he hadn't committed",
+          "time": "1h ago"
+        },
+        {
+          "title": "Yunus sentenced to six months' jail in labour law violation case",
+          "link": "https://www.thedailystar.net/news/bangladesh/crime-justice/news/yunus-sentenced-six-months-jail-labour-law-violation-case-3508051",
+          "excerpt": "Three other top Grameen Telecom officials handed same sentence; all four granted bail",
+          "time": "7h ago"
+        },
+        {
+          "title": "JU entry tests start on Feb 22",
+          "link": "https://www.thedailystar.net/campus/education/news/ju-entry-tests-start-feb-22-3508311",
+          "excerpt": "The first year honours admission test at Jahangirnagar University (JU) for the academic year 2023-24 will begin on February 22 and will continue till February 29",
+          "time": "38m ago"
+        },
+        {
+          "title": "Yunus sued for not paying workers’ dues: Hasan",
+          "link": "https://www.thedailystar.net/news/bangladesh/crime-justice/news/yunus-sued-not-paying-workers-dues-hasan-3508306",
+          "time": "48m ago"
+        },
+        {
+          "title": "Nation ashamed by Gono Bhaban's 'dictated verdict' against Yunus: Rizvi",
+          "link": "https://www.thedailystar.net/news/bangladesh/politics/news/nation-ashamed-gono-bhabans-dictated-verdict-against-yunus-rizvi-3508326",
+          "time": "30m ago"
+        },
+        {
+          "title": "Tale of a baby bird and a heart of gold",
+          "link": "https://www.thedailystar.net/top-news/news/tale-baby-bird-and-heart-gold-3508226",
+          "imgSrc": "https://tds-images.thedailystar.net/sites/default/files/styles/medium_202/public/media/api_images/2024/01/01/Leon%20story.jpg",
+          "time": "2h ago"
+        },
+        {
+          "title": "US not seeking wider conflict in Middle East",
+          "link": "https://www.thedailystar.net/star-multimedia/news-multimedia/news/us-not-seeking-wider-conflict-middle-east-3508336",
+          "imgSrc": "https://tds-images.thedailystar.net/sites/default/files/styles/medium_202/public/images/2024/01/01/newsbyte_web.jpg",
+          "time": "22m ago"
+        },
+        {
+          "title": "EC has no jurisdiction to defer election: CEC",
+          "link": "https://www.thedailystar.net/news/bangladesh/national-election-2024/news/ec-has-no-jurisdiction-defer-election-cec-3508266",
+          "excerpt": "Chief Election Commissioner (CEC) Kazi Habibul Awal today said that the EC has no jurisdiction to defer the election",
+          "time": "1h ago"
+        },
+        {
+          "title": "Non-resident voters / Many reluctant to leave Dhaka during polls",
+          "link": "https://www.thedailystar.net/news/bangladesh/national-election-2024/news/many-reluctant-leave-dhaka-during-polls-3508146",
+          "excerpt": "Some of them are rickshaw-pullers, some ply auto-rickshaws on Dhaka roads while others are shopkeepers, house-helps, bus drivers, private employees, and so on",
+          "time": "3h ago"
+        }
+      ]
+    },
+
+    {
+      "title": "দৈনিক আমাদের সময় | Dainik Amader Shomoy",
+      "url": "https://www.dainikamadershomoy.com/",
+      "news": [
+        {
+          "title": "নির্বাচন থেকে পিছিয়ে পড়ার কোনো সুযোগ নেই: ওবায়দুল কাদের",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8f0442d",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp",
+          "excerpt": "আওয়ামী লীগের সাধারণ সম্পাদক ওবায়দুল কাদের বলেছেন, ‘আগামী ৭ জানুয়ারি নির্বাচন। মোট ২৮টি দল নির্বাচনে অংশ নিচ্ছে। এটি একটি অংশগ্রহণমূলক নির্বাচন বলে আমি মনে করি। সুতারাং নির্বাচন থেকে পিছিয়ে পড়ার কোনো সুযোগ নেই।’আজ মঙ্গলবার ধানমন্ডিতে আওয়ামী লীগ সভাপতির রাজনৈতিক কার্যালয়ে নিয়মিত ব্রি..."
+        },
+        {
+          "title": "এবার নির্বাচনের দিন চলবে গণপরিবহন",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8a8ebf9",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "নির্বাচন নিয়ে যে নির্দেশনা দিলেন ইসি আনিছুর",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8eb13c0",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "প্রার্থিতা বাতিলই থাকছে শাম্মী ও সাদিকের",
+          "link": "https://www.dainikamadershomoy.com/details/018cc87fd1d1",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "গাছের সঙ্গে পিকআপের ধাক্কা, নিহত ৩",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8c688cd",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "ওয়ার্নারের ‘ব্যাগি গ্রিন’ চুরি",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8c2be92",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "জাপানে এক দিনে দেড় শতাধিক ভূমিকম্প, নিহত ১৩",
+          "link": "https://www.dainikamadershomoy.com/details/018cc82cf67c",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "ফুফাতো ভাইয়ের মনোনয়ন বাতিল করতে পারলেন না রিমি",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8b1063b",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "ঢাকা-আরিচা মহাসড়ক অবরোধ করে পোশাক শ্রমিকদের বিক্ষোভ",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8da23d6",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "নতুন বছরে প্রথম ঘোষণা হচ্ছে এলপিজির দাম",
+          "link": "https://www.dainikamadershomoy.com/details/018cc86dcbbe",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        },
+        {
+          "title": "শামীম হকের প্রার্থিতার শুনানি এক সপ্তাহ পেছাল",
+          "link": "https://www.dainikamadershomoy.com/details/018cc8c87d42",
+          "imgSrc": "https://www.dainikamadershomoy.com/assets/img/placeholder.webp"
+        }
+      ]
+    },
+    {
+      "title": "Home | Daily Bonik Barta ( বণিক বার্তা ) | Leading Bangla Business Daily Newspaper |",
+      "url": "https://bonikbarta.net/",
+      "news": [
+        {
+          "title": "নির্বাচনের দিন গণপরিবহন ও প্রাইভেট কার চলবে",
+          "link": "https://bonikbarta.net/home/news_description/367168/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8-%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AD%E0%A7%87%E0%A6%9F-%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A6%B2%E0%A6%AC%E0%A7%87",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367168_1_thumb.jpg"
+        },
+        {
+          "title": "সিমিন হোসেনের আপিল খারিজ, নির্বাচনে বাধা নেই আলম আহমেদের",
+          "link": "https://bonikbarta.net/home/news_description/367169/%E0%A6%B8%E0%A6%BF%E0%A6%AE%E0%A6%BF%E0%A6%A8-%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%96%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%9C-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%86%E0%A6%B2%E0%A6%AE-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367169_1_thumb.jpg"
+        },
+        {
+          "title": "নির্বাচন করতে পারছেন না শাম্মী আহমেদ ও সাদিক আবদুল্লাহ",
+          "link": "https://bonikbarta.net/home/news_description/367162/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6-%E0%A6%93-%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%86%E0%A6%AC%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367162_1_thumb.jpg"
+        },
+        {
+          "title": "দক্ষিণ কোরিয়ায় সংবাদ সম্মেলনে ছুরি হামলায় আহত বিরোধী নেতা",
+          "link": "https://bonikbarta.net/home/news_description/367155/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A7%9F-%E0%A6%B8%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%9B%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B9%E0%A6%A4-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367155_1_thumb.jpg"
+        },
+        {
+          "title": "জাপানে ২৪ ঘণ্টায় ১৫৫টি কম্পন, অন্তত ১৩ জনের মৃত্যু",
+          "link": "https://bonikbarta.net/home/news_description/367156/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A7%A8%E0%A7%AA-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A7%A7%E0%A7%AB%E0%A7%AB%E0%A6%9F%E0%A6%BF-%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%A8-%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%A4-%E0%A7%A7%E0%A7%A9-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367156_1_thumb.jpg"
+        },
+        {
+          "title": "প্রক্ষেপণের চেয়েও সুদ পরিশোধে বেশি অর্থ ব্যয় করতে হচ্ছে সরকারকে",
+          "link": "https://bonikbarta.net/home/news_description/367149/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A7%87%E0%A6%93-%E0%A6%B8%E0%A7%81%E0%A6%A6-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%A7%E0%A7%87-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%9F-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A7%87",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367149_1_thumb.jpg"
+        },
+        {
+          "title": "চলতি বছরেই কি বৈশ্বিক অর্থনীতির কেন্দ্র হচ্ছে ভারত?",
+          "link": "https://bonikbarta.net/home/news_description/367093/%E0%A6%9A%E0%A6%B2%E0%A6%A4%E0%A6%BF-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%87-%E0%A6%95%E0%A6%BF-%E0%A6%AC%E0%A7%88%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%B0-%E0%A6%B9%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4?",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367093_1_thumb.jpg"
+        },
+        {
+          "title": "নোয়াখালীতে শীতকালীন সবজি আবাদ বেড়েছে",
+          "link": "https://bonikbarta.net/home/news_description/367135/%E0%A6%A8%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%96%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%B6%E0%A7%80%E0%A6%A4%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%80%E0%A6%A8-%E0%A6%B8%E0%A6%AC%E0%A6%9C%E0%A6%BF-%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AC%E0%A7%87%E0%A7%9C%E0%A7%87%E0%A6%9B%E0%A7%87",
+          "imgSrc": "https://bonikbarta.net/uploads/news_image/news_367135_1_thumb.jpg"
+        }
+      ]
+    },
+    {
+      "title": "দৈনিক ইনকিলাব",
+      "url": "https://dailyinqilab.com/",
+      "news": [
+        {
+          "title": "জাপানে কয়েক ঘণ্টায় ১৫৫ ভূমিকম্প, নিহত বেড়ে ১৩",
+          "link": "https://dailyinqilab.com/international/news/628363",
+          "excerpt": "পূর্ব এশিয়ার দ্বীপ দেশ জাপানে মাত্র কয়েক ঘণ্টার মধ্যে অন্তত ১৫৫ বার ভূমিকম্প আঘাত হেনেছে। জাপানের মিটিওরোলিজক্যাল এজেন্সি (জেএমএ) জানিয়েছে, এর মধ্যে সবচেয়ে ভয়াবহ ভূমিকম্পটির মাত্রা ছিল রিখটার স্কেলে ৭...",
+          "imgSrc": "https://dailyinqilab.com/mediaStorage/content/images/2024January/ad-4-20240102110905.jpg"
+        },
+        {
+          "title": "জাপানে ২৪ ঘণ্টায় ১৫৫ বার ভূমিকম্পের আঘাত, নিহত ৮",
+          "link": "https://dailyinqilab.com/international/news/628358",
+          "excerpt": "জাপানে ২৪ ঘণ্টায় ১৫৫ বার ভূমিকম্পের আঘাত, নিহত ৮",
+          "time": "আন্তর্জাতিক\n / ২ ঘণ্টা আগে",
+          "imgSrc": "https://dailyinqilab.com/mediaStorage/content/images/2024January/SM/img-20240102-wa0002-20240102102417.jpg"
+        },
+        {
+          "title": "নির্বাচনী জনসভায় আজ ফরিদপুর যাচ্ছেন প্রধানমন্ত্রী",
+          "link": "https://dailyinqilab.com/national/news/628354",
+          "excerpt": "নির্বাচনী জনসভায় আজ ফরিদপুর যাচ্ছেন প্রধানমন্ত্রী",
+          "time": "জাতীয়\n / ৪ ঘণ্টা আগে",
+          "imgSrc": "https://dailyinqilab.com/mediaStorage/content/images/2024January/SM/prime-minister-20240102035553-20240102084226.jpg"
+        },
+        {
+          "title": "হামাসের হামলায় ইসরাইলি বাহিনীর ব্যাপক ক্ষয়ক্ষতি",
+          "link": "https://dailyinqilab.com/international/news/628353",
+          "excerpt": "হামাসের হামলায় ইসরাইলি বাহিনীর ব্যাপক ক্ষয়ক্ষতি",
+          "time": "আন্তর্জাতিক\n / ৪ ঘণ্টা আগে",
+          "imgSrc": "https://dailyinqilab.com/mediaStorage/content/images/2024January/SM/803153-150-20240102083953.jpg"
+        },
+        {
+          "title": "মনিপুরে আবার সহিংসতা, ৫ জেলায় কারফিউ",
+          "link": "https://dailyinqilab.com/international/news/628352",
+          "excerpt": "মনিপুরে আবার সহিংসতা, ৫ জেলায় কারফিউ",
+          "time": "আন্তর্জাতিক\n / ৪ ঘণ্টা আগে",
+          "imgSrc": "https://dailyinqilab.com/mediaStorage/content/images/2024January/SM/803159-174-20240102083435.jpg"
+        }
+      ]
+    },
+    {
+      "title": "দৈনিক ইত্তেফাক | The Daily Ittefaq",
+      "url": "https://www.ittefaq.com.bd/",
+      "news": [
+        {
+          "title": "নির্বাচনের দিন চলবে গণপরিবহন ও প্রাইভেটকার: জননিরাপত্তা সচিব",
+          "link": "https://www.ittefaq.com.bd/672494/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%AC%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8-%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AD%E0%A7%87%E0%A6%9F%E0%A6%95%E0%A6%BE%E0%A6%B0",
+          "excerpt": "দ্বাদশ জাতীয় সংসদ নির্বাচনে ভোটারদের যাতায়াত সুবিধা করার জন্য ভোটের দিন (৭ জানুয়ারি) গণপরিবহন, প্রাইভেটকার, সিএনজি ও অটোরিকশা চলাচল করার অনুমতি দেওয়া হবে বলে জানিয়েছেন..."
+        },
+        {
+          "title": "ফরিদপুরের পথে শেখ হাসিনা",
+          "link": "https://www.ittefaq.com.bd/672500/%E0%A6%AB%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%A5%E0%A7%87-%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE",
+          "excerpt": "নির্বাচনী জনসভায় যোগ দিতে ফরিদপুরের উদ্দেশে..."
+        },
+        {
+          "title": "জাপানে একদিনে ১৫৫ ভূমিকম্প, নিহত বেড়ে ৩০",
+          "link": "https://www.ittefaq.com.bd/672496/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%8F%E0%A6%95%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87-%E0%A7%A7%E0%A7%AB%E0%A7%AB-%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A6%AC%E0%A7%87%E0%A7%9C%E0%A7%87-%E0%A7%A9%E0%A7%A6%C2%A0"
+        },
+        {
+          "title": "শেখ হাসিনার আগমন ঘিরে ফরিদপুরে নিরাপত্তা জোরদার",
+          "link": "https://www.ittefaq.com.bd/672492/%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A6%AE%E0%A6%A8-%E0%A6%98%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%9C%E0%A7%8B%E0%A6%B0%E0%A6%A6%E0%A6%BE%E0%A6%B0"
+        },
+        {
+          "title": "আপিল বিভাগেও প্রার্থিতা ফিরে পেলেন না শাম্মী-সাদিক",
+          "link": "https://www.ittefaq.com.bd/672489/%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%93-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95"
+        },
+        {
+          "title": "ঢাকার বাতাস আজ ‘খুবই অস্বাস্থ্যকর’",
+          "link": "https://www.ittefaq.com.bd/672485/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B8-%E0%A6%86%E0%A6%9C-%E2%80%98%E0%A6%96%E0%A7%81%E0%A6%AC%E0%A6%87-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0%E2%80%99"
+        },
+        {
+          "title": "দক্ষিণ কোরিয়ার বিরোধীনেতাকে ছুরিকাঘাত",
+          "link": "https://www.ittefaq.com.bd/672499/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%9B%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%98%E0%A6%BE%E0%A6%A4%C2%A0"
+        },
+        {
+          "title": "সাড়ে ৫ ঘণ্টা পর শরীয়তপুর-চাঁদপুর রুটে ফেরি চলাচল স্বাভাবিক",
+          "link": "https://www.ittefaq.com.bd/672487/%E0%A6%B8%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A7%AB-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE-%E0%A6%AA%E0%A6%B0-%E0%A6%B6%E0%A6%B0%E0%A7%80%E0%A7%9F%E0%A6%A4%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A7%81%E0%A6%9F%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%BF-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2"
+        },
+        {
+          "title": "সহিংসতা বন্ধে ম্যাজিস্ট্রেটদের কঠোর হওয়ার নির্দেশনা",
+          "link": "https://www.ittefaq.com.bd/topic/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8"
+        },
+        {
+          "title": "৬ নেতাকে বহিষ্কার করেছে বিএনপি",
+          "link": "https://www.ittefaq.com.bd/672484/%E0%A7%AC-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%B9%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF"
+        },
+        {
+          "title": "ছবিতে বলিউড তারকাদের বর্ষবরণ",
+          "link": "https://www.ittefaq.com.bd/672482/%E0%A6%9B%E0%A6%AC%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%B2%E0%A6%BF%E0%A6%89%E0%A6%A1-%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A6%AC%E0%A6%B0%E0%A6%A3"
+        },
+        {
+          "title": "আজকের রাশিফল",
+          "link": "https://www.ittefaq.com.bd/672477/%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A6%AB%E0%A6%B2"
+        }
+      ]
+    },
+    {
+      "title": "যায় যায় দিন",
+      "url": "https://www.jaijaidinbd.com/",
+      "news": [
+        {
+          "title": "সুুষ্ঠু নির্বাচন করতে না পারলে রাষ্ট্র ব্যর্থ হবে : ইসি আনিসুর",
+          "link": "https://www.jaijaidinbd.com/national/427627",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427627-1704178961.jpg",
+          "excerpt": "দ্বাদশ জাতীয় সংসদ নির্বাচন কোনোভাবেই প্রশ্নবিদ্ধ করা যাবে না বলে জানিয়েছেন নির্বাচন কমিশনার আনিছুর রহমান। তিনি বলেন, সুষ্ঠু নির্বাচন করতে না পারলে রাষ্ট্র ব্যর্থ হবে।  মঙ্গলবার (২ জানুয়ারি) দ্বাদশ জাতীয় সংসদ"
+        },
+        {
+          "title": "নির্বাচনের দিন চলবে গণপরিবহন ও প্রাইভেটকার : জননিরাপত্তা সচিব",
+          "link": "https://www.jaijaidinbd.com/national/427616",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427616-1704176296.jpg"
+        },
+        {
+          "title": "সাদিক আব্দুল্লাহ-শাম্মীর নির্বাচন শেষ",
+          "link": "https://www.jaijaidinbd.com/politics/427603",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427603-1704172626.jpg"
+        },
+        {
+          "title": "২৪ ঘণ্টায় জাপানে ১৫৫ বার ভূমিকম্পের আঘাত, নিহত ২৪",
+          "link": "https://www.jaijaidinbd.com/international/427600",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427600-1704171052.jpg"
+        },
+        {
+          "title": "রিমির আপিল খারিজ, নির্বাচনে বাধা নেই আলমের",
+          "link": "https://www.jaijaidinbd.com/national/427604",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427604-1704172842.jpg"
+        },
+        {
+          "title": "ধামরাইয়ের ৮১ ফুট লম্বা নৌকা নিয়ে প্রচারণা",
+          "link": "https://www.jaijaidinbd.com/politics/427598",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427598-1704169832.jpg"
+        },
+        {
+          "title": "নির্বাচন থেকে সরে দাঁড়ালেন চুয়াডাঙ্গা ১ আসনের জাতীয় পার্টির প্রার্থী",
+          "link": "https://www.jaijaidinbd.com/politics/427599",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427599-1704169990.jpg"
+        },
+        {
+          "title": "পাবনায় স্কুলশিক্ষকসহ দুইজনকে কুপিয়ে হত্যাচেষ্টা, গ্রেফতার ২",
+          "link": "https://www.jaijaidinbd.com/wholecountry/427588",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/02/resize-730x533x1x0-image-427588-1704166912.jpg"
+        },
+        {
+          "title": "বিএনপি-জামায়াতের নির্বাচন বন্ধ করার সাহস নেই: প্রধানমন্ত্রী",
+          "link": "https://www.jaijaidinbd.com/national/427468",
+          "imgSrc": "https://www.jaijaidinbd.com/cache-images/news_photos/2024/01/01/resize-730x533x1x0-image-427468-1704115759.jpg"
+        }
+      ]
+    },
+    {
+      "title": "দৈনিক জনকণ্ঠ || Daily Janakantha",
+      "url": "https://www.dailyjanakantha.com/",
+      "news": [
+        {
+          "title": "ঘরে বসেই জানা যাবে কে কোন এলাকার ভোটার",
+          "link": "https://www.dailyjanakantha.com/national/news/708870",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/02-2401020240.jpg",
+          "excerpt": "‘অনলাইন নমিনেশন সাবমিশন সিস্টেম (ওএনএসএস) ও স্মার্ট ইলেকশন ম্যানেজমেন্ট অ্যাপ’ চূড়ান্ত করে নির্বাচন কমিশন। এর মাধ্যমে ঘরে বসেই জানা যাবে ভোটকেন্দ্রের সব তথ্য।"
+        },
+        {
+          "title": "মমতাজের পাশে নেই নিজ পরিবার, সমর্থন প্রতিপক্ষকে",
+          "link": "https://www.dailyjanakantha.com/politics/news/708873",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%AE%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%9C05_11zon-2401020438-SM.jpg"
+        },
+        {
+          "title": "৬ ঘণ্টা পর শরীয়তপুর-চাঁদপুর রুটে ফেরি চলাচল স্বাভাবিক",
+          "link": "https://www.dailyjanakantha.com/bangladesh/news/708872",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/04-2401020323-SM.jpg"
+        },
+        {
+          "title": "জরুরী নির্দেশনা, নতুন বইয়ে ভুল-ত্রুটি পেলে যা করবেন",
+          "link": "https://www.dailyjanakantha.com/education/news/708886",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%8719_11zon-2401020701-SM.jpg"
+        },
+        {
+          "title": "মঞ্চেই বান্ধবীকে জড়িয়ে চুমু খেলেন রাষ্ট্রপতি",
+          "link": "https://www.dailyjanakantha.com/international/news/708883",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%AE%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A6%BF-%E0%A6%AB%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE-%E0%A6%AB%E0%A7%8D%E0%A6%B2%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%9C%C2%A016_11zon-2401020619-SM.jpg"
+        },
+        {
+          "title": "জাপানে ১৫৫ ভূমিকম্প, মৃত্যু ৩০",
+          "link": "https://www.dailyjanakantha.com/international/news/708882",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA15_11zon-2401020615-SM.jpg"
+        },
+        {
+          "title": "প্রধান বিরোধীদলীয় নেতার ওপর ছুরি হামলা",
+          "link": "https://www.dailyjanakantha.com/international/news/708878",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%9B%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE10_11zon-2401020524-SM.jpg"
+        },
+        {
+          "title": "সমুদ্রের নিচেই বিশ্বের ‘সবচেয়ে বড় অভিশপ্ত’  কবরস্থান",
+          "link": "https://www.dailyjanakantha.com/international/news/708876",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%95%E0%A6%AC%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%C2%A008_11zon-2401020516-SM.jpg"
+        },
+        {
+          "title": "যেভাবে গুগল ম্যাপের লোকেশন শেয়ার করবেন",
+          "link": "https://www.dailyjanakantha.com/international/news/708880",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%97%E0%A7%81%E0%A6%97%E0%A6%B2-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A7%8B%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A813_11zon-2401020533-SM.jpg"
+        },
+        {
+          "title": "স্ত্রীকে হত্যা করে মেট্রোরেলের নিচে ঝাঁপ দিলেন স্বামী",
+          "link": "https://www.dailyjanakantha.com/international/news/708874",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%AE%E0%A7%87%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B2-2401020447-SM.jpg"
+        },
+        {
+          "title": "খিলগাঁও ও বাড্ডা এলাকায় দুইজনের গলায় ফাঁস",
+          "link": "https://www.dailyjanakantha.com/international/news/708869",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/01-2401020232-SM.jpg"
+        },
+        {
+          "title": "প্রধানমন্ত্রীর উপহার কৃষি যন্ত্রপাতি ভর্তুকিতে পেল কৃষকেরা",
+          "link": "https://www.dailyjanakantha.com/international/news/708877",
+          "imgSrc": "https://www.dailyjanakantha.com/media/imgAll/2023May/SM/%E0%A6%95%E0%A7%83%E0%A6%B7%E0%A6%BF-%E0%A6%AF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BF09_11zon-2401020522-SM.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Jugantor | Most Popular Bangla News | Entertainment | Breaking News",
+      "url": "https://www.jugantor.com/",
+      "news": [
+        {
+          "title": "সুষ্ঠু নির্বাচন না হলে রাষ্ট্র ব্যর্থ হবে: ইসি আনিছুর",
+          "link": "https://www.jugantor.com/national/758361/%E0%A6%B8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A7%81-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A7%8D%E0%A6%A5-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%87%E0%A6%B8%E0%A6%BF-%E0%A6%86%E0%A6%A8%E0%A6%BF%E0%A6%9B%E0%A7%81%E0%A6%B0",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758361-1704177207.jpg"
+        },
+        {
+          "title": "নির্বাচনে অংশ নিতে পারবেন আকরাম হোসেন",
+          "link": "https://www.jugantor.com/national/758363/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87-%E0%A6%85%E0%A6%82%E0%A6%B6-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%AE-%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758363-1704178488.jpg"
+        },
+        {
+          "title": "নওয়াজ শরিফের ভাগ্য নির্ধারণ আজ",
+          "link": "https://www.jugantor.com/international/758362/%E0%A6%A8%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%9C-%E0%A6%B6%E0%A6%B0%E0%A6%BF%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%8D%E0%A6%AF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A6%A3-%E0%A6%86%E0%A6%9C",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758362-1704177290.jpg"
+        },
+        {
+          "title": "নির্বাচনের দিন মোটরসাইকেল ছাড়া চলবে গণপরিবহণ-প্রাইভেটকার",
+          "link": "https://www.jugantor.com/national/758359/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%B2-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE-%E0%A6%9A%E0%A6%B2%E0%A6%AC%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A3%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%AD%E0%A7%87%E0%A6%9F%E0%A6%95%E0%A6%BE%E0%A6%B0",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758359-1704175181.jpg"
+        },
+        {
+          "title": "নতুন বছরে বাংলাদেশ ক্রিকেট নিয়ে যে ভবিষ্যদ্বাণী করলেন আশরাফুল",
+          "link": "https://www.jugantor.com/sports/758360/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%9F-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A7%87-%E0%A6%AD%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%AF%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%A3%E0%A7%80-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%86%E0%A6%B6%E0%A6%B0%E0%A6%BE%E0%A6%AB%E0%A7%81%E0%A6%B2",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758360-1704175964.jpg"
+        },
+        {
+          "title": "বাতিলই থাকছে সাদিক আব্দুল্লাহর প্রার্থিতা",
+          "link": "https://www.jugantor.com/national/758354/%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2%E0%A6%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%9B%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BE",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758354-1704170666.jpg"
+        },
+        {
+          "title": "শামীম হকের দ্বৈত নাগরিকত্বের শুনানি নির্বাচনের পর",
+          "link": "https://www.jugantor.com/national/758358/%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%AE-%E0%A6%B9%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%88%E0%A6%A4-%E0%A6%A8%E0%A6%BE%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758358-1704174585.jpg"
+        },
+        {
+          "title": "মধ্যরাতে প্রেমিকাকে নিয়ে মুম্বাই ছাড়লেন সাইফপুত্র",
+          "link": "https://www.jugantor.com/entertainment/758357/%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%87-%E0%A6%9B%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%AB%E0%A6%AA%E0%A7%81%E0%A6%A4%E0%A7%8D%E0%A6%B0",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758357-1704174471.jpg"
+        },
+        {
+          "title": "নির্বাচন করতে পারবেন না শাম্মী আহমেদ",
+          "link": "https://www.jugantor.com/national/758356/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758356-1704173293.jpg"
+        },
+        {
+          "title": "বছরের শেষে বিপাকে শিক্ষক-অভিভাবক",
+          "link": "https://www.jugantor.com/todays-paper/city/758198/%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%95",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758198-1704167216.jpg"
+        },
+        {
+          "title": "ফুফাতো ভাইয়ের মনোনয়ন বাতিল করতে পারলেন না রিমি",
+          "link": "https://www.jugantor.com/national/758355/%E0%A6%AB%E0%A7%81%E0%A6%AB%E0%A6%BE%E0%A6%A4%E0%A7%8B-%E0%A6%AD%E0%A6%BE%E0%A6%87%E0%A7%9F%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A8%E0%A7%8B%E0%A6%A8%E0%A7%9F%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B0%E0%A6%BF%E0%A6%AE%E0%A6%BF",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758355-1704172147.jpg"
+        },
+        {
+          "title": "আমার ফুফু নৌকা আপনারে দেয় কিন্তু বৈঠা আমারে দেয়: নিক্সন চৌধুরী",
+          "link": "https://www.jugantor.com/country-news/758353/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0-%E0%A6%AB%E0%A7%81%E0%A6%AB%E0%A7%81-%E0%A6%A8%E0%A7%8C%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%AF%E0%A6%BC-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%81-%E0%A6%AC%E0%A7%88%E0%A6%A0%E0%A6%BE-%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B8%E0%A6%A8-%E0%A6%9A%E0%A7%8C%E0%A6%A7%E0%A7%81%E0%A6%B0%E0%A7%80",
+          "imgSrc": "https://www.jugantor.com/assets/news_photos/2024/01/02/image-758353-1704169980.jpg"
+        }
+      ]
+    },
+    {
+      "title": "কালের কণ্ঠ || kalerkantho",
+      "url": "https://www.kalerkantho.com/",
+      "news": [
+        {
+          "title": "ভোটের দিন নিষেধাজ্ঞার বাইরে থাকবে যেসব পরিবহন",
+          "link": "https://www.kalerkantho.com/online/national/2024/01/02/1351300",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fthumbnails%2F1704177451-b9346ab6c4ddd5d1422bbdbe4033e02c.jpg&w=1920&q=100",
+          "excerpt": "ভোটার উপস্থিতি নিশ্চিত করতে ৭ জানুয়ারি ভোটের দিনও গণপরিবহন, ব্যক্তিগত গাড়ি ও রিকশা চলাচল করবে। তবে ম..."
+        },
+        {
+          "title": "জনসভায় যোগ দিতে আজ ফরিদপুর যাচ্ছেন প্রধানমন্ত্রী",
+          "link": "https://www.kalerkantho.com/online/national/2024/01/02/1351297",
+          "excerpt": "নির্বাচনী জনসভায় যোগ দিতে প্রধানমন্ত্রী ও আওয়ামী লীগের সভাপতি শেখ হাসিনা আজ মঙ্গ..."
+        },
+        {
+          "title": "‘দর্শক আগের আমাকে ভুলে গেছে’",
+          "link": "https://www.kalerkantho.com/online/entertainment/2024/01/02/1351279",
+          "excerpt": "গত বছরের শেষ দিন দীপ্ত প্লেতে মুক্তি পেয়েছে আবু হায়াত মাহমুদের ‘হৃদমাঝার..."
+        },
+        {
+          "title": "অর্থনৈতিক সংকট কাটেনি, ঋণে চড়া সুদের চাপ",
+          "link": "https://www.kalerkantho.com/online/business/2024/01/02/1351274",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fthumbnails%2F1704161737-30df77e9aaa3dd8c53854a6dbbdc6c20.jpg&w=1920&q=100",
+          "excerpt": "অর্থনৈতিক সংকট কাটিয়ে ওঠার আগেই বছরের শুরুতে ঋণের চড়া সুদ ধার্য করেছে বাংলাদ..."
+        },
+        {
+          "title": "বিশ্বাসই বদলে দিয়েছে বাংলাদেশকে",
+          "link": "https://www.kalerkantho.com/online/sport/2024/01/02/1351290",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fthumbnails%2F1704174070-80d43cdbde970ce367b51d0864d544f7.jpg&w=1920&q=100",
+          "excerpt": "প্রশ্ন : মনে রাখার মতো একটি বছর কাটিয়েছেন আপনারা। সে প্রসঙ্গে আসার আগে নতুন..."
+        },
+        {
+          "title": "তারেক জিয়া ও রাষ্ট্রদ্রোহিতা",
+          "link": "https://www.kalerkantho.com/online/miscellaneous/2023/03/04/1257792",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2023%2F03%2F04%2Fthumbnails%2F1677901902-9e54e649d157fb0e5b092d58dd9d43b2.jpg&w=1920&q=100",
+          "excerpt": "শেখ সাদী বলেছেন, ‘একটি সুন্দর বাগান নষ্ট করতে একটি বানরই যথেষ্ট।’ বাংলাদেশের..."
+        },
+        {
+          "title": "নির্বাচন করতে পারবেন না শাম্মী-সাদিক",
+          "link": "https://www.kalerkantho.com/online/national/2024/01/02/1351294",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fmob%2F1704175586-301a174b67f1e57eae2233546eb77133.jpg&w=1920&q=100"
+        },
+        {
+          "title": "নৌকার পক্ষে মাঠে নামলেন বিএনপির ২১ নেতাকর্মী",
+          "link": "https://www.kalerkantho.com/online/country-news/2024/01/02/1351295",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fmob%2F1704175959-f24c78e4b31173acfcf286c9433465fe.jpg&w=1920&q=100"
+        },
+        {
+          "title": "আন্তর্জাতিক গণমাধ্যমে ড. ইউনূসের সাজা নিয়ে যা বলা হয়েছে",
+          "link": "https://www.kalerkantho.com/online/world/2024/01/02/1351288",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fmob%2F1704173158-785b0eb6a788620c49a1179890b7694b.jpg&w=1920&q=100"
+        },
+        {
+          "title": "তিন কারণে হরতাল-অবরোধ থেকে সরে এলো বিএনপি",
+          "link": "https://www.kalerkantho.com/online/Politics/2024/01/02/1351270",
+          "imgSrc": "https://www.kalerkantho.com/_next/image?url=https%3A%2F%2Fcdn.kalerkantho.com%2Fpublic%2Fnews_images%2F2024%2F01%2F02%2Fmob%2F1704169450-834bfb34c430873bcbe148e423881315.jpg&w=1920&q=100"
+        }
+      ]
+    },
+    {
+      "title": "Daily Manab Zamin :: The World's First and Largest Circulated Bengali Tabloid Daily",
+      "url": "https://mzamin.com/",
+      "news": [
+        {
+          "title": "ভোটের দিন গণপরিবহন চলাচল নিয়ে নতুন সিদ্ধান্ত",
+          "link": "https://mzamin.com/news.php?news=91183",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "অবিলম্বে ডামি ভোট বন্ধের আহ্বান ফারুকের",
+          "link": "https://mzamin.com/news.php?news=91185"
+        },
+        {
+          "title": "আদালত বর্জন করে সুপ্রিম কোর্ট বারে বিএনপিপন্থি আইনজীবীদের অবস্থান",
+          "link": "https://mzamin.com/news.php?news=91184"
+        },
+        {
+          "title": "সুষ্ঠু নির্বাচন করতে না পারলে রাষ্ট্র ব্যর্থ হবে: ইসি আনিসুর",
+          "link": "https://mzamin.com/news.php?news=91181"
+        },
+        {
+          "title": "শামীম হকের দ্বৈত নাগরিকত্বের শুনানি নির্বাচনের পর",
+          "link": "https://mzamin.com/news.php?news=91180"
+        },
+        {
+          "title": "৪ ইস্যুতে নেপাল সফরে যাচ্ছেন জয়শঙ্কর",
+          "link": "https://mzamin.com/news.php?news=91179"
+        },
+        {
+          "title": "শিশুদের হাতে নতুন বইয়ের সঙ্গে নৌকার লিফলেট দিলেন অধ্যক্ষ",
+          "link": "https://mzamin.com/news.php?news=91176"
+        },
+        {
+          "title": "নওয়াজ শরীফের ভাগ্য নির্ধারণ হবে সুপ্রিম কোর্টে",
+          "link": "https://mzamin.com/news.php?news=91175",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "নির্বাচন করা হচ্ছে না শাম্মী আহমেদ ও সাদিক আবদুল্লাহ’র",
+          "link": "https://mzamin.com/news.php?news=91174",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "উৎসব উৎসব খেলা",
+          "link": "https://mzamin.com/news.php?news=91173",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "স্বতন্ত্র প্রার্থী আলমের নির্বাচনে বাধা নেই",
+          "link": "https://mzamin.com/news.php?news=91172",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "দ. কোরিয়ায় বিরোধী দলীয় নেতাকে গলায় ছুরিকাঘাত",
+          "link": "https://mzamin.com/news.php?news=91171",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "জাপানে একদিনে ১৫৫ বার ভূমিকম্প, নিহত ৭, ব্যাপক ক্ষয়ক্ষতি",
+          "link": "https://mzamin.com/news.php?news=91169",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "দোহার-নবাবগঞ্জের উন্নয়নে নৌকার বিজয়ের কোনো বিকল্প নেই",
+          "link": "https://mzamin.com/news.php?news=91127",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "আস্থাহীনতায় বছর পার",
+          "link": "https://mzamin.com/news.php?news=91116",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "ড. ইউনূসের কারাদণ্ড সরকারের জিঘাংসার বহিঃপ্রকাশ",
+          "link": "https://mzamin.com/news.php?news=91113",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "ড. ইউনূসের কারাদণ্ড সরকারের প্রতিহিংসার প্রতিফলন",
+          "link": "https://mzamin.com/news.php?news=91111",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "ফের তিন দিনের কর্মসূচি ঘোষণা জামায়াতের",
+          "link": "https://mzamin.com/news.php?news=91073",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "এবি পার্টির সঙ্গে মার্কিন টিম বসছে মঙ্গলবার",
+          "link": "https://mzamin.com/news.php?news=91060",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "আন্দোলন-সংগ্রামের মধ্য দিয়ে আমরা মানুষের ভোটাধিকার অর্জন করেছি: প্রধানমন্ত্রী",
+          "link": "https://mzamin.com/news.php?news=91059",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "ড. ইউনূসের রায়ে যুক্তরাষ্ট্রের সঙ্গে সম্পর্কে প্রভাব পড়বে না: পররাষ্ট্রসচিব",
+          "link": "https://mzamin.com/news.php?news=91058",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        },
+        {
+          "title": "নির্বাচনকে সুষ্ঠু দেখালেই ‘সুষ্ঠু’ হয়ে যাবে না: গণতন্ত্র মঞ্চ",
+          "link": "https://mzamin.com/news.php?news=91057",
+          "imgSrc": "https://mzamin.com/assets/images/mzamin.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Daily Nayadiganta (নয়া দিগন্ত) : Most Popular Bangla Newspaper",
+      "url": "https://www.dailynayadiganta.com/",
+      "news": [
+        {
+          "title": "নির্বাচনের দিন চলবে গণপরিবহন, বন্ধ মোটরসাইকেল",
+          "link": "https://www.dailynayadiganta.com/election/803178/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%AC%E0%A7%87-%E0%A6%97%E0%A6%A3%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%AE%E0%A7%8B%E0%A6%9F%E0%A6%B0%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%B2"
+        },
+        {
+          "title": "সাদিক আব্দুল্লাহর প্রার্থিতা বাতিলই থাকবে",
+          "link": "https://www.dailynayadiganta.com/law-and-justice/803177/%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95-%E0%A6%86%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BE-%E0%A6%AC%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B2%E0%A6%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%AC%E0%A7%87"
+        },
+        {
+          "title": "নীলফামারীতে মৌসুমের সর্বনিম্ন তাপমাত্রা, ৩ দিন দেখা মেলেনি সূর্যের",
+          "link": "https://www.dailynayadiganta.com/rangpur/803167/%E0%A6%A8%E0%A7%80%E0%A6%B2%E0%A6%AB%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%AE%E0%A7%8C%E0%A6%B8%E0%A7%81%E0%A6%AE%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%A8-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A7%A9-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%BE-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%A8%E0%A6%BF-%E0%A6%B8%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A7%87%E0%A6%B0"
+        },
+        {
+          "title": "হতাশার আগুনে সমঝোতার বাইরে থাকা লাঙ্গলের প্রার্থীরা",
+          "link": "https://www.dailynayadiganta.com/last-page/803115/%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%B6%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A6%AE%E0%A6%9D%E0%A7%8B%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%87%E0%A6%B0%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B2%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80%E0%A6%B0%E0%A6%BE"
+        },
+        {
+          "title": "জাতীয় নির্বাচন নিয়ে ইন্টারনেটে যেসব প্রশ্নের উত্তর খুঁজছেন ভোটাররা",
+          "link": "https://www.dailynayadiganta.com/election/803161/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A7%9F-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%AF%E0%A7%87%E0%A6%B8%E0%A6%AC-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A7%8D%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%96%E0%A7%81%E0%A6%81%E0%A6%9C%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AD%E0%A7%8B%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%B0%E0%A6%BE"
+        },
+        {
+          "title": "জাপানে ভূমিকম্পে অসংখ্য হতাহত, ব্যাপক ক্ষয়ক্ষতি : প্রধানমন্ত্রী",
+          "link": "https://www.dailynayadiganta.com/asia/803175/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87-%E0%A6%85%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF-%E0%A6%B9%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A6%A4-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%9F%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80"
+        },
+        {
+          "title": "হামাসের এক হামলায় ১৫ ইসরাইলি সেনা নিহত, অস্বীকার ইসরাইলের",
+          "link": "https://www.dailynayadiganta.com/middle-east/803164/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%8F%E0%A6%95-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A7%A7%E0%A7%AB-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A6%BF-%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A6%85%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A7%80%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A7%87%E0%A6%B0"
+        },
+        {
+          "title": "ইতিহাস গড়ে রাতে দেশে ফিরেছে বাংলাদেশ",
+          "link": "https://www.dailynayadiganta.com/cricket/803169/%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%97%E0%A7%9C%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6"
+        },
+        {
+          "title": "গতিপথ বদলে ফেলেছে তিস্তা",
+          "link": "https://www.dailynayadiganta.com/subcontinent/803158/%E0%A6%97%E0%A6%A4%E0%A6%BF%E0%A6%AA%E0%A6%A5-%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE"
+        },
+        {
+          "title": "দক্ষিণ কোরিয়ার বিরোধীনেতার ওপর হামলা",
+          "link": "https://www.dailynayadiganta.com/asia/803173/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE"
+        },
+        {
+          "title": "নির্বাচন করতে পারবেন না শাম্মী আহমেদ",
+          "link": "https://www.dailynayadiganta.com/politics/803182/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%86%E0%A6%B9%E0%A6%AE%E0%A7%87%E0%A6%A6"
+        },
+        {
+          "title": "‘জাপানে সোমবার থেকে ১৫৫টি ভূমিকম্প আঘাত হেনেছে’",
+          "link": "https://www.dailynayadiganta.com/asia/803181/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A7%8B%E0%A6%AE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A7%A7%E0%A7%AB%E0%A7%AB%E0%A6%9F%E0%A6%BF-%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%86%E0%A6%98%E0%A6%BE%E0%A6%A4-%E0%A6%B9%E0%A7%87%E0%A6%A8%E0%A7%87%E0%A6%9B%E0%A7%87"
+        },
+        {
+          "title": "আলোচনায় আ’লীগের ‘ডামি প্রার্থী’",
+          "link": "https://www.dailynayadiganta.com/first-page/803136/-%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%86%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A1%E0%A6%BE%E0%A6%AE%E0%A6%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80"
+        },
+        {
+          "title": "নতুন রাজনৈতিক গোলযোগে পতনের মুখে নেতানিয়াহু",
+          "link": "https://www.dailynayadiganta.com/middle-east/803160/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%88%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%97%E0%A7%8B%E0%A6%B2%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%AA%E0%A6%A4%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B9%E0%A7%81"
+        },
+        {
+          "title": "সুপ্রিম কোর্টে বিএনপিপন্থী আইনজীবীদের আদালত বর্জন কর্মসূচি শুরু",
+          "link": "https://www.dailynayadiganta.com/politics/803172/%E0%A6%B8%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AE-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%AA%E0%A6%A8%E0%A7%8D%E0%A6%A5%E0%A7%80-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A7%80%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%B2%E0%A6%A4-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%BF-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81"
+        },
+        {
+          "title": "সাত বছর পর আজ ফরিদপুর যাচ্ছেন শেখ হাসিনা",
+          "link": "https://www.dailynayadiganta.com/politics/803170/%E0%A6%B8%E0%A6%BE%E0%A6%A4-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%9C-%E0%A6%AB%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%B6%E0%A7%87%E0%A6%96-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A6%BE"
+        },
+        {
+          "title": "আন্দোলন কৌশলে সতর্ক পদক্ষেপ বিএনপির",
+          "link": "https://www.dailynayadiganta.com/first-page/803142/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8B%E0%A6%B2%E0%A6%A8-%E0%A6%95%E0%A7%8C%E0%A6%B6%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%95-%E0%A6%AA%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF%E0%A6%B0"
+        },
+        {
+          "title": "হামাসের হামলায় ইসরাইলি বাহিনীর ব্যাপক ক্ষয়ক্ষতি",
+          "link": "https://www.dailynayadiganta.com/middle-east/803153/%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A7%9F-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%B2%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%9F%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BF"
+        },
+        {
+          "title": "সরে দাঁড়ালেন লাঙ্গল প্রার্থী অ্যাডভোকেট সোহরাব হোসেন",
+          "link": "https://www.dailynayadiganta.com/khulna/803179/%E0%A6%B8%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A6%BE%E0%A6%81%E0%A7%9C%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%B2%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%B2-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A7%80-%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A1%E0%A6%AD%E0%A7%8B%E0%A6%95%E0%A7%87%E0%A6%9F-%E0%A6%B8%E0%A7%8B%E0%A6%B9%E0%A6%B0%E0%A6%BE%E0%A6%AC-%E0%A6%B9%E0%A7%8B%E0%A6%B8%E0%A7%87%E0%A6%A8"
+        }
+      ]
+    },
+    {
+      "title": "প্রথম আলো | বাংলা নিউজ পেপার",
+      "url": "https://www.prothomalo.com/",
+      "news": [
+        {
+          "title": "শাম্মী আহমেদ ও সাদিক আবদুল্লাহ নির্বাচন করতে পারছেন না",
+          "excerpt": "প্রধান বিচারপতি ওবায়দুল হাসানের নেতৃত্বাধীন ছয় সদস্যের আপিল বিভাগ আজ মঙ্গলবার শুনানি নিয়ে এই আদেশ দেন।",
+          "link": "https://www.prothomalo.com/bangladesh/7zuopgyjs6",
+          "time": "২ ঘণ্টা আগে",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2F4862469a-56f3-4f14-9216-c5bc9ac2ff83%2F0915614e-7a15-46f8-98ca-267b5ad36e9c.jpg?rect=0%2C0%2C1600%2C1067&auto=format%2Ccompress&fmt=webp&format=webp&w=300&dpr=1.0"
+        },
+        {
+          "title": "সাক্ষাৎকার: আনিসুল হক এখন পর্যন্ত বিএনপিকে নিষিদ্ধ করার চিন্তা নেই",
+          "excerpt": "নির্বাচনের পরে দেখা যাবে। তবে আওয়ামী লীগ গণতন্ত্রে বিশ্বাস করে। ফলে কোনো দলকে নিশ্চিহ্ন করে দেব—এ কথা আমরা বলি না।",
+          "link": "https://www.prothomalo.com/politics/9v1lhjn6me",
+          "time": "২ ঘণ্টা আগে",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2023-12%2Fd7286815-8e6f-40a4-a5bc-55ebb9e3444e%2Fprothomalo_bangla_2023_06_32b6531d_1fe0_4554_83e0_7516680eec0d_Anisul_haque_law_minister.webp?rect=100%2C0%2C466%2C466&auto=format%2Ccompress&fmt=webp&format=webp&w=100&dpr=1.0"
+        },
+        {
+          "title": "সাক্ষাৎকার বিএনপিকে নিষিদ্ধ করার চেষ্টা সফল হবে না",
+          "excerpt": "সরকারের প্রথম লক্ষ্য ছিল বিএনপিকে ভেঙে টুকরো টুকরো করা। এতে তারা ব্যাপকভাবে ব্যর্থ হয়েছে।",
+          "link": "https://www.prothomalo.com/politics/rylo1un25d",
+          "time": "১ ঘণ্টা আগে",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2F1bc2e93a-51a0-4627-8fbd-4d13a30926a6%2FUntitled_3.jpg?rect=121%2C0%2C670%2C670&auto=format%2Ccompress&fmt=webp&format=webp&w=100&dpr=1.0"
+        },
+        {
+          "title": "আন্তর্জাতিক সংবাদমাধ্যমে ড. ইউনূসের সাজার রায়",
+          "link": "https://www.prothomalo.com/bangladesh/gk6siwq6mw",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2F996b4f98-8bf5-42ee-9835-d20ca2de3d6d%2FUntitled_2.jpg?rect=0%2C0%2C1600%2C1067&auto=format%2Ccompress&fmt=webp&format=webp&w=200&dpr=1.0"
+        },
+        {
+          "title": "বিমানবন্দর থেকে পোস্ট করা ছবিটিই শাকিব খানের বছরের সেরা, সঙ্গে কে ছিলেন",
+          "link": "https://www.prothomalo.com/entertainment/dhallywood/qjiummae5m",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2Fffc53391-9765-4037-a402-218c0b88d281%2F342050188_147996881357071_1448827591856120239_n.jpg?rect=98%2C0%2C1728%2C1152&auto=format%2Ccompress&fmt=webp&format=webp&w=200&dpr=1.0"
+        },
+        {
+          "title": "শীতের দাওয়াত খেয়েও যেভাবে ওজন নিয়ন্ত্রণে রাখবেন",
+          "link": "https://www.prothomalo.com/lifestyle/v0fzplr9s2",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2Ff2719b58-9931-445a-9602-421080ebe4ce%2F_SY_5851.JPG?rect=0%2C0%2C5760%2C3840&auto=format%2Ccompress&fmt=webp&format=webp&w=200&dpr=1.0"
+        },
+        {
+          "title": "হতাশার বছরে বাজারে দামও কমেছে নেইমারের",
+          "excerpt": "২০২৪ সালের প্রথম দিন থেকে শুরু হয়েছে শীতকালীন দলবদল। এখন সবার চোখ দলবদলের বাজারের দিকে। বড় তারকারা কে কোথায় যাচ্ছেন, কার দাম কত বাড়ল বা",
+          "link": "https://www.prothomalo.com/sports/football/bdv04f0yyr",
+          "time": "৩ ঘণ্টা আগে"
+        },
+        {
+          "title": "বিসিএসে নিজের প্রথম পছন্দের ক্যাডারে প্রথম আইইউটির তারিক-উল্লাহ্",
+          "excerpt": "৪৩তম বিসিএসে ক্যাডার পছন্দক্রম (ক্যাডার চয়েস) তালিকায় এম এম তারিক-উল্লাহ্\u200cর প্রথম পছন্দ ছিল পুলিশ ক্যাডার। এ বিসিএসের প্রকাশিত ফলে নিজের পছন্দ অনুযায়ী শুধু পুলিশ ক্যাডারই",
+          "link": "https://www.prothomalo.com/chakri/chakri-news/gygxr0lwef",
+          "time": "৫ ঘণ্টা আগে"
+        },
+        {
+          "title": "জাপানে ভূমিকম্পে ১৩ জনের প্রাণহানি, এক দিনে ১৫৫ কম্পন",
+          "excerpt": "১৫৫টি ভূমিকম্পের মধ্যে ১টি রিখটার স্কেলে ৭ দশমিক ৬ মাত্রার ছিল। জাপানের মধ্যাঞ্চলে এ ভূমিকম্প হয়েছে। আরেকটি ভূমিকম্পের মাত্রা ছিল ৬ দশমিকের বেশি।",
+          "link": "https://www.prothomalo.com/world/asia/yb46g2vsro",
+          "time": "৩ ঘণ্টা আগে"
+        },
+        {
+          "title": "ফরিদপুরে প্রধানমন্ত্রীর জনসভায় যোগ দিতে মিছিল নিয়ে আসছেন নেতা-কর্মীরা",
+          "excerpt": "ফরিদপুর সরকারি রাজেন্দ্র কলেজ মাঠে আজ মঙ্গলবার বেলা তিনটায় জেলা আওয়ামী লীগ আয়োজিত এই জনসভায় লক্ষাধিক লোকের সমাগম হবে বলে আশা করছেন দলের নেতারা।",
+          "link": "https://www.prothomalo.com/bangladesh/district/arwosucn49",
+          "time": "১ ঘণ্টা আগে",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2F6b877c71-5169-400a-9f85-582eb483b80d%2FFARIDPUR_DH0539_20240102_FARIDPUR_PIC_05_JPG.JPG?rect=58%2C0%2C1386%2C924&auto=format%2Ccompress&fmt=webp&format=webp&w=100&dpr=1.0"
+        },
+        {
+          "title": "বছর শেষে আইএমএফের শর্ত পূরণ হয়নি রিজার্ভে",
+          "link": "https://www.prothomalo.com/business/bank/5ai6qcb3iu",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2023-04%2F79ae6afb-946f-4623-9012-87715783055e%2Fd8c827c2_dc73_438a_b6f9_73460b25aa76.jfif?rect=0%2C0%2C1200%2C800&auto=format%2Ccompress&fmt=webp&format=webp&w=100&dpr=1.0"
+        },
+        {
+          "title": "যুক্তরাষ্ট্রে বাংলাদেশি গবেষক আবির হত্যায় সন্দেহভাজন তরুণ গ্রেপ্তার",
+          "link": "https://www.prothomalo.com/bangladesh/vm9o0vh5yx",
+          "imgSrc": "https://images.prothomalo.com/prothomalo-bangla%2F2024-01%2Fc5f173af-8ce7-4373-b5a8-8acb6943eaf3%2Fimg_3_1704126466417__1_.jpg?rect=0%2C0%2C1070%2C713&auto=format%2Ccompress&fmt=webp&format=webp&w=100&dpr=1.0"
+        }
+      ]
+    },
+    {
+      "title": "SAMAKAL | GET THE LATEST ONLINE BANGLA NEWS",
+      "url": "https://samakal.com/",
+      "news": [
+        {
+          "title": "নির্বাচন করতে পারছেন না শাম্মী-সাদিক",
+          "link": "https://www.samakal.com/politics/article/216115/%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE-%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95",
+          "excerpt": "বরিশাল-৫ আসনের স্বতন্ত্র প্রার্থী সেরনিয়াবাত সাদিক আবদুল্লাহ এবং বরিশাল-৪ আসনে আওয়ামী লীগ মনোনীত প্রার্থী শাম্মী আহমেদ নির্বাচন করতে পারছেন না।",
+          "time": "আপডেট ০২ জানুয়ারি ২০২৪ | ১১:১৫",
+          "imgSrc": "https://www.samakal.com/media/common/image-800x450.jpg"
+        },
+        {
+          "title": "শামীম হকের প্রার্থিতার বিরুদ্ধে আবেদনের শুনানি পিছিয়েছে",
+          "link": "https://www.samakal.com/bangladesh/article/216114/%E0%A6%B6%E0%A6%BE%E0%A6%AE%E0%A7%80%E0%A6%AE-%E0%A6%B9%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A7%87-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%AA%E0%A6%BF%E0%A6%9B%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A7%87",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        },
+        {
+          "title": "ঢাকা-আরিচা মহাসড়ক অবরোধ করে পোশাক শ্রমিকদের বিক্ষোভ",
+          "link": "https://www.samakal.com/whole-country/article/216121/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%86%E0%A6%B0%E0%A6%BF%E0%A6%9A%E0%A6%BE-%E0%A6%AE%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A7%9C%E0%A6%95-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8B%E0%A6%B6%E0%A6%BE%E0%A6%95-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%8B%E0%A6%AD",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        },
+        {
+          "title": "সুনামগঞ্জে পিকআপভ্যান নিয়ন্ত্রণ হারিয়ে নিহত ৩",
+          "link": "https://www.samakal.com/whole-country/article/216118/%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87-%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%86%E0%A6%AA%E0%A6%AD%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A7%A9",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        },
+        {
+          "title": "জাপানে কয়েক ঘণ্টায় ১৫৫ ভূমিকম্প, নিহত ৩০",
+          "link": "https://www.samakal.com/international/article/216110/%E0%A6%9C%E0%A6%BE%E0%A6%AA%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A7%9F%E0%A7%87%E0%A6%95-%E0%A6%98%E0%A6%A3%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A7%A7%E0%A7%AB%E0%A7%AB-%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%A8%E0%A6%BF%E0%A6%B9%E0%A6%A4-%E0%A7%A9%E0%A7%A6%C2%A0",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        },
+        {
+          "title": "৭০ আসন ছিনিয়ে নিতে পারে স্বতন্ত্র",
+          "link": "https://www.samakal.com/bangladesh/article/216091/%E0%A7%AD%E0%A7%A6-%E0%A6%86%E0%A6%B8%E0%A6%A8-%E0%A6%9B%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        },
+        {
+          "title": "দাপুটে নেতা, তবু ভোটে নেই ৫৩ এমপি",
+          "link": "https://www.samakal.com/bangladesh/article/216092/%E0%A6%A6%E0%A6%BE%E0%A6%AA%E0%A7%81%E0%A6%9F%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE-%E0%A6%A4%E0%A6%AC%E0%A7%81-%E0%A6%AD%E0%A7%8B%E0%A6%9F%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A7%AB%E0%A7%A9-%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        },
+        {
+          "title": "দক্ষিণ কোরিয়ার বিরোধীদলীয় নেতাকে ছুরিকাঘাত",
+          "link": "https://www.samakal.com/international/article/216107/%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%95%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80%E0%A6%A6%E0%A6%B2%E0%A7%80%E0%A7%9F-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%9B%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%98%E0%A6%BE%E0%A6%A4",
+          "imgSrc": "https://www.samakal.com/media/common/img-300x169.jpg"
+        }
+      ]
+    },
+    {
+      "title": "সংবাদ অনলাইন",
+      "url": "https://sangbad.net.bd/",
+      "news": [
+        {
+          "title": "দক্ষিণ কোরিয়ার প্রধান বিরোধীদলীয় নেতার ওপর ছুরি হামলা",
+          "link": "https://sangbad.net.bd/news/international/112474/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/02Jan24/main_image/sangbad_bangla_1704169219.jpg",
+          "excerpt": "সংবাদ অনলাইন রিপোর্ট"
+        },
+        {
+          "title": "নিয়ন্ত্রণ হারিয়ে গাছের সঙ্গে পিকআপের ধাক্কা, নিহত ৩",
+          "link": "https://sangbad.net.bd/news/bangladesh/112485/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/02Jan24/smaller_images/sangbad_bangla_1704174452.jpg"
+        },
+        {
+          "title": "দিনাজপুরের তাপমাত্রা নামল ১০ ডিগ্রিতে, বিপর্যস্ত জনজীবন",
+          "link": "https://sangbad.net.bd/news/bangladesh/112475/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/02Jan24/smaller_images/sangbad_bangla_1704169347.jpg"
+        },
+        {
+          "title": "মমতাজের ৩ বোন সমর্থন দিলেন স্বতন্ত্র প্রার্থীকে",
+          "link": "https://sangbad.net.bd/news/bangladesh/112477/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/02Jan24/smaller_images/sangbad_bangla_1704169723.jpg"
+        },
+        {
+          "title": "রিমির আপিল খারিজ, শিল্পপতি আলমের প্রার্থিতা বহাল",
+          "link": "https://sangbad.net.bd/news/bangladesh/112484/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/02Jan24/smaller_images/sangbad_bangla_1704174326.jpg"
+        },
+        {
+          "title": "আপিল বিভাগেও প্রার্থিতা ফিরে পেলেন না সাদিক আবদুল্লাহ",
+          "link": "https://sangbad.net.bd/news/bangladesh/112483/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/02Jan24/smaller_images/sangbad_bangla_1704174204.jpg"
+        },
+        {
+          "title": "নির্বাচনী ক্যাম্প ভাঙচুরের অভিযোগ: পঙ্কজ নাথের",
+          "link": "https://sangbad.net.bd/news/politics/112451/",
+          "imgSrc": "https://sangbad.net.bd/images/2024/January/01Jan24/smaller_images/sangbad_bangla_1704112952.jpg"
+        },
+        {
+          "title": "নতুন বছর উপলক্ষ্যে দেশবাসীকে রাষ্ট্রপতির শুভেচ্ছা",
+          "link": "https://sangbad.net.bd/news/international/112422/"
+        },
+        {
+          "title": "দুই বাংলাদেশির মৃত্যুদণ্ড কার্যকর করলো সৌদি",
+          "link": "https://sangbad.net.bd/news/expats/112066/"
+        },
+        {
+          "title": "১ দিনে ১৫৫ বার কেঁপেছে জাপান, ৮ জনের প্রাণহানি",
+          "link": "https://sangbad.net.bd/news/international/112481/"
+        },
+        {
+          "title": "নতুন বছরে আর্থিক খাতে বড় সংস্কারের পরিকল্পনা",
+          "link": "https://sangbad.net.bd/news/business/112436/"
+        },
+        {
+          "title": "ইউক্রেনে হামলা আরও তীব্র করার ঘোষণা দিলেন পুতিন",
+          "link": "https://sangbad.net.bd/news/international/112482/"
+        },
+        {
+          "title": "থার্টি ফার্স্টে শব্দদূষণের হাজার অভিযোগ ৯৯৯-এ",
+          "link": "https://sangbad.net.bd/news/politics/112429/"
+        },
+        {
+          "title": "দেশে ফিরে শরিফুল বললেন, ‘কেবল তো শুরু’",
+          "link": "https://sangbad.net.bd/news/sports/112479/"
+        }
+      ]
+    }
+  ]
+}
