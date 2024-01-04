@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable no-prototype-builtins */
 // import React from "react";
 
@@ -6,10 +7,14 @@ import "./App2.css";
 import CardImageOverlay from "../Components/CardImageOverlay";
 import CardImageTop from "../Components/CardImageTop";
 import CardImageSide from "../Components/CardImageSide";
+import SelectNewsPaper from "../Components/SelectNewsPaper";
 
 const App2 = () => {
   return (
     <div className="lg:container mx-auto">
+      <div className="">
+        <SelectNewsPaper />
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4">
         {news.map((item, i) => {
           const hasImgSrc = item.hasOwnProperty("imgSrc");

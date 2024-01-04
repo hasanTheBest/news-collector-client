@@ -1,0 +1,90 @@
+{
+  "bangla": [
+    {
+      "title": "দৈনিক আমাদের সময়",
+      "url": "https://www.dainikamadershomoy.com/"
+    },
+    {
+      "title": "বণিক বার্তা",
+      "url": "https://bonikbarta.net/"
+    },
+    {
+      "title": "দৈনিক ইনকিলাব",
+      "url": "https://dailyinqilab.com/"
+    },
+    {
+      "title": "দৈনিক ইত্তেফাক",
+      "url": "https://www.ittefaq.com.bd/"
+    },
+    {
+      "title": "যায় যায় দিন",
+      "url": "https://www.jaijaidinbd.com/"
+    },
+    {
+      "title": "দৈনিক জনকণ্ঠ",
+      "url": "https://www.dailyjanakantha.com/"
+    },
+    {
+      "title": "দৈনিক যুগান্তর",
+      "url": "https://www.jugantor.com/"
+    },
+    {
+      "title": "কালের কণ্ঠ",
+      "url": "https://www.kalerkantho.com/"
+    },
+    {
+      "title": "দৈনিক মানবজমিন",
+      "url": "https://mzamin.com/"
+    },
+    {
+      "title": "নয়া দিগন্ত",
+      "url": "https://www.dailynayadiganta.com/"
+    },
+    {
+      "title": "প্রথম আলো",
+      "url": "https://www.prothomalo.com/"
+    },
+    {
+      "title": "দৈনিক সমকাল",
+      "url": "https://samakal.com/"
+    },
+    {
+      "title": "দৈনিক সংবাদ",
+      "url": "https://sangbad.net.bd/"
+    }
+  ],
+  "english": [
+    {
+      "title": "The Bangladesh Today",
+      "url": "https://thebangladeshtoday.com/"
+    },
+    {
+      "title": "The Business Standard",
+      "url": "https://www.tbsnews.net/"
+    },
+    {
+      "title": "Daily Observer",
+      "url": "https://www.observerbd.com/"
+    },
+    {
+      "title": "Daily Sun",
+      "url": "https://www.daily-sun.com/"
+    },
+    {
+      "title": "Dhaka Tribune",
+      "url": "https://www.dhakatribune.com/"
+    },
+    {
+      "title": "New Age",
+      "url": "https://www.newagebd.net/"
+    },
+    {
+      "title": "The New Nation",
+      "url": "https://newnation.live/"
+    },
+    {
+      "title": "The Daily Star",
+      "url": "https://www.thedailystar.net/"
+    }
+  ]
+}
