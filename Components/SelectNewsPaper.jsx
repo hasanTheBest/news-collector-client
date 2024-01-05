@@ -1,23 +1,31 @@
 // import React from "react";
+import {
+  Checkbox,
+  FormControlLabel,
+  FormGroup,
+  Typography,
+} from "@mui/material";
 import newsPaperUrls from "../src/data/dummyData/newsUrls.json";
 
 const SelectNewsPaper = () => {
   return (
     <>
       {Object.entries(newsPaperUrls).map(([key, value]) => {
-        const items = value.map(({ title, url }, i) => (
-          <label className="cursor-pointer" key={i}>
-            <input type="checkbox" className="checkbox" value={url} />
-            <span className="label-text">{title}</span>
-          </label>
+        const items = value.map(({ title, url }) => (
+          <FormControlLabel
+            key={Math.random()}
+            control={<Checkbox />}
+            label={title}
+            value={url}
+          />
         ));
 
         return (
           <div key={key}>
-            <h2 className="text-2xl font-semibold">{key}</h2>
-            <div className="form-control" key={key}>
-              {items}
-            </div>
+            <Typography variant="h5" color="initial">
+              {key}
+            </Typography>
+            <FormGroup>{items}</FormGroup>
           </div>
         );
       })}
