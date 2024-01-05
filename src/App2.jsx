@@ -12,7 +12,7 @@ import SelectNewsPaper from "../Components/SelectNewsPaper";
 const App2 = () => {
   return (
     <div className="lg:container mx-auto">
-      <div className="">
+      <div>
         <SelectNewsPaper />
       </div>
 
@@ -31,14 +31,19 @@ const App2 = () => {
 
                   if (i % 5 === 0) {
                     return (
-                      <CardImageSide item={item} title={title} url={url} />
+                      <CardImageSide
+                        key={Math.random()}
+                        item={item}
+                        title={title}
+                        url={url}
+                      />
                     );
                   }
                 }
 
                 return (
                   <CardImageOverlay
-                    key={i}
+                    key={Math.random()}
                     item={item}
                     title={title}
                     url={url}
