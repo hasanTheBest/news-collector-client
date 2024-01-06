@@ -1,15 +1,22 @@
 // import React from "react";
 import {
+  Box,
   Checkbox,
   FormControlLabel,
   FormGroup,
+  Grid,
   Typography,
 } from "@mui/material";
 import newsPaperUrls from "../src/data/dummyData/newsUrls.json";
 
-const SelectNewsPaper = () => {
-  return (
-    <>
+const SelectNewsPaper = () => (
+  <>
+    <Grid
+      container
+      direction="column"
+      // justifyContent="center"
+      // alignItems="center"
+    >
       {Object.entries(newsPaperUrls).map(([key, value]) => {
         const items = value.map(({ title, url }) => (
           <FormControlLabel
@@ -21,16 +28,26 @@ const SelectNewsPaper = () => {
         ));
 
         return (
-          <div key={key}>
-            <Typography variant="h5" color="initial">
-              {key}
-            </Typography>
-            <FormGroup>{items}</FormGroup>
-          </div>
+          <Grid item xs key={key}>
+            <Box>
+              <Typography
+                variant="h5"
+                color="primary"
+                sx={{ textTransform: "uppercase" }}
+              >
+                {key}
+              </Typography>
+              <FormGroup>
+                <Box sx={{ display: "inline-flex", flexWrap: "wrap" }}>
+                  {items}
+                </Box>
+              </FormGroup>
+            </Box>
+          </Grid>
         );
       })}
-    </>
-  );
-};
+    </Grid>
+  </>
+);
 
 export default SelectNewsPaper;
