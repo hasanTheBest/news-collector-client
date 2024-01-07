@@ -7,20 +7,20 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 
-export default function TitleExcerpt({ title, url, item }) {
+export default function TitleMeta({ title, url, item }) {
   const { title: headline, link, excerpt, time } = item;
 
   const theme = useTheme();
 
   let columns = 12;
   if (useMediaQuery(theme.breakpoints.up("md"))) columns = 6;
-  // if (useMediaQuery(theme.breakpoints.up("lg"))) columns = 4;
+  if (useMediaQuery(theme.breakpoints.up("xl"))) columns = 3;
 
   return (
     <Box gridColumn={`span ${columns}`}>
       <Card variant="outlined">
         <CardContent>
-          <Typography variant="h5" component="h4">
+          <Typography variant="h6" component="h4" sx={{ fontWeight: 400 }}>
             <Link href={link} sx={{ color: "inherit", textDecoration: "none" }}>
               {headline}
             </Link>
@@ -37,12 +37,6 @@ export default function TitleExcerpt({ title, url, item }) {
           <Link href={url} sx={{ fontSize: 12, textDecoration: "none" }}>
             {title}
           </Link>
-          <Typography component="p" variant="body2">
-            {excerpt + "..."}
-            <Link href={link} sx={{ textDecoration: "none" }}>
-              See more
-            </Link>
-          </Typography>
         </CardContent>
       </Card>
     </Box>

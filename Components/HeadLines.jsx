@@ -9,36 +9,51 @@ import {
   IconButton,
   Typography,
   Button,
+  useMediaQuery,
+  Link,
 } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import { useTheme } from "@mui/material/styles";
 
 const HeadLines = ({ title, url, item }) => {
   const { title: headline, link, imgSrc, excerpt, time } = item;
+
+  const theme = useTheme();
+
+  let columns = 12,
+    rows = 4;
+  if (useMediaQuery(theme.breakpoints.up("md"))) columns = 6;
+  // if (useMediaQuery(theme.breakpoints.up("xl"))) columns = ;
+
   /* 3:2 ratio - for image, title, excerpt */
   return (
-    <Box gridColumn="span 6" gridRow="span 4">
-      <Card>
+    <Box gridColumn={`span ${columns}`} gridRow={`span ${rows}`}>
+      <Card variant="outlined">
         <CardContent>
           <Typography variant="h5" component="h2">
-            {headline}
+            <Link href={link} sx={{ color: "inherit", textDecoration: "none" }}>
+              {headline}
+            </Link>
           </Typography>
           {time && (
             <Typography
               component="time"
-              sx={{ mb: 1.5 }}
               color="text.secondary"
+              variant="caption"
             >
               {time + " :: "}
             </Typography>
           )}
-          <Typography
-            component="a"
-            sx={{ fontSize: 14 }}
-            color="text.secondary"
-            gutterBottom
+          <Link
+            href={url}
+            sx={{
+              fontSize: 12,
+              textDecoration: "none",
+              textOverflow: "ellipsis",
+            }}
           >
             {title}
-          </Typography>
+          </Link>
         </CardContent>
         <CardMedia
           component="img"
@@ -49,7 +64,9 @@ const HeadLines = ({ title, url, item }) => {
         <CardContent>
           <Typography paragraph variant="body2" color="text.secondary">
             {excerpt}
-            <Box component="a">...Read More</Box>
+            <Link href={link} sx={{ textDecoration: "none" }}>
+              ...Read More
+            </Link>
           </Typography>
         </CardContent>
       </Card>

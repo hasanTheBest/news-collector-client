@@ -4,6 +4,8 @@ import { Box } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
 import HeadLines from "./HeadLines";
 import TitleExcerpt from "./TitleExcerpt";
+import TitleImage from "./TitleImage";
+import TitleMeta from "./TitleMeta";
 
 const DisplayNewspaper = () => {
   return (
@@ -27,20 +29,38 @@ const DisplayNewspaper = () => {
                     url={url}
                   />
                 );
+              }
 
-                // if (i % 5 === 0) {
+              if (hasExcerpt && !hasImgSrc) {
                 return (
-                  <CardImageSide
+                  <TitleExcerpt
                     key={Math.random()}
                     item={item}
                     title={title}
                     url={url}
                   />
                 );
-                // }
               }
 
-              return <TitleExcerpt key={Math.random()} />;
+              if (hasImgSrc && !hasExcerpt) {
+                return (
+                  <TitleImage
+                    key={Math.random()}
+                    item={item}
+                    title={title}
+                    url={url}
+                  />
+                );
+              }
+
+              return (
+                <TitleMeta
+                  key={Math.random()}
+                  item={item}
+                  title={title}
+                  url={url}
+                />
+              );
             })}
           </>
         );
