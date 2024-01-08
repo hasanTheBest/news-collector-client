@@ -13,21 +13,8 @@ import { useState } from "react";
 import { useNewspaper } from "./NewspaperContext";
 
 const SelectNewsPaper = () => {
-  const { selectedUrls, setSelectedUrls } = useNewspaper();
-
-  const handleSelectNewspaper = (url) => {
-    const isFound = selectedUrls.indexOf(url);
-    if (isFound > -1)
-      setSelectedUrls((urls) => urls.filter((filterUrl) => filterUrl !== url));
-
-    if (isFound === -1) setSelectedUrls((urls) => [...urls, url]);
-  };
-
-  const handleNewspaperSubmission = (e) => {
-    e.preventDefault();
-
-    console.dir(selectedUrls);
-  };
+  const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission } =
+    useNewspaper();
 
   return (
     <React.Fragment>
