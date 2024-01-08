@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import {
   Box,
   Checkbox,
@@ -6,30 +6,32 @@ import {
   FormGroup,
   Grid,
   Typography,
+  Button,
 } from "@mui/material";
 import newsPaperUrls from "../src/data/dummyData/newsUrls.json";
 import { useState } from "react";
+import { useNewspaper } from "./NewspaperContext";
 
 const SelectNewsPaper = () => {
-
-  const [selectecUrls, setSelectedUrls] = useState([])
+  const { selectedUrls, setSelectedUrls } = useNewspaper();
 
   const handleSelectNewspaper = (url) => {
-    const isFound = selectecUrls.indexOf(url)
-    if(isFound > -1) setSelectedUrls(urls => urls.filter(filterUrl => filterUrl !== url))
+    const isFound = selectedUrls.indexOf(url);
+    if (isFound > -1)
+      setSelectedUrls((urls) => urls.filter((filterUrl) => filterUrl !== url));
 
-    if(isFound === -1) setSelectedUrls((urls) => [...urls, url])
-      
+    if (isFound === -1) setSelectedUrls((urls) => [...urls, url]);
   };
-  
-  console.log(selectecUrls)
-  
-  return(
-    <>
-      <Grid
-        container
-        direction="column"
-        >
+
+  const handleNewspaperSubmission = (e) => {
+    e.preventDefault();
+
+    console.dir(selectedUrls);
+  };
+
+  return (
+    <React.Fragment>
+      <Grid container direction="column" mb={6}>
         {Object.entries(newsPaperUrls).map(([key, value]) => {
           const items = value.map(({ title, url }) => (
             <FormControlLabel
@@ -37,11 +39,11 @@ const SelectNewsPaper = () => {
               control={<Checkbox />}
               label={title}
               value={url}
-              onChange = {() => handleSelectNewspaper(url)}
-              checked={selectecUrls.indexOf(url) > -1}
+              onChange={() => handleSelectNewspaper(url)}
+              checked={selectedUrls.indexOf(url) > -1}
             />
           ));
-  
+
           return (
             <Grid item xs key={key}>
               <Box>
@@ -61,9 +63,26 @@ const SelectNewsPaper = () => {
             </Grid>
           );
         })}
+
+        {/* Submit button */}
+        <Box
+          component="form"
+          p={2}
+          alignSelf="center"
+          onSubmit={handleNewspaperSubmission}
+        >
+          <Button
+            variant="contained"
+            size="large"
+            type="submit"
+            color="primary"
+          >
+            Submit
+          </Button>
+        </Box>
       </Grid>
-    </>
-  )
+    </React.Fragment>
+  );
 };
 
 export default SelectNewsPaper;
