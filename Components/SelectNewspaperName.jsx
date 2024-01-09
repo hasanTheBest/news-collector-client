@@ -34,7 +34,7 @@ const SelectNewspaperName = () => {
           <Grid item xs key={key}>
             <Box>
               <Typography
-                variant="h5"
+                variant="body1"
                 color="primary"
                 sx={{ textTransform: "uppercase" }}
               >

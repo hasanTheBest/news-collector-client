@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-import React, { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import useSWRMutation from "swr/mutation";
 
 const NewspaperContext = createContext();
 
-const fetcher = (url) => fetch(url).then((res) => res.json())
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([]);
@@ -14,7 +14,8 @@ const NewspaperProvider = ({ children }) => {
     data: newsData,
     error: newsError,
   } = useSWRMutation(
-    `http://localhost:5000/news?urls=${selectedUrls.join(",")}`, fetcher
+    `http://localhost:5000/news?urls=${selectedUrls.join(",")}`,
+    fetcher
   );
 
   const handleSelectNewspaper = (url) => {

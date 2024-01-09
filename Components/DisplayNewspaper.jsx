@@ -7,13 +7,13 @@ import TitleExcerpt from "./TitleExcerpt";
 import TitleImage from "./TitleImage";
 import TitleMeta from "./TitleMeta";
 import { useNewspaper } from "./NewspaperContext";
+import DisplayLeadNews from "./DisplayLeadNews";
+import DisplaySubLeadNews from "./DisplaySubLeadNews";
 
 const DisplayNewspaper = () => {
   const { newsError, newsData } = useNewspaper();
-  // const urls = handleNewspaperSubmission();
-  console.log(newsError, newsData);
 
-  if (!newsData) {
+  if (newsData) {
     return (
       <Typography align="center" variant="h1" color="info">
         loading...
@@ -30,65 +30,63 @@ const DisplayNewspaper = () => {
   }
 
   return (
-    <Box display="grid" gridTemplateColumns="repeat(12, 1fr)" gap={2}>
-      {/* {news.data.map(({ title, url, news }) => { */}
-      {console.log("News", newsData)}
-      {newsData &&
-        newsData.data.map(({ title, url, news }) => {
-          return (
-            <>
-              {news.map((item) => {
-                const hasImgSrc = item.hasOwnProperty("imgSrc");
-                const hasExcerpt = item.hasOwnProperty("excerpt");
+    <Box display="grid" gridTemplateColumns="repeat(10, 1fr)" gap={2}>
+      {/* {newsData &&
+        newsData.data.map(({ title, url, news }) => { */}
+      {news.data.map(({ title, url, news }) => {
+        return (
+          <>
+            {news.map((item, newsIndex) => {
+              // const hasImgSrc = item.hasOwnProperty("imgSrc");
+              // const hasExcerpt = item.hasOwnProperty("excerpt");
 
-                {
-                  /* 3:2 ratio - for image, title, excerpt */
-                }
-                if (hasImgSrc && hasExcerpt) {
-                  return (
-                    <HeadLines
-                      key={Math.random()}
-                      item={item}
-                      title={title}
-                      url={url}
-                    />
-                  );
-                }
+              {
+                // Display Lead News
+              }
+              // if (newsIndex === 0) {
+              //   return (
+              //     <Box gridColumn="span 4" key={Math.random()}>
+              //       <DisplayLeadNews item={item} title={title} url={url} />
+              //     </Box>
+              //   );
+              // }
 
-                if (hasExcerpt && !hasImgSrc) {
-                  return (
-                    <TitleExcerpt
-                      key={Math.random()}
-                      item={item}
-                      title={title}
-                      url={url}
-                    />
-                  );
-                }
+              // if (hasExcerpt && !hasImgSrc) {
+              //   return (
+              //     <TitleExcerpt
+              //       key={Math.random()}
+              //       item={item}
+              //       title={title}
+              //       url={url}
+              //     />
+              //   );
+              // }
 
-                if (hasImgSrc && !hasExcerpt) {
-                  return (
-                    <TitleImage
-                      key={Math.random()}
-                      item={item}
-                      title={title}
-                      url={url}
-                    />
-                  );
-                }
-
-                return (
-                  <TitleMeta
-                    key={Math.random()}
+              // if (hasImgSrc && !hasExcerpt) {
+              //   return (
+              //     <TitleImage
+              //       key={Math.random()}
+              //       item={item}
+              //       title={title}
+              //       url={url}
+              //     />
+              //   );
+              // }
+              const colSpan = newsIndex === 0 ? 4 : 2;
+              return (
+                <Box gridColumn={`span ${colSpan}`} key={Math.random()}>
+                  <DisplaySubLeadNews
+                    colSpan={colSpan}
                     item={item}
                     title={title}
                     url={url}
                   />
-                );
-              })}
-            </>
-          );
-        })}
+                </Box>
+              );
+            })}
+          </>
+        );
+      })}
     </Box>
   );
 };

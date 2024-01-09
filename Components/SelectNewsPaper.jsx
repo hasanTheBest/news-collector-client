@@ -9,12 +9,12 @@ const SelectNewsPaper = () => {
     <React.Fragment>
       <Grid container direction="row" mb={6}>
         {/* News categories */}
-        <Grid item md={3} xl={2}>
+        <Grid item lg={3} xl={2}>
           <SelectNewsCategory />
         </Grid>
 
         {/* Newspaper Names */}
-        <Grid container direction="column" item md={9} xl={10}>
+        <Grid container direction="column" item lg={9} xl={10}>
           <SelectNewspaperName />
         </Grid>
       </Grid>
