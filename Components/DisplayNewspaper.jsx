@@ -11,7 +11,7 @@ import { useNewspaper } from "./NewspaperContext";
 const DisplayNewspaper = () => {
   const { newsError, newsData } = useNewspaper();
   // const urls = handleNewspaperSubmission();
-  // console.log(urls);
+  console.log(newsError, newsData);
 
   if (!newsData) {
     return (
