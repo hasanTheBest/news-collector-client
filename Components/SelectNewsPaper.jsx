@@ -16,7 +16,7 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 
-const filterSections = ["Leading", "Latest", "Most Read", "National", "International", "Editorial/Opnion", "Sports", "Entertainment", "Job"]
+const filterSections = ["Leading", "Latest", "Most Read", "National", "Politics", "Technology", "Crime", "International", "Editorial/Opnion", "Sports", "Entertainment", "Job"]
 
 const SelectNewsPaper = () => {
   const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission } =
