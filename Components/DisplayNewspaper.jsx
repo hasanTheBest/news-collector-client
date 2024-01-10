@@ -1,6 +1,6 @@
 /* eslint-disable no-prototype-builtins */
 import React from "react";
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography, styled, useTheme } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
 import HeadLines from "./HeadLines";
 import TitleExcerpt from "./TitleExcerpt";
@@ -15,66 +15,35 @@ const DisplayNewspaper = () => {
 
   const theme = useTheme();
 
-  // breakpoint
-  let screen = "xs",
-    colSpan,
-    colNum;
-  if (theme.breakpoints.up("xs")) screen = "sm";
-  else if (theme.breakpoints.up("sm")) screen = "md";
-  else if (theme.breakpoints.up("md")) screen = "lg";
-  // else if (theme.breakpoints.up("lg")) screen = "xl";
-  else screen = "xl";
-
-  // console.log("screen", screen);
-  console.log(theme.breakpoints.between("md", "lg"));
-
-  switch (screen) {
-    case "sm":
-      colSpan = 5;
-      break;
-
-    case "md":
-      colSpan = 4;
-      colNum = 12;
-      break;
-
-    case "lg":
-      colSpan = 3;
-      colNum = 12;
-      break;
-
-    case "xl":
-      colSpan = 2;
-      break;
-
-    default:
-      colSpan = 10;
-      colNum = 10;
-      break;
-  }
-
+    // Styles for container and item
   const styles = {
     GridContainer: {
       [theme.breakpoints.between("md", "xl")]: {
         gridTemplateColumns: "repeat(12, 1fr)",
       },
     },
-    gridItem: {
-      [theme.breakpoints.up("sm")]: {
-        gridColumn: "span 5",
-      },
-      [theme.breakpoints.up("md")]: {
-        gridColumn: "span 4",
-      },
-      [theme.breakpoints.up("lg")]: {
-        gridColumn: "span 3",
-      },
-      [theme.breakpoints.up("xl")]: {
-        gridColumn: "span 2",
-      },
-    },
   };
 
+  const BoxWithStyles = styled("div")(({ newsIndex }) => ({
+    [theme.breakpoints.up("xs")]: {
+      gridColumn:   "span 10",
+    },
+    [theme.breakpoints.up("sm")]: {
+      gridColumn:  newsIndex === 0 ? "span 10" : "span 5",
+    },
+    [theme.breakpoints.up("md")]: {
+      gridColumn: newsIndex === 0 ? "span 8" : "span 4",
+    },
+    [theme.breakpoints.up("lg")]: {
+      gridColumn: newsIndex === 0 ? "span 6" : "span 3",
+    },
+    [theme.breakpoints.up("xl")]: {
+      gridColumn: newsIndex === 0 ? "span 4" : "span 2",
+    },
+  }));
+  
+
+  // is loading
   if (newsData) {
     return (
       <Typography align="center" variant="h1" color="info">
@@ -83,6 +52,7 @@ const DisplayNewspaper = () => {
     );
   }
 
+  // is error
   if (newsError) {
     return (
       <Typography variant="h1" color="error">
@@ -98,35 +68,25 @@ const DisplayNewspaper = () => {
       gap={2}
       sx={styles.GridContainer}
     >
-      {/* <Box display="grid" gridTemplateColumns={`repeat(${colNum}, 1fr)`} gap={2}> */}
       {/* {newsData &&
         newsData.data.map(({ title, url, news }) => { */}
       {news.data.map(({ title, url, news }) => {
         return (
           <>
             {news.map((item, newsIndex) => {
-              // for sm screen 10 | 5, 5 = 10/2
-
-              // for md screen 6, 4 | 3, 3, 4 = 12/3
-
-              // for lg screen  12/4
-
-              // for xl 10/5
-              const col = newsIndex === 0 ? colSpan * 2 : colSpan;
-
+              
               return (
-                <Box
-                  gridColumn={`span 10`}
+                <BoxWithStyles
                   key={Math.random()}
-                  sx={styles.gridItem}
+                  newsIndex={newsIndex}
                 >
                   <DisplaySubLeadNews
-                    colSpan={colSpan}
+                    newsIndex={newsIndex}
                     item={item}
                     title={title}
                     url={url}
                   />
-                </Box>
+                </BoxWithStyles>
               );
             })}
           </>

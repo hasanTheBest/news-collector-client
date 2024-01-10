@@ -4,17 +4,21 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions, Link } from "@mui/material";
+import { Button, CardActionArea, CardActions, Link, useMediaQuery, useTheme } from "@mui/material";
 
-export default function DisplaySubLeadNews({ title, url, item, colSpan }) {
+export default function DisplaySubLeadNews({ title, url, item, newsIndex }) {
   const { title: headline, link, excerpt, time, imgSrc } = item;
+  
+  const theme = useTheme()
+  const smUp = useMediaQuery(theme.breakpoints.up('sm'))
+
   return (
     <Card>
       <CardActionArea href={link}>
         {imgSrc && (
           <CardMedia
             component="img"
-            height={80 * colSpan}
+            height={newsIndex === 0 && smUp ? 320 : 160}
             image={imgSrc}
             alt={headline}
           />
