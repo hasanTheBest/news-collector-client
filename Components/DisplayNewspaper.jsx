@@ -1,13 +1,7 @@
 /* eslint-disable no-prototype-builtins */
-import React from "react";
 import { Box, Typography, styled, useTheme } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
-import HeadLines from "./HeadLines";
-import TitleExcerpt from "./TitleExcerpt";
-import TitleImage from "./TitleImage";
-import TitleMeta from "./TitleMeta";
 import { useNewspaper } from "./NewspaperContext";
-import DisplayLeadNews from "./DisplayLeadNews";
 import DisplaySubLeadNews from "./DisplaySubLeadNews";
 
 const DisplayNewspaper = () => {
@@ -15,7 +9,7 @@ const DisplayNewspaper = () => {
 
   const theme = useTheme();
 
-    // Styles for container and item
+  // Styles for container and item
   const styles = {
     GridContainer: {
       [theme.breakpoints.between("md", "xl")]: {
@@ -26,10 +20,10 @@ const DisplayNewspaper = () => {
 
   const BoxWithStyles = styled("div")(({ newsIndex }) => ({
     [theme.breakpoints.up("xs")]: {
-      gridColumn:   "span 10",
+      gridColumn: "span 10",
     },
     [theme.breakpoints.up("sm")]: {
-      gridColumn:  newsIndex === 0 ? "span 10" : "span 5",
+      gridColumn: newsIndex === 0 ? "span 10" : "span 5",
     },
     [theme.breakpoints.up("md")]: {
       gridColumn: newsIndex === 0 ? "span 8" : "span 4",
@@ -41,7 +35,6 @@ const DisplayNewspaper = () => {
       gridColumn: newsIndex === 0 ? "span 4" : "span 2",
     },
   }));
-  
 
   // is loading
   if (newsData) {
@@ -74,12 +67,8 @@ const DisplayNewspaper = () => {
         return (
           <>
             {news.map((item, newsIndex) => {
-              
               return (
-                <BoxWithStyles
-                  key={Math.random()}
-                  newsIndex={newsIndex}
-                >
+                <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
                   <DisplaySubLeadNews
                     newsIndex={newsIndex}
                     item={item}
