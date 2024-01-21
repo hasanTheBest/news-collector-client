@@ -1,6 +1,6 @@
 import React from "react";
 
-import newsPaperUrls from "../src/data/dummyData/newsUrls.json";
+import newspaperNames from "../src/data/dummyData/newspapersNames.json";
 import {
   Box,
   Button,
@@ -18,15 +18,15 @@ const SelectNewspaperName = () => {
 
   return (
     <React.Fragment>
-      {Object.entries(newsPaperUrls).map(([key, value]) => {
-        const items = value.map(({ title, url }) => (
+      {Object.entries(newspaperNames).map(([key, value]) => {
+        const items = value.map(({ name, slug }) => (
           <FormControlLabel
             key={Math.random()}
             control={<Checkbox />}
-            label={title}
-            value={url}
-            onChange={() => handleSelectNewspaper(url)}
-            checked={selectedUrls.indexOf(url) > -1}
+            label={name}
+            value={slug}
+            onChange={() => handleSelectNewspaper(slug)}
+            checked={selectedUrls.indexOf(slug) > -1}
           />
         ));
 

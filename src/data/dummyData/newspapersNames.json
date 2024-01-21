@@ -1,0 +1,168 @@
+{
+  "bangla": [
+    {
+      "name": "বাংলাদেশ প্রতিদিন",
+      "slug": "bdPratidin"
+    },
+    {
+      "name": "প্রথম আলো",
+      "slug": "prothomAlo"
+    },
+    {
+      "name": "দৈনিক যুগান্তর",
+      "slug": "jugantor"
+    },
+    {
+      "name": "কালের কন্ঠ",
+      "slug": "kalerKantho"
+    },
+    {
+      "name": "দৈনিক ইত্তেফাক",
+      "slug": "ittefaq"
+    },
+    {
+      "name": "দৈনিক জনকণ্ঠ",
+      "slug": "dailyJanakantha"
+    },
+    {
+      "name": "দৈনিক সমকাল",
+      "slug": "samakal"
+    },
+    {
+      "name": "দৈনিক আমাদের সময়",
+      "slug": "amadershomoy"
+    },
+    {
+      "name": "ভোরের কাগজ",
+      "slug": "bhorerKagoj"
+    },
+    {
+      "name": "দৈনিক মানবজমিন",
+      "slug": "manabZamin"
+    },
+    {
+      "name": "আলোকিত বাংলাদেশ",
+      "slug": "alokitoBangladesh"
+    },
+    {
+      "name": "দৈনিক সংবাদ",
+      "slug": "sangbad"
+    },
+    {
+      "name": "দৈনিক ইনকিলাব",
+      "slug": "dailyInqilab"
+    },
+    {
+      "name": "যায়যায়দিন",
+      "slug": "jaiJaiDin"
+    },
+    {
+      "name": "দৈনিক নয়াদিগন্ত",
+      "slug": "dailyNayaDiganta"
+    },
+    {
+      "name": "দৈনিক আজাদী",
+      "slug": "dainikAzadi"
+    },
+    {
+      "name": "দৈনিক সংগ্রাম",
+      "slug": "dailySangram"
+    },
+    {
+      "name": "আজকের পত্রিকা",
+      "slug": "ajkerPatrika"
+    },
+    {
+      "name": "আমার বার্তা",
+      "slug": "amarBarta"
+    },
+    {
+      "name": "প্রতিদিনের সংবাদ",
+      "slug": "protidinerSangbad"
+    },
+    {
+      "name": "বণিক বার্তা",
+      "slug": "bonikBarta"
+    },
+    {
+      "name": "মানবকন্ঠ",
+      "slug": "manobKantha"
+    },
+    {
+      "name": "দেশ রূপান্তর",
+      "slug": "deshRupantor"
+    },
+    {
+      "name": "কালবেলা",
+      "slug": "kalbela"
+    },
+    {
+      "name": "সময়ের আলো",
+      "slug": "shomoyEralo"
+    },
+    {
+      "name": "ঢাকা টাইমস",
+      "slug": "dhakaTimes24"
+    }
+  ],
+  "english": [
+    {
+      "name": "The Daily Star",
+      "slug": "theDailyStar"
+    },
+    {
+      "name": "The Financial Express",
+      "slug": "theFinancialExpress"
+    },
+    {
+      "name": "Daily Sun",
+      "slug": "dailySun"
+    },
+    {
+      "name": "The Daily Observer",
+      "slug": "observerBD"
+    },
+    {
+      "name": "Dhaka Tribune",
+      "slug": "dhakaTribune"
+    },
+    {
+      "name": "New Age",
+      "slug": "newAgeBD"
+    },
+    {
+      "name": "The Bangladesh Today",
+      "slug": "theBangladeshToday"
+    },
+    {
+      "name": "The Business Standard",
+      "slug": "tbsNews"
+    },
+    {
+      "name": "The New Nation",
+      "slug": "newNation"
+    }
+  ],
+  "online": [
+    {
+      "name": "বিবিসি বাংলা",
+      "slug": "bbcBangla"
+    },
+    {
+      "name": "বাংলা নিউজ ২৪",
+      "slug": "banglaNews24"
+    },
+    {
+      "name": "জাগোনিউজ২৪.কম",
+      "slug": "jagoNews24"
+    },
+    {
+      "name": "বাংলা ট্রিবিউন",
+      "slug": "banglaTribune"
+    },
+    {
+      "name": "ঢাকা পোস্ট",
+      "slug": "dhakaPost"
+    }
+  ]
+}

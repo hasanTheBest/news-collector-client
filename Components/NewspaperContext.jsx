@@ -7,7 +7,16 @@ const NewspaperContext = createContext();
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const NewspaperProvider = ({ children }) => {
-  const [selectedUrls, setSelectedUrls] = useState([]);
+  const [selectedUrls, setSelectedUrls] = useState([
+    "theDailyStar",
+    "theFinancialExpress",
+    "bdPratidin",
+    "prothomAlo",
+    "bbcBangla",
+    "ittefaq",
+    "dailyNayaDiganta",
+    "dhakaTribune",
+  ]);
 
   const {
     trigger,

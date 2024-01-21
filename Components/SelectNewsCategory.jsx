@@ -8,18 +8,29 @@ import {
 import React from "react";
 
 const categories = [
-  "Leading",
-  "Latest",
-  "Most Read",
-  "National",
-  "Politics",
-  "Technology",
-  "Crime",
-  "International",
-  "Editorial",
-  "Sports",
-  "Entertainment",
-  "Job",
+  "leading",
+  "national",
+  "international",
+  "politics",
+  "crime",
+  "business",
+  "entertainment",
+  "sports",
+  "countryside",
+  "opinion",
+  "tech",
+  "health",
+  "lifestyle",
+  "feature",
+  "job",
+  "education",
+  "campus",
+  "literature",
+  "religion",
+  "environment",
+  "video",
+  "stock",
+  "trade",
 ];
 
 const SelectNewsCategory = () => {
@@ -49,6 +60,7 @@ const SelectNewsCategory = () => {
             value={item.toLowerCase()}
             control={<Radio />}
             label={item}
+            sx={{ textTransform: "capitalize" }}
           />
         ))}
       </RadioGroup>
