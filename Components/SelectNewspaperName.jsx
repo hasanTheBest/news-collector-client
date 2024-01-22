@@ -13,10 +13,8 @@ import {
 } from "@mui/material";
 import { useNewspaper } from "./NewspaperContext";
 
-const catValue = "national"
-
 const SelectNewspaperName = () => {
-  const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission } =
+  const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission, newsCategory } =
     useNewspaper();
 
   return (
@@ -32,7 +30,7 @@ const SelectNewspaperName = () => {
               value={slug}
               onChange={() => handleSelectNewspaper(slug)}
               checked={selectedUrls.indexOf(slug) > -1}
-              disabled={!newsCategories[slug].includes(catValue)}
+              disabled={!newsCategories[slug].includes(newsCategory)}
             />
           )})
 

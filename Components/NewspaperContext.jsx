@@ -18,6 +18,8 @@ const NewspaperProvider = ({ children }) => {
     "dhakaTribune",
   ]);
 
+  const [newsCategory, setNewsCategory] = useState('leading')
+
   const {
     trigger,
     data: newsData,
@@ -49,6 +51,9 @@ const NewspaperProvider = ({ children }) => {
         handleNewspaperSubmission,
         newsData,
         newsError,
+        newsCategory,
+        setNewsCategory,
+        setSelectedUrls
       }}
     >
       {children}

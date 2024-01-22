@@ -6,6 +6,7 @@ import {
   RadioGroup,
 } from "@mui/material";
 import React from "react";
+import { useNewspaper } from "./NewspaperContext";
 
 const categories = [
   "leading",
@@ -34,11 +35,14 @@ const categories = [
 ];
 
 const SelectNewsCategory = () => {
-  const [value, setValue] = React.useState(categories[0].toLowerCase());
+  const {newsCategory, setNewsCategory, setSelectedUrls} = useNewspaper();
 
   const handleChange = (event) => {
-    setValue(event.target.value);
+    // Clear selection of newspapers first
+    setSelectedUrls([])
+    setNewsCategory(event.target.value);
   };
+
   return (
     <FormControl>
       <FormLabel
@@ -50,7 +54,7 @@ const SelectNewsCategory = () => {
       <RadioGroup
         aria-labelledby="demo-controlled-radio-buttons-group"
         name="controlled-radio-buttons-group"
-        value={value}
+        value={newsCategory}
         onChange={handleChange}
         sx={{ display: "flex", flexWrap: "wrap", flexDirection: "row" }}
       >

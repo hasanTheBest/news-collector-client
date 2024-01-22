@@ -3,8 +3,9 @@ import { Box, Typography, styled, useTheme } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
 import { useNewspaper } from "./NewspaperContext";
 import DisplaySubLeadNews from "./DisplaySubLeadNews";
+import { memo } from "react";
 
-const DisplayNewspaper = () => {
+const DisplayNewspaper = memo(() => {
   const { newsError, newsData } = useNewspaper();
 
   const theme = useTheme();
@@ -83,6 +84,6 @@ const DisplayNewspaper = () => {
       })}
     </Box>
   );
-};
+});
 
 export default DisplayNewspaper;
