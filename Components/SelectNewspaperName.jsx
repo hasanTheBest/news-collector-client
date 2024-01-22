@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 import newspaperNames from "../src/data/dummyData/newspapersNames.json";
+import newsCategories from "../src/data/dummyData/newspapersCategories.json";
 import {
   Box,
   Button,
@@ -12,6 +13,8 @@ import {
 } from "@mui/material";
 import { useNewspaper } from "./NewspaperContext";
 
+const catValue = "national"
+
 const SelectNewspaperName = () => {
   const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission } =
     useNewspaper();
@@ -19,16 +22,19 @@ const SelectNewspaperName = () => {
   return (
     <React.Fragment>
       {Object.entries(newspaperNames).map(([key, value]) => {
-        const items = value.map(({ name, slug }) => (
-          <FormControlLabel
-            key={Math.random()}
-            control={<Checkbox />}
-            label={name}
-            value={slug}
-            onChange={() => handleSelectNewspaper(slug)}
-            checked={selectedUrls.indexOf(slug) > -1}
-          />
-        ));
+        const items = value.map(({ name, slug }) => {
+
+          return(
+            <FormControlLabel
+              key={Math.random()}
+              control={<Checkbox />}
+              label={name}
+              value={slug}
+              onChange={() => handleSelectNewspaper(slug)}
+              checked={selectedUrls.indexOf(slug) > -1}
+              disabled={!newsCategories[slug].includes(catValue)}
+            />
+          )})
 
         return (
           <Grid item xs key={key}>
