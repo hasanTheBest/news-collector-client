@@ -1,10 +1,10 @@
 /* eslint-disable no-prototype-builtins */
 import { Box, Typography, styled, useTheme } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
-import { useNewspaper } from "./NewspaperContext";
-import DisplaySubLeadNews from "./DisplaySubLeadNews";
+import { useNewspaper } from "../Context/NewspaperContext";
+import DisplayNewsItem from "./DisplayNewsItem";
 
-const DisplayNewspaper = () => {
+const DisplayNews = () => {
   const { newsError, newsData } = useNewspaper();
 
   const theme = useTheme();
@@ -69,7 +69,7 @@ const DisplayNewspaper = () => {
             {news.map((item, newsIndex) => {
               return (
                 <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
-                  <DisplaySubLeadNews
+                  <DisplayNewsItem
                     newsIndex={newsIndex}
                     item={item}
                     title={title}
@@ -85,4 +85,4 @@ const DisplayNewspaper = () => {
   );
 };
 
-export default DisplayNewspaper;
+export default DisplayNews;

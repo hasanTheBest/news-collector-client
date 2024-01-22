@@ -10,7 +10,7 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import { useNewspaper } from "./NewspaperContext";
+import { useNewspaper } from "../Context/NewspaperContext";
 
 const SelectNewspaperName = () => {
   const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission } =

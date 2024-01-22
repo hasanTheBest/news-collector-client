@@ -1,8 +1,7 @@
-import * as React from "react";
 import { SWRConfig } from "swr";
 import { Container } from "@mui/material";
 import SelectNewsPaper from "../Components/SelectNewsPaper";
-import DisplayNewspaper from "../Components/DisplayNewspaper";
+import DisplayNews from "../Components/DisplayNews";
 import NewspaperProvider from "../Components/NewspaperContext";
 
 export default function AppMatUI() {
@@ -16,7 +15,7 @@ export default function AppMatUI() {
       <NewspaperProvider>
         <Container maxWidth="xl">
           <SelectNewsPaper />
-          <DisplayNewspaper />
+          <DisplayNews />
         </Container>
       </NewspaperProvider>
     </SWRConfig>

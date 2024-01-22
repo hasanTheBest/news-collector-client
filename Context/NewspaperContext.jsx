@@ -38,6 +38,7 @@ const NewspaperProvider = ({ children }) => {
   const handleNewspaperSubmission = (e) => {
     e.preventDefault();
 
+    // submit the select form and start scrapping
     trigger();
   };
 
