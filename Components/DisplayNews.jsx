@@ -3,6 +3,7 @@ import { Box, Typography, styled, useTheme } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
+import { memo } from "react";
 
 const DisplayNews = () => {
   const { newsError, newsData } = useNewspaper();
@@ -85,4 +86,4 @@ const DisplayNews = () => {
   );
 };
 
-export default DisplayNews;
+export default memo(DisplayNews);
