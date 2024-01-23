@@ -5,8 +5,7 @@ import {
   Radio,
   RadioGroup,
 } from "@mui/material";
-import React from "react";
-import { useNewspaper } from "./NewspaperContext";
+import { useNewspaper } from "../Context/NewspaperContext";
 
 const categories = [
   "leading",
@@ -35,11 +34,11 @@ const categories = [
 ];
 
 const SelectNewsCategory = () => {
-  const {newsCategory, setNewsCategory, setSelectedUrls} = useNewspaper();
+  const { newsCategory, setNewsCategory, setSelectedUrls } = useNewspaper();
 
   const handleChange = (event) => {
     // Clear selection of newspapers first
-    setSelectedUrls([])
+    setSelectedUrls([]);
     setNewsCategory(event.target.value);
   };
 

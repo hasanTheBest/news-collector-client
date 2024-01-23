@@ -2,7 +2,7 @@ import { SWRConfig } from "swr";
 import { Container } from "@mui/material";
 import SelectNewsPaper from "../Components/SelectNewsPaper";
 import DisplayNews from "../Components/DisplayNews";
-import NewspaperProvider from "../Components/NewspaperContext";
+import NewspaperProvider from "../Context/NewspaperContext";
 
 export default function AppMatUI() {
   return (

@@ -8,17 +8,15 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
-    "theDailyStar",
-    "theFinancialExpress",
-    "bdPratidin",
     "prothomAlo",
+    "theDailyStar",
     "bbcBangla",
+    "bdPratidin",
     "ittefaq",
     "dailyNayaDiganta",
-    "dhakaTribune",
   ]);
 
-  const [newsCategory, setNewsCategory] = useState('leading')
+  const [newsCategory, setNewsCategory] = useState("leading");
 
   const {
     trigger,
@@ -54,7 +52,7 @@ const NewspaperProvider = ({ children }) => {
         newsError,
         newsCategory,
         setNewsCategory,
-        setSelectedUrls
+        setSelectedUrls,
       }}
     >
       {children}

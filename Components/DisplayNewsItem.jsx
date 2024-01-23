@@ -25,6 +25,9 @@ export default function DisplayNewsItem({ title, url, item, newsIndex }) {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
+        boxShadow: 0,
+        border: 1,
+        borderColor: "grey.200",
       }}
     >
       <CardActionArea href={link}>
@@ -43,7 +46,7 @@ export default function DisplayNewsItem({ title, url, item, newsIndex }) {
               {title.split(" ").splice(0, 3).join(" ")}
             </Link>
           </Typography>
-          <Typography gutterBottom variant="h5" component="h4">
+          <Typography gutterBottom variant="h6" component="h4">
             {headline}
           </Typography>
           {excerpt && (
