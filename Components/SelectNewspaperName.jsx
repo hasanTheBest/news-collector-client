@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import newspaperNames from "../src/data/dummyData/newspapersNames.json";
 import newsCategories from "../src/data/dummyData/newspapersCategories.json";
 import {
   Box,
-  Button,
   Checkbox,
   FormControlLabel,
   FormGroup,
@@ -12,27 +11,35 @@ import {
   Typography,
 } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
+import NewspaperCategorySubmitBtn from "./NewspaperCategorySubmitBtn";
 
 const SelectNewspaperName = () => {
-  const { selectedUrls, handleSelectNewspaper, handleNewspaperSubmission, newsCategory } =
-    useNewspaper();
+  const { selectedUrls, setSelectedUrls, newsCategory } = useNewspaper();
+
+  const handleSelectNewspaper = (url) => {
+    setSelectedUrls((urls) =>
+      urls.includes(url)
+        ? urls.filter((filterUrl) => filterUrl !== url)
+        : [...urls, url]
+    );
+  };
 
   return (
     <React.Fragment>
       {Object.entries(newspaperNames).map(([key, value]) => {
         const items = value.map(({ name, slug }) => {
-
-          return(
+          return (
             <FormControlLabel
               key={Math.random()}
               control={<Checkbox />}
               label={name}
               value={slug}
               onChange={() => handleSelectNewspaper(slug)}
-              checked={selectedUrls.indexOf(slug) > -1}
+              checked={selectedUrls.includes(slug)}
               disabled={!newsCategories[slug].includes(newsCategory)}
             />
-          )})
+          );
+        });
 
         return (
           <Grid item xs key={key}>
@@ -55,18 +62,7 @@ const SelectNewspaperName = () => {
       })}
 
       {/* Submit button */}
-      <Grid
-        item
-        xs
-        component="form"
-        p={2}
-        alignSelf="center"
-        onSubmit={handleNewspaperSubmission}
-      >
-        <Button variant="contained" size="large" type="submit" color="primary">
-          Submit
-        </Button>
-      </Grid>
+      <NewspaperCategorySubmitBtn />
     </React.Fragment>
   );
 };

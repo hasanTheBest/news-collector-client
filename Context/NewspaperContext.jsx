@@ -1,20 +1,18 @@
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/prop-types */
-import { createContext, useContext, useState } from "react";
-import useSWR from "swr";
+import { createContext, useContext, useEffect, useState } from "react";
 import useSWRMutation from "swr/mutation";
 
 const NewspaperContext = createContext();
 
-const fetcher = (url) => fetch(url).then((res) => res.json());
-
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
-    // "prothomAlo",
-    // "theDailyStar",
-    // "bbcBangla",
-    // "bdPratidin",
-    "ittefaq",
-    // "dailyNayaDiganta",
+    "prothomAlo",
+    "theDailyStar",
+    "bbcBangla",
+    "bdPratidin",
+    "dailyNayaDiganta",
   ]);
 
   const [newsCategory, setNewsCategory] = useState("leading");
@@ -23,45 +21,23 @@ const NewspaperProvider = ({ children }) => {
     ","
   )}&newsCat=${newsCategory}`;
 
-  // when first time website is loaded
   const {
     data: newsData,
     error: newsError,
     isLoading,
-    isValidating,
-  } = useSWR(urlToFetch, fetcher);
+    isMutating: isValidating,
+    trigger: newsTrigger,
+  } = useSWRMutation(urlToFetch);
 
-  // when submit button is pressed
-  // const {
-  //   trigger,
-  //   data: newsData,
-  //   error: newsError,
-  // } = useSWRMutation(
-  //   urlToFetch,
-  //   fetcher
-  // );
-
-  const handleSelectNewspaper = (url) => {
-    const isFound = selectedUrls.indexOf(url);
-    if (isFound > -1)
-      setSelectedUrls((urls) => urls.filter((filterUrl) => filterUrl !== url));
-
-    if (isFound === -1) setSelectedUrls((urls) => [...urls, url]);
-  };
-
-  const handleNewspaperSubmission = (e) => {
-    e.preventDefault();
-
-    // submit the select form and start scrapping
-    // trigger();
-  };
+  // // Fetch data when the component mounts for the first time
+  useEffect(() => {
+    newsTrigger();
+  }, []);
 
   return (
     <NewspaperContext.Provider
       value={{
         selectedUrls,
-        handleSelectNewspaper,
-        handleNewspaperSubmission,
         newsData,
         newsError,
         newsCategory,
@@ -69,6 +45,7 @@ const NewspaperProvider = ({ children }) => {
         setSelectedUrls,
         isLoading,
         isValidating,
+        newsTrigger,
       }}
     >
       {children}

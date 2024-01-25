@@ -1,6 +1,5 @@
 /* eslint-disable no-prototype-builtins */
 import { Box, Typography, styled, useTheme } from "@mui/material";
-import news from "../src/data/dummyData/news.json";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
 import React, { memo } from "react";
@@ -62,27 +61,26 @@ const DisplayNews = () => {
       gap={2}
       sx={styles.GridContainer}
     >
-      {/* {newsData &&
-        newsData.data.map(({ title, url, news }) => { */}
-      {newsData.data?.map(({ title, url, news }) => {
-        return (
-          <React.Fragment key={Math.random()}>
-            {news &&
-              news.map((item, newsIndex) => {
-                return (
-                  <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
-                    <DisplayNewsItem
-                      newsIndex={newsIndex}
-                      item={item}
-                      title={title}
-                      url={url}
-                    />
-                  </BoxWithStyles>
-                );
-              })}
-          </React.Fragment>
-        );
-      })}
+      {newsData &&
+        newsData.data?.map(({ title, url, news }) => {
+          return (
+            <React.Fragment key={Math.random()}>
+              {news &&
+                news.map((item, newsIndex) => {
+                  return (
+                    <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
+                      <DisplayNewsItem
+                        newsIndex={newsIndex}
+                        item={item}
+                        title={title}
+                        url={url}
+                      />
+                    </BoxWithStyles>
+                  );
+                })}
+            </React.Fragment>
+          );
+        })}
     </Box>
   );
 };

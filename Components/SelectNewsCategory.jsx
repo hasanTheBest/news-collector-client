@@ -39,7 +39,7 @@ const SelectNewsCategory = () => {
   const handleChange = (event) => {
     // Clear selection of newspapers first
     setSelectedUrls([]);
-    setNewsCategory(event.target.value);
+    setNewsCategory(event.target.value.trim());
   };
 
   return (
