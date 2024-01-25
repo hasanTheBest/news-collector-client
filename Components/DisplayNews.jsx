@@ -38,7 +38,7 @@ const DisplayNews = () => {
   }));
 
   // is loading
-  if (newsData) {
+  if (!newsData) {
     return (
       <Typography align="center" variant="h1" color="info">
         loading...
@@ -64,7 +64,7 @@ const DisplayNews = () => {
     >
       {/* {newsData &&
         newsData.data.map(({ title, url, news }) => { */}
-      {news.data.map(({ title, url, news }) => {
+      {newsData.data.map(({ title, url, news }) => {
         return (
           <>
             {news.map((item, newsIndex) => {

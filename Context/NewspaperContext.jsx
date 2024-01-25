@@ -23,7 +23,7 @@ const NewspaperProvider = ({ children }) => {
     data: newsData,
     error: newsError,
   } = useSWRMutation(
-    `http://localhost:5000/news?urls=${selectedUrls.join(",")}`,
+    `http://localhost:5000/news?newspaperNames=${selectedUrls.join(",")}&newsCat=${newsCategory}`,
     fetcher
   );
 
