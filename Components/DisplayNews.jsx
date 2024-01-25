@@ -64,10 +64,10 @@ const DisplayNews = () => {
     >
       {/* {newsData &&
         newsData.data.map(({ title, url, news }) => { */}
-      {newsData.data.map(({ title, url, news }) => {
+      {newsData.data?.map(({ title, url, news }) => {
         return (
           <>
-            {news.map((item, newsIndex) => {
+            {news && news.map((item, newsIndex) => {
               return (
                 <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
                   <DisplayNewsItem
