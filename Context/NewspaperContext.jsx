@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useState } from "react";
+import useSWR from "swr";
 import useSWRMutation from "swr/mutation";
 
 const NewspaperContext = createContext();
@@ -8,24 +9,37 @@ const fetcher = (url) => fetch(url).then((res) => res.json());
 
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
-    "prothomAlo",
-    "theDailyStar",
-    "bbcBangla",
-    "bdPratidin",
+    // "prothomAlo",
+    // "theDailyStar",
+    // "bbcBangla",
+    // "bdPratidin",
     "ittefaq",
-    "dailyNayaDiganta",
+    // "dailyNayaDiganta",
   ]);
 
   const [newsCategory, setNewsCategory] = useState("leading");
 
+  const urlToFetch = `http://localhost:5000/news?newspaperNames=${selectedUrls.join(
+    ","
+  )}&newsCat=${newsCategory}`;
+
+  // when first time website is loaded
   const {
-    trigger,
     data: newsData,
     error: newsError,
-  } = useSWRMutation(
-    `http://localhost:5000/news?newspaperNames=${selectedUrls.join(",")}&newsCat=${newsCategory}`,
-    fetcher
-  );
+    isLoading,
+    isValidating,
+  } = useSWR(urlToFetch, fetcher);
+
+  // when submit button is pressed
+  // const {
+  //   trigger,
+  //   data: newsData,
+  //   error: newsError,
+  // } = useSWRMutation(
+  //   urlToFetch,
+  //   fetcher
+  // );
 
   const handleSelectNewspaper = (url) => {
     const isFound = selectedUrls.indexOf(url);
@@ -39,7 +53,7 @@ const NewspaperProvider = ({ children }) => {
     e.preventDefault();
 
     // submit the select form and start scrapping
-    trigger();
+    // trigger();
   };
 
   return (
@@ -53,6 +67,8 @@ const NewspaperProvider = ({ children }) => {
         newsCategory,
         setNewsCategory,
         setSelectedUrls,
+        isLoading,
+        isValidating,
       }}
     >
       {children}

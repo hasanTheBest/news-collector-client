@@ -3,10 +3,10 @@ import { Box, Typography, styled, useTheme } from "@mui/material";
 import news from "../src/data/dummyData/news.json";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
-import { memo } from "react";
+import React, { memo } from "react";
 
 const DisplayNews = () => {
-  const { newsError, newsData } = useNewspaper();
+  const { newsError, newsData, isLoading, isValidating } = useNewspaper();
 
   const theme = useTheme();
 
@@ -38,7 +38,7 @@ const DisplayNews = () => {
   }));
 
   // is loading
-  if (!newsData) {
+  if (isLoading || isValidating) {
     return (
       <Typography align="center" variant="h1" color="info">
         loading...
@@ -66,20 +66,21 @@ const DisplayNews = () => {
         newsData.data.map(({ title, url, news }) => { */}
       {newsData.data?.map(({ title, url, news }) => {
         return (
-          <>
-            {news && news.map((item, newsIndex) => {
-              return (
-                <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
-                  <DisplayNewsItem
-                    newsIndex={newsIndex}
-                    item={item}
-                    title={title}
-                    url={url}
-                  />
-                </BoxWithStyles>
-              );
-            })}
-          </>
+          <React.Fragment key={Math.random()}>
+            {news &&
+              news.map((item, newsIndex) => {
+                return (
+                  <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
+                    <DisplayNewsItem
+                      newsIndex={newsIndex}
+                      item={item}
+                      title={title}
+                      url={url}
+                    />
+                  </BoxWithStyles>
+                );
+              })}
+          </React.Fragment>
         );
       })}
     </Box>
