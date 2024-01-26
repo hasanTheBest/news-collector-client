@@ -9,10 +9,10 @@ const NewspaperContext = createContext();
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
     "prothomAlo",
-    "theDailyStar",
-    "bbcBangla",
-    "bdPratidin",
-    "dailyNayaDiganta",
+    // "theDailyStar",
+    // "bbcBangla",
+    // "bdPratidin",
+    // "dailyNayaDiganta",
   ]);
 
   const [newsCategory, setNewsCategory] = useState("leading");
@@ -30,8 +30,30 @@ const NewspaperProvider = ({ children }) => {
   } = useSWRMutation(urlToFetch);
 
   // // Fetch data when the component mounts for the first time
+  // useEffect(() => {
+  //   newsTrigger();
+  // }, []);
+
+  // const [sseData, setSseData] = useState([]);
+
   useEffect(() => {
-    newsTrigger();
+    const eventSource = new EventSource(urlToFetch);
+
+    eventSource.onmessage = (event) => {
+      const newData = JSON.parse(event.data);
+      console.log("newData", newData);
+      // setSseData((prevData) => [...prevData, newData]);
+    };
+
+    eventSource.onerror = (error) => {
+      console.error("SSE Error:", error);
+      eventSource.close();
+    };
+
+    return () => {
+      // Close the SSE connection when the component unmounts
+      eventSource.close();
+    };
   }, []);
 
   return (
