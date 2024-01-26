@@ -5,7 +5,7 @@ import DisplayNewsItem from "./DisplayNewsItem";
 import React, { memo } from "react";
 
 const DisplayNews = () => {
-  const { newsError, newsData, isLoading, isValidating } = useNewspaper();
+  const { newsError, newsData } = useNewspaper();
 
   const theme = useTheme();
 
@@ -36,20 +36,18 @@ const DisplayNews = () => {
     },
   }));
 
-  // is loading
-  if (isLoading || isValidating) {
-    return (
-      <Typography align="center" variant="h1" color="info">
-        loading...
-      </Typography>
-    );
-  }
-
-  // is error
   if (newsError) {
     return (
       <Typography variant="h1" color="error">
         Error is occurred...
+      </Typography>
+    );
+  }
+
+  if (!newsData.length) {
+    return (
+      <Typography align="center" variant="h1" color="info">
+        loading...
       </Typography>
     );
   }
@@ -62,7 +60,7 @@ const DisplayNews = () => {
       sx={styles.GridContainer}
     >
       {newsData &&
-        newsData.data?.map(({ title, url, news }) => {
+        newsData.map(({ title, url, news }) => {
           return (
             <React.Fragment key={Math.random()}>
               {news &&

@@ -9,43 +9,39 @@ const NewspaperContext = createContext();
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
     "prothomAlo",
-    // "theDailyStar",
+    "theDailyStar",
     // "bbcBangla",
     // "bdPratidin",
     // "dailyNayaDiganta",
   ]);
 
   const [newsCategory, setNewsCategory] = useState("leading");
+  const [newsData, setNewsData] = useState([]);
+  const [newsError, setNewsError] = useState(false);
 
   const urlToFetch = `http://localhost:5000/news?newspaperNames=${selectedUrls.join(
     ","
   )}&newsCat=${newsCategory}`;
 
-  const {
+  /* const {
     data: newsData,
     error: newsError,
     isLoading,
     isMutating: isValidating,
     trigger: newsTrigger,
-  } = useSWRMutation(urlToFetch);
-
-  // // Fetch data when the component mounts for the first time
-  // useEffect(() => {
-  //   newsTrigger();
-  // }, []);
-
-  // const [sseData, setSseData] = useState([]);
+  } = useSWRMutation(urlToFetch); */
 
   useEffect(() => {
     const eventSource = new EventSource(urlToFetch);
 
     eventSource.onmessage = (event) => {
       const newData = JSON.parse(event.data);
-      console.log("newData", newData);
-      // setSseData((prevData) => [...prevData, newData]);
+      setNewsError(false);
+      setNewsData((prevData) => [...prevData, newData]);
     };
 
     eventSource.onerror = (error) => {
+      // setNewsError(true);
       console.error("SSE Error:", error);
       eventSource.close();
     };
@@ -65,9 +61,12 @@ const NewspaperProvider = ({ children }) => {
         newsCategory,
         setNewsCategory,
         setSelectedUrls,
-        isLoading,
-        isValidating,
-        newsTrigger,
+        setNewsData,
+        setNewsError,
+        urlToFetch,
+        // isLoading,
+        // isValidating,
+        // newsTrigger,
       }}
     >
       {children}

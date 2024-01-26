@@ -2,13 +2,27 @@ import { Button, Grid } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 
 const NewspaperCategorySubmitBtn = () => {
-  const { newsTrigger, isLoading, isValidating } = useNewspaper();
+  const { urlToFetch, newsData, setNewsData, setNewsError } = useNewspaper();
 
   const handleNewspaperSubmission = (e) => {
     e.preventDefault();
+    console.log("urlToFetch", urlToFetch);
+    setNewsData([]);
+    const eventSource = new EventSource(urlToFetch);
 
-    // trigger scrapping news category
-    newsTrigger();
+    eventSource.onmessage = (event) => {
+      const newData = JSON.parse(event.data);
+      setNewsError(false);
+      setNewsData((prevData) => [...prevData, newData]);
+    };
+
+    eventSource.onerror = (error) => {
+      // setNewsError(true);
+      console.error("SSE Error:", error);
+      eventSource.close();
+    };
+
+    eventSource.close();
   };
   return (
     <Grid
@@ -20,7 +34,7 @@ const NewspaperCategorySubmitBtn = () => {
       onSubmit={handleNewspaperSubmission}
     >
       <Button
-        disabled={isLoading || isValidating}
+        disabled={!newsData.length}
         variant="contained"
         size="large"
         type="submit"
