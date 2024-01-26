@@ -4,11 +4,12 @@ const SseComponent = () => {
   const [sseData, setSseData] = useState([]);
 
   useEffect(() => {
-    const eventSource = new EventSource("http://localhost:3001/sse");
+    const eventSource = new EventSource("http://localhost:3001/sse?q=test");
 
     eventSource.onmessage = (event) => {
       const newData = JSON.parse(event.data);
-      setSseData((prevData) => [...prevData, newData]);
+      // console.dir("newData", newData);
+      setSseData((prevData) => [...prevData, newData.news]);
     };
 
     eventSource.onerror = (error) => {
@@ -27,7 +28,8 @@ const SseComponent = () => {
       <h1>SSE Updates:</h1>
       <ul>
         {sseData.map((data, index) => (
-          <li key={index}>{data.message}</li>
+          <li key={index}>{JSON.stringify(data, null, 2)}</li>
+          // <li key={index}>{JSON.stringify(data, null, 2)}</li>
         ))}
       </ul>
     </div>
