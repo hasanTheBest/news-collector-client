@@ -2,7 +2,8 @@
 import { Box, Typography, styled, useTheme } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
-import React, { memo } from "react";
+import React from "react";
+import LinearProgressBar from "./LinearProgressBar";
 
 const DisplayNews = () => {
   const { newsError, newsData } = useNewspaper();
@@ -45,11 +46,7 @@ const DisplayNews = () => {
   }
 
   if (!newsData.length) {
-    return (
-      <Typography align="center" variant="h1" color="info">
-        loading...
-      </Typography>
-    );
+    return <LinearProgressBar />;
   }
 
   return (
@@ -83,4 +80,4 @@ const DisplayNews = () => {
   );
 };
 
-export default memo(DisplayNews);
+export default DisplayNews;

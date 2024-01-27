@@ -1,12 +1,10 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppMatUI from "./AppMatUI.jsx";
-import App from "../Components/eventSource/EventSourceApp.jsx";
+import App from "./App.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <AppMatUI />
-    {/* <App /> */}
+    <App />
   </React.StrictMode>
 );

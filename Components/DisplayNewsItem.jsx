@@ -30,7 +30,7 @@ export default function DisplayNewsItem({ title, url, item, newsIndex }) {
         borderColor: "grey.200",
       }}
     >
-      <CardActionArea href={link}>
+      <CardActionArea href={link} target="_blank">
         {imgSrc && (
           <CardMedia
             component="img"

@@ -26,6 +26,7 @@ const SelectNewspaperName = () => {
 
   return (
     <React.Fragment>
+      {/* Newspaper name selection checkbox */}
       {Object.entries(newspaperNames).map(([key, value]) => {
         const items = value.map(({ name, slug }) => {
           return (
