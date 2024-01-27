@@ -6,7 +6,6 @@ const NewspaperCategorySubmitBtn = () => {
 
   const handleNewspaperSubmission = (e) => {
     e.preventDefault();
-    console.log("urlToFetch", urlToFetch);
     setNewsData([]);
     const eventSource = new EventSource(urlToFetch);
 
@@ -17,12 +16,9 @@ const NewspaperCategorySubmitBtn = () => {
     };
 
     eventSource.onerror = (error) => {
-      // setNewsError(true);
       console.error("SSE Error:", error);
       eventSource.close();
     };
-
-    eventSource.close();
   };
   return (
     <Grid
