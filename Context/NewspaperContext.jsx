@@ -3,7 +3,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from "react";
 
-const BASEURL = "http://localhost:5000"; // without last slash
+const BASEURL = "https://news-collector.vercel.app"; // without last slash
 const NewspaperContext = createContext();
 
 const NewspaperProvider = ({ children }) => {
