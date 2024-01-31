@@ -3,7 +3,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from "react";
 
-const BASEURL = "https://news-collector.vercel.app"; // without last slash
+const BASEURL = "https://news-collector-kmi6.onrender.com"; // without last slash
 const NewspaperContext = createContext();
 
 const NewspaperProvider = ({ children }) => {
