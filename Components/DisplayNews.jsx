@@ -4,6 +4,7 @@ import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
 import React from "react";
 import LinearProgressBar from "./LinearProgressBar";
+import { array } from "prop-types";
 
 const DisplayNews = () => {
   const { newsError, newsData } = useNewspaper();
@@ -60,7 +61,7 @@ const DisplayNews = () => {
         newsData.map(({ title, url, news }) => {
           return (
             <React.Fragment key={Math.random()}>
-              {news &&
+              {Array.isArray(news) &&
                 news.map((item, newsIndex) => {
                   return (
                     <BoxWithStyles key={Math.random()} newsIndex={newsIndex}>
