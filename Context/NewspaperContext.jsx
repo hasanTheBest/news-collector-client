@@ -10,8 +10,8 @@ const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
     "prothomAlo",
     "theDailyStar",
-    "bbcBangla",
     "bdPratidin",
+    "bbcBangla",
     "dailyNayaDiganta",
   ]);
 

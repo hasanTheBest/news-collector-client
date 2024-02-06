@@ -4,7 +4,6 @@ import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
 import React from "react";
 import LinearProgressBar from "./LinearProgressBar";
-import { array } from "prop-types";
 
 const DisplayNews = () => {
   const { newsError, newsData } = useNewspaper();
