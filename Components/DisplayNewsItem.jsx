@@ -11,6 +11,7 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
+import { getFavicon, getNewspaperTitle } from "../utilites/faviconsConfig";
 
 export default function DisplayNewsItem({ title, url, item, newsIndex }) {
   const { title: headline, link, excerpt, time, imgSrc } = item;
@@ -40,10 +41,25 @@ export default function DisplayNewsItem({ title, url, item, newsIndex }) {
           />
         )}
         <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            {time && time + " :: "}
+          <Typography
+            sx={{
+              fontSize: 12,
+              display: "flex",
+              alignItems: "center",
+              flexWrap: "wrap",
+            }}
+            color="text.secondary"
+            gutterBottom
+          >
+            {time && time + " | "}
+            <img
+              src={getFavicon(url)}
+              width={12}
+              height={12}
+              style={{ margin: "0 3px" }}
+            />
             <Link href={url} color="inherit" sx={{ textDecoration: "none" }}>
-              {title.split(" ").splice(0, 3).join(" ")}
+              {getNewspaperTitle(url)}
             </Link>
           </Typography>
           <Typography gutterBottom variant="h6" component="h4">
