@@ -3,16 +3,17 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from "react";
 
-const BASEURL = "https://news-collector-kmi6.onrender.com"; // without last slash
+const BASEURL = "http://localhost:5000"; // without last slash
+// const BASEURL = "https://news-collector-kmi6.onrender.com"; // without last slash
 const NewspaperContext = createContext();
 
 const NewspaperProvider = ({ children }) => {
   const [selectedUrls, setSelectedUrls] = useState([
     "prothomAlo",
     "theDailyStar",
-    "bdPratidin",
-    "bbcBangla",
-    "dailyNayaDiganta",
+    // "bdPratidin",
+    // "bbcBangla",
+    // "dailyNayaDiganta",
   ]);
 
   const [newsCategory, setNewsCategory] = useState("leading");
