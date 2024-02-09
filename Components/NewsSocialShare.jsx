@@ -1,4 +1,6 @@
-import { Button, CardActions } from "@mui/material";
+import { Button, CardActions, IconButton } from "@mui/material";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import ShareIcon from "@mui/icons-material/Share";
 
 import {
   FacebookIcon,
@@ -17,8 +19,18 @@ import {
 } from "react-share";
 
 function NewsSocialShare({ shareUrl }) {
+  const copyUrlToClipboard = (url) => navigator.clipboard.writeText(url);
   return (
     <CardActions>
+      <IconButton
+        aria-label="add to favorites"
+        onClick={() => copyUrlToClipboard(shareUrl)}
+      >
+        <FavoriteIcon />
+      </IconButton>
+      <IconButton aria-label="share">
+        <ShareIcon />
+      </IconButton>
       <FacebookShareButton url={shareUrl}>
         <FacebookIcon
           size={18}
