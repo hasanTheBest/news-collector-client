@@ -20,23 +20,27 @@ function NewsSocialShare({ shareUrl }) {
   return (
     <CardActions>
       <FacebookShareButton url={shareUrl}>
-        <FacebookIcon size={20} round />
-        <FacebookShareCount url={shareUrl} />
+        <FacebookIcon
+          size={18}
+          round
+          // iconFillColor="#000"
+          // bgStyle={{ fill: "gray" }}
+        />
       </FacebookShareButton>
       <TwitterShareButton url={shareUrl}>
-        <XIcon size={20} round />
+        <XIcon size={18} round />
       </TwitterShareButton>
       <WhatsappShareButton url={shareUrl}>
-        <WhatsappIcon size={20} round />
+        <WhatsappIcon size={18} round />
       </WhatsappShareButton>
       <FacebookMessengerShareButton url={shareUrl}>
-        <FacebookMessengerIcon size={20} round />
+        <FacebookMessengerIcon size={18} round />
       </FacebookMessengerShareButton>
       <LinkedinShareButton url={shareUrl}>
-        <LinkedinIcon size={20} round />
+        <LinkedinIcon size={18} round />
       </LinkedinShareButton>
       <TelegramShareButton url={shareUrl}>
-        <TelegramIcon size={20} round />
+        <TelegramIcon size={18} round />
       </TelegramShareButton>
     </CardActions>
   );
