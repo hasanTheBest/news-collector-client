@@ -3,17 +3,22 @@ import { useNewspaper } from '../Context/NewspaperContext'
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
 import FaceIcon from '@mui/icons-material/Face';
+import { Alert, AlertTitle, Box, Button, CircularProgress } from '@mui/material';
+import { favicons, getNewspaperTitle } from './faviconsConfig';
 
 const FetchIndicator = () => {
-  const {selectedUrls, newsData} = useNewspaper()
+  const { fetchIndicator, newsData } = useNewspaper()
 
   return (
-    <Stack direction="row" spacing={1}>
-      {selectedUrls.map((slug) => (
-        <Chip key={Math.random()} icon={<FaceIcon />} label={slug} variant="outlined" />
-        ))}
-        {/* <Chip icon={<FaceIcon />} label="With Icon" /> */}
-  </Stack>
+    <React.Fragment>
+            {
+      fetchIndicator.length !== newsData.length && (
+          <Box sx={{ display: 'flex', justifyContent: 'center', position: 'fixed', bottom: 0 }}>
+            <Chip icon={<CircularProgress color='inherit' size={16} />} label={favicons[fetchIndicator[newsData.length]?.toLowerCase()]["title"]} variant="filled" color='primary' />
+          </Box>
+        )
+      }
+    </React.Fragment>
   )
 }
 

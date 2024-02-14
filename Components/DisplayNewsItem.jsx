@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { getFavicon, getNewspaperTitle } from "../utilites/faviconsConfig";
 
-export default function DisplayNewsItem({ title, url, item, newsIndex }) {
+export default function DisplayNewsItem({ url, item, newsIndex }) {
   const { title: headline, link, excerpt, time, imgSrc } = item;
 
   const theme = useTheme();
