@@ -8,7 +8,7 @@ const ShowResponseAlert = () => {
   const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
-    setOpen();
+    setOpen(newsData[newsData.length - 1]?.type === 'success');
   };
 
   const handleClose = (event, reason) => {
@@ -22,21 +22,29 @@ const ShowResponseAlert = () => {
   // if(newsData && newsData.url){
   //   if( newsData.url)
   // }
+  const length = 0;
+
+  console.log("newsData type", newsData[newsData.length - 1]?.type)
+  console.log("newsData", newsData)
 
   return (
-    // <Alert severity="success" variant="outlined">{`${newsData?.name} \n ${newsData?.message}`}</Alert>
-    <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
-        <Alert
-          onClose={handleClose}
-          severity={newsData?.type === 'success' ? "success" : "error" }
-          variant="filled"
-          sx={{ width: '50%' }}
-        >
-          {
-            newsData?.type === 'success' ? `<b>${favicons[getHostName(newsData?.url)]["title"]}</b> is loaded successfully` : `Error: ${newsData?.name} \n ${newsData?.message}`
-          }
-        </Alert>
-      </Snackbar>
+    <React.Fragment>
+    <button onClick={handleClick}>open</button>
+    {/* // <Alert severity="success" variant="outlined">{`${newsData?.name} \n ${newsData?.message}`}</Alert> */}
+    <Snackbar open={newsData[newsData.length - 1]?.type === 'success'} autoHideDuration={3000} onClose={handleClose}>
+      <Alert
+        onClose={handleClose}
+        severity={newsData?.type === 'success' ? "success" : "error"}
+        variant="filled"
+        sx={{ width: '100%' }}
+      >
+        {
+          // newsData?.type === 'success' ? `<b>${favicons[getHostName(newsData?.url)]["title"]}</b> is loaded successfully` : `Error: ${newsData?.name} \n ${newsData?.message}`
+          `snackbar`
+        }
+      </Alert>
+    </Snackbar>
+    </React.Fragment>
   )
 }
 
