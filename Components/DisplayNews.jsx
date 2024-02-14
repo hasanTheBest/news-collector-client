@@ -57,7 +57,8 @@ const DisplayNews = () => {
       sx={styles.GridContainer}
     >
       {newsData &&
-        newsData.map(({ title, url, news }) => {
+        // newsData.map(({ title, url, news }) => {
+        newsData.map(({ type, url, news }) => {
           return (
             <React.Fragment key={Math.random()}>
               {Array.isArray(news) &&
@@ -67,7 +68,7 @@ const DisplayNews = () => {
                       <DisplayNewsItem
                         newsIndex={newsIndex}
                         item={item}
-                        title={title}
+                        // type={type}
                         url={url}
                       />
                     </BoxWithStyles>

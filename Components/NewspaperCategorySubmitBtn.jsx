@@ -2,11 +2,13 @@ import { Button, Grid } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 
 const NewspaperCategorySubmitBtn = () => {
-  const { urlToFetch, newsData, setNewsData, setNewsError } = useNewspaper();
+  const { urlToFetch, newsData, setNewsData, setNewsError, setFetchIndicator, selectedUrls } = useNewspaper();
 
   const handleNewspaperSubmission = (e) => {
     e.preventDefault();
     setNewsData([]);
+    setFetchIndicator(selectedUrls)
+
     const eventSource = new EventSource(urlToFetch);
 
     eventSource.onmessage = (event) => {
