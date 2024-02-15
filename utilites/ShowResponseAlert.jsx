@@ -2,48 +2,33 @@ import React from 'react'
 import { useNewspaper } from '../Context/NewspaperContext'
 import { favicons, getHostName } from './faviconsConfig'
 import { Alert, Snackbar } from '@mui/material'
+import { useSnackbar } from 'notistack'
 
 const ShowResponseAlert = () => {
   const { newsData } = useNewspaper()
-  const [open, setOpen] = React.useState(false);
+  const { enqueueSnackbar } = useSnackbar()
 
-  const handleClick = () => {
-    setOpen(newsData[newsData.length - 1]?.type === 'success');
-  };
+  const newsDataIndex = newsData.length === 0 ? 0 : newsData.length - 1
+  const resType = newsData[newsDataIndex]?.type
+  const resUrl = resType === 'success' && newsData[newsDataIndex]?.url
+  const resErrorName = resType === 'error' && newsData[newsDataIndex]?.name
+  const resErrorMessage = resType === 'error' && newsData[newsDataIndex]?.message
 
-  const handleClose = (event, reason) => {
-    if (reason === 'clickaway') {
-      return;
-    }
+  const hostName = resUrl && getHostName(resUrl)
+  const newspaperName = favicons[hostName]
 
-    setOpen(false);
-  };
+  const alertMessage = resType === 'success' ? `<b>${newspaperName}</b> is loaded successfully.` : `<b>${resErrorName}</b> \n${resErrorMessage}`
 
-  // if(newsData && newsData.url){
-  //   if( newsData.url)
-  // }
-  const length = 0;
-
-  console.log("newsData type", newsData[newsData.length - 1]?.type)
-  console.log("newsData", newsData)
+  const key = enqueueSnackbar(alertMessage, {
+    autoHideDuration: 4000,
+    variant: resType,
+    preventDuplicate: true,
+    anchorOrigin: { horizontal: "right", vertical: "bottom" } 
+  })
 
   return (
     <React.Fragment>
-    <button onClick={handleClick}>open</button>
-    {/* // <Alert severity="success" variant="outlined">{`${newsData?.name} \n ${newsData?.message}`}</Alert> */}
-    <Snackbar open={newsData[newsData.length - 1]?.type === 'success'} autoHideDuration={3000} onClose={handleClose}>
-      <Alert
-        onClose={handleClose}
-        severity={newsData?.type === 'success' ? "success" : "error"}
-        variant="filled"
-        sx={{ width: '100%' }}
-      >
-        {
-          // newsData?.type === 'success' ? `<b>${favicons[getHostName(newsData?.url)]["title"]}</b> is loaded successfully` : `Error: ${newsData?.name} \n ${newsData?.message}`
-          `snackbar`
-        }
-      </Alert>
-    </Snackbar>
+
     </React.Fragment>
   )
 }
