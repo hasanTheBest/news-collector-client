@@ -1,7 +1,6 @@
 import React from 'react'
 import { useNewspaper } from '../Context/NewspaperContext'
 import { favicons, getHostName } from './faviconsConfig'
-import { Alert, Snackbar } from '@mui/material'
 import { useSnackbar } from 'notistack'
 
 const ShowResponseAlert = () => {
@@ -15,22 +14,18 @@ const ShowResponseAlert = () => {
   const resErrorMessage = resType === 'error' && newsData[newsDataIndex]?.message
 
   const hostName = resUrl && getHostName(resUrl)
-  const newspaperName = favicons[hostName]
+  const newspaperName = favicons[hostName]?.title
 
-  const alertMessage = resType === 'success' ? `<b>${newspaperName}</b> is loaded successfully.` : `<b>${resErrorName}</b> \n${resErrorMessage}`
+  const alertMessage = resType === 'success' ? `${newspaperName} is loaded successfully.` : `${resErrorName}\n${resErrorMessage}`
 
-  const key = enqueueSnackbar(alertMessage, {
-    autoHideDuration: 4000,
+  const key = resType && enqueueSnackbar(alertMessage, {
+    autoHideDuration: 5000,
     variant: resType,
     preventDuplicate: true,
     anchorOrigin: { horizontal: "right", vertical: "bottom" } 
   })
 
-  return (
-    <React.Fragment>
-
-    </React.Fragment>
-  )
+  return null;
 }
 
 export default ShowResponseAlert
