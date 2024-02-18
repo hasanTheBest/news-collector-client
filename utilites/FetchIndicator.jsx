@@ -13,7 +13,7 @@ const FetchIndicator = () => {
     <React.Fragment>
             {
       fetchIndicator.length !== newsData.length && (
-          <Box sx={{ display: 'flex', justifyContent: 'center', position: 'fixed', bottom: 0 }}>
+          <Box sx={{ display: 'flex', width: '100%', justifyContent: 'center', position: 'fixed', bottom: 0 }}>
             <Chip icon={<CircularProgress color='inherit' size={16} />} label={favicons[fetchIndicator[newsData.length]?.toLowerCase()]["title"]} variant="filled" color='primary' />
           </Box>
         )

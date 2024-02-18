@@ -14,8 +14,8 @@ export default function App() {
         <SelectNewsPaper />
         <DisplayNews />
         <FetchIndicator />
-        <ShowResponseAlert />
       </Container>
+        <ShowResponseAlert />
     </NewspaperProvider>
     </SnackbarProvider>
   );

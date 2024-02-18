@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { useNewspaper } from '../Context/NewspaperContext'
 import { favicons, getHostName } from './faviconsConfig'
 import { useSnackbar } from 'notistack'
 
-const ShowResponseAlert = () => {
+const ShowResponseAlert = React.memo(() => {
   const { newsData } = useNewspaper()
   const { enqueueSnackbar } = useSnackbar()
 
@@ -16,16 +16,30 @@ const ShowResponseAlert = () => {
   const hostName = resUrl && getHostName(resUrl)
   const newspaperName = favicons[hostName]?.title
 
-  const alertMessage = resType === 'success' ? `${newspaperName} is loaded successfully.` : `${resErrorName}\n${resErrorMessage}`
+  const alertMessage = useMemo(() => {
+    if (resType === 'success') {
+      return `${newspaperName} is loaded successfully.`
+    } else if (resType === 'error') {
+      return `${resErrorName}.\n${resErrorMessage}`
+    } else {
+      return 'Unknown error occurs.'
+    }
+  }, [resType, newspaperName, resErrorName, resErrorMessage])
 
-  const key = resType && enqueueSnackbar(alertMessage, {
-    autoHideDuration: 5000,
-    variant: resType,
-    preventDuplicate: true,
-    anchorOrigin: { horizontal: "right", vertical: "bottom" } 
-  })
+  useMemo(() => {
+    if (resType) {
+      enqueueSnackbar(alertMessage, {
+        autoHideDuration: 5000,
+        variant: resType,
+        preventDuplicate: true,
+        anchorOrigin: { horizontal: "right", vertical: "bottom" }
+      })
+    }
+
+  }, [resType, enqueueSnackbar, alertMessage])
 
   return null;
-}
+})
+
 
 export default ShowResponseAlert

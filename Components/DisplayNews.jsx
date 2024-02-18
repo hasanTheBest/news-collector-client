@@ -2,22 +2,22 @@
 import { Box, Typography, styled, useTheme } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
-import React from "react";
+import React, { useMemo } from "react";
 import LinearProgressBar from "./LinearProgressBar";
 
-const DisplayNews = () => {
+const DisplayNews = React.memo(() => {
   const { newsError, newsData } = useNewspaper();
 
   const theme = useTheme();
 
   // Styles for container and item
-  const styles = {
+  const styles = useMemo(() => ({
     GridContainer: {
       [theme.breakpoints.between("md", "xl")]: {
         gridTemplateColumns: "repeat(12, 1fr)",
       },
     },
-  };
+  }), [theme])
 
   const BoxWithStyles = styled("div")(({ newsIndex }) => ({
     [theme.breakpoints.up("xs")]: {
@@ -79,6 +79,6 @@ const DisplayNews = () => {
         })}
     </Box>
   );
-};
+});
 
 export default DisplayNews;
