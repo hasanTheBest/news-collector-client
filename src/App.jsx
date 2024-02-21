@@ -12,7 +12,7 @@ export default function App() {
         <SelectNewsPaper />
         <DisplayNews />
         <FetchIndicator />
-        <ShowResponseAlert />
+        {/* <ShowResponseAlert /> */}
       </Container>
     </NewspaperProvider>
   );
