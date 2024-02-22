@@ -5,6 +5,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 // const BASEURL = "https://news-collector-kmi6.onrender.com"; // without last slash
 const BASEURL = "http://localhost:5000"; // without last slash
+
 const NewspaperContext = createContext();
 
 const NewspaperProvider = ({ children }) => {
@@ -25,7 +26,7 @@ const NewspaperProvider = ({ children }) => {
     // "bdPratidin",
     // "bbcBangla",
     // "dailyNayaDiganta",
-  ])
+  ]);
 
   const urlToFetch = `${BASEURL}/news?newspaperNames=${selectedUrls.join(
     ","

@@ -12,6 +12,7 @@ import {
   useTheme,
 } from "@mui/material";
 import { getFavicon, getNewspaperTitle } from "../utilites/faviconsConfig";
+import NewsSocialShare from "./NewsSocialShare";
 
 export default function DisplayNewsItem({ url, item, newsIndex }) {
   const { title: headline, link, excerpt, time, imgSrc } = item;
@@ -72,11 +73,9 @@ export default function DisplayNewsItem({ url, item, newsIndex }) {
           )}
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Share
-        </Button>
-      </CardActions>
+
+      {/* share the news */}
+      <NewsSocialShare shareUrl={link} />
     </Card>
   );
 }
