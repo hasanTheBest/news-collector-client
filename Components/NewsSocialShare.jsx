@@ -96,8 +96,9 @@ function NewsSocialShare({ shareUrl }) {
           </WhatsappShareButton>
         </Tooltip>
 
+{/* App Id is needed */}
         <Tooltip title="Share to Facebook Messenger">
-          <FacebookMessengerShareButton url={shareUrl}>
+          <FacebookMessengerShareButton url={shareUrl} appId='4567891'>
             <FacebookMessengerIcon size={18} round />
           </FacebookMessengerShareButton>
         </Tooltip>
@@ -127,7 +128,7 @@ function NewsSocialShare({ shareUrl }) {
         </Tooltip>
 
         <Tooltip title="Pinterest">
-          <PinterestShareButton url={shareUrl}>
+          <PinterestShareButton url={shareUrl} media={shareUrl}>
             <PinterestIcon size={18} round />
           </PinterestShareButton>
         </Tooltip>
@@ -156,7 +157,7 @@ function NewsSocialShare({ shareUrl }) {
           </EmailShareButton>
         </Tooltip>
 
-        <Tooltip title="Share to VK">
+      <Tooltip title="Share to VK">
           <VKShareButton url={shareUrl}>
             <VKIcon size={18} round />
           </VKShareButton>
