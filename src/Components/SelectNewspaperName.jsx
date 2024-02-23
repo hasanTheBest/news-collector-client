@@ -1,7 +1,7 @@
 import React from "react";
 
-import newspaperNames from "../src/data/dummyData/newspapersNames.json";
-import newsCategories from "../src/data/dummyData/newspapersCategories.json";
+import newspaperNames from "../data/dummyData/newspapersNames.json";
+import newsCategories from "../data/dummyData/newspapersCategories.json";
 import {
   Box,
   Checkbox,

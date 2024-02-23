@@ -5,19 +5,22 @@ import DisplayNewsItem from "./DisplayNewsItem";
 import React, { useMemo } from "react";
 import LinearProgressBar from "./LinearProgressBar";
 
-const DisplayNews = React.memo(() => {
+const DisplayNews = React.memo(function DisplayNews() {
   const { newsError, newsData } = useNewspaper();
 
   const theme = useTheme();
 
   // Styles for container and item
-  const styles = useMemo(() => ({
-    GridContainer: {
-      [theme.breakpoints.between("md", "xl")]: {
-        gridTemplateColumns: "repeat(12, 1fr)",
+  const styles = useMemo(
+    () => ({
+      GridContainer: {
+        [theme.breakpoints.between("md", "xl")]: {
+          gridTemplateColumns: "repeat(12, 1fr)",
+        },
       },
-    },
-  }), [theme])
+    }),
+    [theme]
+  );
 
   const BoxWithStyles = styled("div")(({ newsIndex }) => ({
     [theme.breakpoints.up("xs")]: {
@@ -58,7 +61,7 @@ const DisplayNews = React.memo(() => {
     >
       {newsData &&
         // newsData.map(({ title, url, news }) => {
-        newsData.map(({ type, url, news }) => {
+        newsData.map(({ url, news }) => {
           return (
             <React.Fragment key={Math.random()}>
               {Array.isArray(news) &&

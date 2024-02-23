@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { CardActions, IconButton, Menu, Tooltip } from "@mui/material";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShareIcon from "@mui/icons-material/Share";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
-
+import { useTheme } from "@mui/material/styles";
 
 import {
   EmailIcon,
@@ -53,18 +54,23 @@ import React from "react";
 import { useSnackbar } from "notistack";
 
 function NewsSocialShare({ shareUrl }) {
-  const { enqueueSnackbar } = useSnackbar()
+  const { enqueueSnackbar } = useSnackbar();
+
+  // mui theme
+  const muiTheme = useTheme();
 
   // copy url to clipboard
   const copyUrlToClipboard = (url) => {
-    navigator.clipboard.writeText(url)
+    navigator.clipboard.writeText(url);
 
     // show snackbar confirming copy url
-    enqueueSnackbar('Url is copied to clipboard.', {
-      variant: 'success', autoHideDuration: 2000, anchorOrigin: {
-        horizontal: 'right',
-        vertical: 'top'
-      }
+    enqueueSnackbar("Url is copied to clipboard.", {
+      variant: "success",
+      autoHideDuration: 2000,
+      anchorOrigin: {
+        horizontal: "right",
+        vertical: "top",
+      },
     });
   };
 
@@ -77,7 +83,6 @@ function NewsSocialShare({ shareUrl }) {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
   // more share items
   const SocialMenu = (
     <Menu
@@ -96,9 +101,9 @@ function NewsSocialShare({ shareUrl }) {
           </WhatsappShareButton>
         </Tooltip>
 
-{/* App Id is needed */}
+        {/* App Id is needed */}
         <Tooltip title="Share to Facebook Messenger">
-          <FacebookMessengerShareButton url={shareUrl} appId='4567891'>
+          <FacebookMessengerShareButton url={shareUrl} appId="4567891">
             <FacebookMessengerIcon size={18} round />
           </FacebookMessengerShareButton>
         </Tooltip>
@@ -157,7 +162,7 @@ function NewsSocialShare({ shareUrl }) {
           </EmailShareButton>
         </Tooltip>
 
-      <Tooltip title="Share to VK">
+        <Tooltip title="Share to VK">
           <VKShareButton url={shareUrl}>
             <VKIcon size={18} round />
           </VKShareButton>
@@ -207,7 +212,7 @@ function NewsSocialShare({ shareUrl }) {
       <Box>
         <Tooltip title="Add to favorites">
           <IconButton aria-label="add to favorites">
-            <FavoriteBorderIcon sx={{ fontSize: 16 }} />
+            <FavoriteBorderIcon sx={{ fontSize: 14 }} />
           </IconButton>
         </Tooltip>
 
@@ -216,19 +221,19 @@ function NewsSocialShare({ shareUrl }) {
             aria-label="copy url to clipboard"
             onClick={() => copyUrlToClipboard(shareUrl)}
           >
-            <ContentCopyIcon sx={{ fontSize: 16 }} />
+            <ContentCopyIcon sx={{ fontSize: 14 }} />
           </IconButton>
         </Tooltip>
 
         <Tooltip title="Share">
-          <IconButton aria-label="share">
-            <ShareIcon
-              sx={{ fontSize: 16 }}
-              onClick={handleClick}
-              aria-controls={open ? "account-menu" : undefined}
-              aria-haspopup="true"
-              aria-expanded={open ? "true" : undefined}
-            />
+          <IconButton
+            aria-label="share"
+            onClick={handleClick}
+            aria-controls={open ? "account-menu" : undefined}
+            aria-haspopup="true"
+            aria-expanded={open ? "true" : undefined}
+          >
+            <ShareIcon sx={{ fontSize: 14 }} />
           </IconButton>
         </Tooltip>
 
@@ -238,19 +243,40 @@ function NewsSocialShare({ shareUrl }) {
       <Box sx={{ display: "flex", gap: 1 }}>
         <Tooltip title="Share to Facebook">
           <FacebookShareButton url={shareUrl}>
-            <FacebookIcon size={18} round />
+            <FacebookIcon
+              size={20}
+              round
+              iconFillColor={muiTheme.palette.text.secondary}
+              bgStyle={{
+                fill: "transparent",
+              }}
+            />
           </FacebookShareButton>
         </Tooltip>
 
         <Tooltip title="Share to X/Twitter">
           <TwitterShareButton url={shareUrl}>
-            <XIcon size={18} round />
+            <XIcon
+              size={20}
+              round
+              iconFillColor={muiTheme.palette.text.secondary}
+              bgStyle={{
+                fill: "transparent",
+              }}
+            />
           </TwitterShareButton>
         </Tooltip>
 
         <Tooltip title="Share to Telegram">
           <TelegramShareButton url={shareUrl}>
-            <TelegramIcon size={18} round />
+            <TelegramIcon
+              size={20}
+              round
+              iconFillColor={muiTheme.palette.text.secondary}
+              bgStyle={{
+                fill: "transparent",
+              }}
+            />
           </TelegramShareButton>
         </Tooltip>
       </Box>

@@ -3,14 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import {
-  Button,
-  CardActionArea,
-  CardActions,
-  Link,
-  useMediaQuery,
-  useTheme,
-} from "@mui/material";
+import { CardActionArea, Link, useMediaQuery, useTheme } from "@mui/material";
 import { getFavicon, getNewspaperTitle } from "../utilites/faviconsConfig";
 import NewsSocialShare from "./NewsSocialShare";
 

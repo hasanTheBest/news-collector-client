@@ -3,8 +3,8 @@
 /* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from "react";
 
-const BASEURL = "https://news-collector-kmi6.onrender.com"; // without last slash
-// const BASEURL = "http://localhost:5000"; // without last slash
+// const BASEURL = "https://news-collector-kmi6.onrender.com"; // without last slash
+const BASEURL = "http://localhost:5000"; // without last slash
 
 const NewspaperContext = createContext();
 
@@ -20,13 +20,7 @@ const NewspaperProvider = ({ children }) => {
   const [newsCategory, setNewsCategory] = useState("leading");
   const [newsData, setNewsData] = useState([]);
   const [newsError, setNewsError] = useState(false);
-  const [fetchIndicator, setFetchIndicator] = useState([
-    "prothomAlo",
-    "theDailyStar",
-    // "bdPratidin",
-    // "bbcBangla",
-    // "dailyNayaDiganta",
-  ]);
+  const [fetchIndicator, setFetchIndicator] = useState(selectedUrls);
 
   const urlToFetch = `${BASEURL}/news?newspaperNames=${selectedUrls.join(
     ","
