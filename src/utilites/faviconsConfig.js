@@ -12,13 +12,13 @@ import dailyObserver from "../images/favicons/dailyObserver.jpg";
 import dailyStar from "../images/favicons/dailyStar.ico";
 import dailySun from "../images/favicons/dailySun.ico";
 import dainikInqilab from "../images/favicons/dainikInqilab.ico";
-import dainikjanakantha from "../images/favicons/dainikjanakantha.ico";
+import dainikjanakantha from "../images/favicons/dainikJanakantha.ico";
 import deshRupantor from "../images/favicons/deshRupantor.ico";
 import dhakapost from "../images/favicons/dhakapost.webp";
 import dhakaTimes from "../images/favicons/dhakaTimes.ico";
 import dhakaTribune from "../images/favicons/dhakaTribune.ico";
 import financialExpress from "../images/favicons/financialExpress.png";
-import jagoNews24 from "../images/favicons/jagoNews24.ico";
+import jagoNews24 from "../images/favicons/jagonews24.ico";
 import jaijaidin from "../images/favicons/jaijaidin.ico";
 import jugantor from "../images/favicons/jugantor.ico";
 import kalbela from "../images/favicons/kalbela.ico";
@@ -201,10 +201,9 @@ const getHostName = (url) => {
   const name = hostnameArr[0] === "www" ? hostnameArr[1] : hostnameArr[0];
 
   return name;
-}
+};
 
 function getFavicon(url) {
-  
   const favicon = favicons[getHostName(url)]["favicon"];
 
   return favicon;
