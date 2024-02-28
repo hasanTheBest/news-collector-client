@@ -2,11 +2,11 @@
   "bangla": [
     {
       "name": "বাংলাদেশ প্রতিদিন",
-      "slug": "bdPratidin"
+      "slug": "bdpratidin"
     },
     {
       "name": "প্রথম আলো",
-      "slug": "prothomAlo"
+      "slug": "prothomalo"
     },
     {
       "name": "দৈনিক যুগান্তর",
@@ -22,7 +22,7 @@
     },
     {
       "name": "দৈনিক জনকণ্ঠ",
-      "slug": "dailyJanakantha"
+      "slug": "dailyjanakantha"
     },
     {
       "name": "দৈনিক সমকাল",
@@ -30,19 +30,19 @@
     },
     {
       "name": "দৈনিক আমাদের সময়",
-      "slug": "amadershomoy"
+      "slug": "dainikamadershomoy"
     },
     {
       "name": "ভোরের কাগজ",
-      "slug": "bhorerKagoj"
+      "slug": "bhorerkagoj"
     },
     {
       "name": "দৈনিক মানবজমিন",
-      "slug": "manabZamin"
+      "slug": "mzamin"
     },
     {
       "name": "আলোকিত বাংলাদেশ",
-      "slug": "alokitoBangladesh"
+      "slug": "alokitobangladesh"
     },
     {
       "name": "দৈনিক সংবাদ",
@@ -50,47 +50,47 @@
     },
     {
       "name": "দৈনিক ইনকিলাব",
-      "slug": "dailyInqilab"
+      "slug": "dailyinqilab"
     },
     {
       "name": "যায়যায়দিন",
-      "slug": "jaiJaiDin"
+      "slug": "jaijaidinbd"
     },
     {
       "name": "দৈনিক নয়াদিগন্ত",
-      "slug": "dailyNayaDiganta"
+      "slug": "dailynayadiganta"
     },
     {
       "name": "দৈনিক আজাদী",
-      "slug": "dainikAzadi"
+      "slug": "dainikazadi"
     },
     {
       "name": "দৈনিক সংগ্রাম",
-      "slug": "dailySangram"
+      "slug": "dailysangram"
     },
     {
       "name": "আজকের পত্রিকা",
-      "slug": "ajkerPatrika"
+      "slug": "ajkerpatrika"
     },
     {
       "name": "আমার বার্তা",
-      "slug": "amarBarta"
+      "slug": "amarbarta"
     },
     {
       "name": "প্রতিদিনের সংবাদ",
-      "slug": "protidinerSangbad"
+      "slug": "protidinersangbad"
     },
     {
       "name": "বণিক বার্তা",
-      "slug": "bonikBarta"
+      "slug": "bonikbarta"
     },
     {
       "name": "মানবকন্ঠ",
-      "slug": "manobKantha"
+      "slug": "manobkantha"
     },
     {
       "name": "দেশ রূপান্তর",
-      "slug": "deshRupantor"
+      "slug": "deshrupantor"
     },
     {
       "name": "কালবেলা",
@@ -98,71 +98,71 @@
     },
     {
       "name": "সময়ের আলো",
-      "slug": "shomoyEralo"
+      "slug": "shomoyeralo"
     },
     {
       "name": "ঢাকা টাইমস",
-      "slug": "dhakaTimes24"
+      "slug": "dhakatimes24"
     }
   ],
   "english": [
     {
       "name": "The Daily Star",
-      "slug": "theDailyStar"
+      "slug": "thedailystar"
     },
     {
       "name": "The Financial Express",
-      "slug": "theFinancialExpress"
+      "slug": "thefinancialexpress"
     },
     {
       "name": "Daily Sun",
-      "slug": "dailySun"
+      "slug": "dailysun"
     },
     {
       "name": "The Daily Observer",
-      "slug": "observerBD"
+      "slug": "observerbd"
     },
     {
       "name": "Dhaka Tribune",
-      "slug": "dhakaTribune"
+      "slug": "dhakatribune"
     },
     {
       "name": "New Age",
-      "slug": "newAgeBD"
+      "slug": "newagebd"
     },
     {
       "name": "The Bangladesh Today",
-      "slug": "theBangladeshToday"
+      "slug": "thebangladeshtoday"
     },
     {
       "name": "The Business Standard",
-      "slug": "tbsNews"
+      "slug": "tbsnews"
     },
     {
       "name": "The New Nation",
-      "slug": "newNation"
+      "slug": "newnation"
     }
   ],
   "online": [
     {
       "name": "বিবিসি বাংলা",
-      "slug": "bbcBangla"
+      "slug": "bbc"
     },
     {
       "name": "বাংলা নিউজ ২৪",
-      "slug": "banglaNews24"
+      "slug": "banglanews24"
     },
     {
       "name": "জাগোনিউজ২৪.কম",
-      "slug": "jagoNews24"
+      "slug": "jagonews24"
     },
     {
       "name": "বাংলা ট্রিবিউন",
-      "slug": "banglaTribune"
+      "slug": "banglatribune"
     },
     {
       "name": "ঢাকা পোস্ট",
-      "slug": "dhakaPost"
+      "slug": "dhakapost"
     }
   ]
 }

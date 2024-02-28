@@ -57,7 +57,7 @@ const favicons = {
     title: "বিবিসি বাংলা",
     favicon: bbcBangla,
   },
-  "bd-pratidin": {
+  bdpratidin: {
     title: "বাংলাদেশ প্রতিদিন",
     favicon: bangladeshPratidin,
   },
@@ -69,7 +69,7 @@ const favicons = {
     title: "বণিক বার্তা",
     favicon: bonikBarta,
   },
-  "daily-sun": {
+  dailysun: {
     title: "Daily Sun",
     favicon: dailySun,
   },
@@ -200,7 +200,9 @@ const getHostName = (url) => {
   const hostnameArr = hostname.split(".");
   const name = hostnameArr[0] === "www" ? hostnameArr[1] : hostnameArr[0];
 
-  return name;
+  const nameWithoutDash = name.split('-').length ? name.split('-').join("") : name
+
+  return nameWithoutDash;
 };
 
 function getFavicon(url) {
