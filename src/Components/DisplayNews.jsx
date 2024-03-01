@@ -2,8 +2,10 @@
 import { Box, Typography, styled, useTheme } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo, useReducer } from "react";
 import LinearProgressBar from "./LinearProgressBar";
+import { enqueueSnackbar } from "notistack";
+import { getNewspaperTitle } from "../utilites/faviconsConfig";
 
 const DisplayNews = React.memo(function DisplayNews() {
   const { newsError, newsData } = useNewspaper();
@@ -40,6 +42,92 @@ const DisplayNews = React.memo(function DisplayNews() {
     },
   }));
 
+  // show snackbar
+  /* function showSnackbar(resType, url) {
+    if (!resType) return;
+    
+    function alertMessage() {
+      if (resType === "success") {
+        return `${getNewspaperTitle(url)} is loaded successfully.`;
+      } else if (resType === "error") {
+        // return `${resErrorName}.\n${resErrorMessage}`;
+        return `${resType}`;
+      } else {
+        return "Unknown error occurs.";
+      }
+    }
+
+    enqueueSnackbar(alertMessage(), {
+      autoHideDuration: 5000,
+      variant: resType,
+      preventDuplicate: true,
+      anchorOrigin: { horizontal: "right", vertical: "bottom" },
+    });
+  } */
+
+  // useMemo(() => {}, [])
+
+  /* const reducerAlert = (state, action) => {
+    switch (state.type) {
+      case "success":
+        return enqueueSnackbar(`${getNewspaperTitle(action.url)} success`, {
+          autoHideDuration: 5000,
+          variant: "success",
+          preventDuplicate: true,
+          anchorOrigin: { horizontal: "right", vertical: "bottom" },
+        });
+      case "error":
+        return enqueueSnackbar(`${getNewspaperTitle(action.url)} failed`, {
+          autoHideDuration: 5000,
+          variant: "error",
+          preventDuplicate: true,
+          anchorOrigin: { horizontal: "right", vertical: "bottom" },
+        });
+
+      default:
+        return enqueueSnackbar(
+          `${getNewspaperTitle(action.url)} undefined error.`,
+          {
+            autoHideDuration: 5000,
+            preventDuplicate: true,
+            anchorOrigin: { horizontal: "right", vertical: "bottom" },
+          }
+        );
+    }
+  }; */
+
+  /* const reducerAlert = (state, action) => {
+    switch (action.type) {
+      case "success":
+        return { type: action.type, url: action.url };
+      case "error":
+        return { type: action.type, url: action.url };
+      default:
+        return state;
+    }
+  };
+  const [state, dispatch] = useReducer(reducerAlert, {
+    type: "",
+    url: "",
+  });
+
+  useEffect(() => {
+    const { type, url } = state;
+    if (!type || !url) return;
+
+    const alertMessage =
+      type === "success"
+        ? `${getNewspaperTitle(url)} is loaded successfully.`
+        : `${getNewspaperTitle(url)} failed`;
+
+    enqueueSnackbar(alertMessage, {
+      autoHideDuration: 5000,
+      variant: type === "success" ? "success" : "error",
+      preventDuplicate: true,
+      anchorOrigin: { horizontal: "right", vertical: "bottom" },
+    });
+  }, [state]); */
+
   if (newsError) {
     return (
       <Typography variant="h1" color="error">
@@ -61,7 +149,10 @@ const DisplayNews = React.memo(function DisplayNews() {
     >
       {newsData &&
         // newsData.map(({ title, url, news }) => {
-        newsData.map(({ url, news }) => {
+        newsData.map(({ type, url, news }) => {
+          // show snackbar
+          // dispatch({ type, url });
+
           return (
             <React.Fragment key={Math.random()}>
               {Array.isArray(news) &&

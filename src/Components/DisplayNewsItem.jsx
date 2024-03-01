@@ -6,8 +6,15 @@ import Typography from "@mui/material/Typography";
 import { CardActionArea, Link, useMediaQuery, useTheme } from "@mui/material";
 import { getFavicon, getNewspaperTitle } from "../utilites/faviconsConfig";
 import NewsSocialShare from "./NewsSocialShare";
+import { useMemo } from "react";
+import { enqueueSnackbar } from "notistack";
 
-export default function DisplayNewsItem({ url, item, newsIndex }) {
+export default function DisplayNewsItem({
+  // type: resType,
+  url,
+  item,
+  newsIndex,
+}) {
   const { title: headline, link, excerpt, time, imgSrc } = item;
 
   const theme = useTheme();
