@@ -1,4 +1,5 @@
 /* eslint-disable no-prototype-builtins */
+/*
 import { Box, Typography, styled, useTheme } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
@@ -85,3 +86,74 @@ const DisplayNews = React.memo(function DisplayNews() {
 });
 
 export default DisplayNews;
+*/
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import { useNewspaper } from "../Context/NewspaperContext";
+import DisplayNewsItem from "./DisplayNewsItem";
+import LinearProgressBar from "./LinearProgressBar";
+import { Box, Typography, styled } from "@mui/material";
+
+const NewsGridItem = styled(Box, {
+  shouldForwardProp: (prop) => prop !== "newsIndex",
+})(({ theme, newsIndex }) => ({
+  gridColumn: "span 10",
+
+  [theme.breakpoints.up("sm")]: {
+    gridColumn: newsIndex === 0 ? "span 10" : "span 5",
+  },
+  [theme.breakpoints.up("md")]: {
+    gridColumn: newsIndex === 0 ? "span 8" : "span 4",
+  },
+  [theme.breakpoints.up("lg")]: {
+    gridColumn: newsIndex === 0 ? "span 6" : "span 3",
+  },
+  [theme.breakpoints.up("xl")]: {
+    gridColumn: newsIndex === 0 ? "span 4" : "span 2",
+  },
+}));
+
+const DisplayNews = React.memo(() => {
+  const { newsError, newsData } = useNewspaper();
+
+  if (newsError) {
+    return (
+      <Typography variant="h5" color="error">
+        Something went wrong while loading news.
+      </Typography>
+    );
+  }
+
+  if (!newsData.length) {
+    return <LinearProgressBar />;
+  }
+
+  return (
+    <Box
+      display="grid"
+      gridTemplateColumns="repeat(10, 1fr)"
+      gap={2}
+    >
+      {newsData.map(({ url, news }) =>
+        Array.isArray(news)
+          ? news.map((item, index) => (
+              <NewsGridItem
+                key={`${url}-${item.id ?? index}`}
+                newsIndex={index}
+              >
+                <DisplayNewsItem
+                  newsIndex={index}
+                  item={item}
+                  url={url}
+                />
+              </NewsGridItem>
+            ))
+          : null
+      )}
+    </Box>
+  );
+});
+
+export default DisplayNews;
+
+// next improvement skeleton and clear progressbar/Emptystate

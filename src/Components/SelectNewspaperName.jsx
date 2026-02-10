@@ -1,3 +1,4 @@
+/*
 import React from "react";
 
 import newspaperNames from "../data/dummyData/newspapersNames.json";
@@ -26,7 +27,7 @@ const SelectNewspaperName = () => {
 
   return (
     <React.Fragment>
-      {/* Newspaper name selection checkbox */}
+      
       {Object.entries(newspaperNames).map(([key, value]) => {
         const items = value.map(({ name, slug }) => {
           return (
@@ -62,9 +63,73 @@ const SelectNewspaperName = () => {
         );
       })}
 
-      {/* Submit button */}
       <NewspaperCategorySubmitBtn />
     </React.Fragment>
+  );
+};
+
+export default SelectNewspaperName;
+*/
+
+import {
+  Box,
+  Checkbox,
+  FormControlLabel,
+  FormGroup,
+  Typography,
+} from "@mui/material";
+import newspaperNames from "../data/dummyData/newspapersNames.json";
+import newsCategories from "../data/dummyData/newspapersCategories.json";
+import { useNewspaper } from "../Context/NewspaperContext";
+import NewspaperCategorySubmitBtn from "./NewspaperCategorySubmitBtn";
+
+const SelectNewspaperName = () => {
+  const { selectedUrls, setSelectedUrls, newsCategory } = useNewspaper();
+
+  const toggleNewspaper = (slug) => {
+    setSelectedUrls((prev) =>
+      prev.includes(slug)
+        ? prev.filter((item) => item !== slug)
+        : [...prev, slug]
+    );
+  };
+
+  return (
+    <Box>
+      {Object.entries(newspaperNames).map(([groupName, newspapers]) => (
+        <Box key={groupName} mb={3}>
+          <Typography
+            variant="body1"
+            color="primary"
+            sx={{ textTransform: "uppercase", mb: 1 }}
+          >
+            {groupName}
+          </Typography>
+
+          <FormGroup>
+            <Box sx={{ display: "flex", flexWrap: "wrap" }}>
+              {newspapers.map(({ name, slug }) => {
+                const supportedCategories =
+                  newsCategories?.[slug] ?? [];
+
+                return (
+                  <FormControlLabel
+                    key={slug}
+                    control={<Checkbox />}
+                    label={name}
+                    checked={selectedUrls.includes(slug)}
+                    disabled={!supportedCategories.includes(newsCategory)}
+                    onChange={() => toggleNewspaper(slug)}
+                  />
+                );
+              })}
+            </Box>
+          </FormGroup>
+        </Box>
+      ))}
+
+      <NewspaperCategorySubmitBtn />
+    </Box>
   );
 };
 

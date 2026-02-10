@@ -1,3 +1,4 @@
+/*
 import { Button, Grid } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 
@@ -41,6 +42,31 @@ const NewspaperCategorySubmitBtn = () => {
         Submit
       </Button>
     </Grid>
+  );
+};
+
+export default NewspaperCategorySubmitBtn;
+*/
+
+import { Button, Box } from "@mui/material";
+import { useNewspaper } from "../Context/NewspaperContext";
+
+const NewspaperCategorySubmitBtn = () => {
+  const { selectedUrls, startFetchingNews } = useNewspaper();
+
+  return (
+    <Box component="form" mt={2} textAlign="center">
+      <Button
+        type="button"
+        variant="contained"
+        size="large"
+        color="primary"
+        disabled={!selectedUrls.length}
+        onClick={startFetchingNews}
+      >
+        Submit
+      </Button>
+    </Box>
   );
 };
 

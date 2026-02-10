@@ -1,4 +1,5 @@
 /* eslint-disable react/display-name */
+/*
 import React, { useMemo } from "react";
 import { useNewspaper } from "../Context/NewspaperContext";
 import { favicons, getHostName } from "../utilites/faviconsConfig";
@@ -46,3 +47,43 @@ const ShowResponseAlert = React.memo(() => {
 });
 
 export default ShowResponseAlert;
+*/
+
+import React, { useEffect } from "react";
+import { useNewspaper } from "../Context/NewspaperContext";
+import { favicons, getHostName } from "../utilites/faviconsConfig";
+import { useSnackbar } from "notistack";
+
+const ShowResponseAlert = () => {
+  const { newsData } = useNewspaper();
+  const { enqueueSnackbar } = useSnackbar();
+
+  useEffect(() => {
+    if (!newsData.length) return;
+
+    const lastItem = newsData[newsData.length - 1];
+    const { type } = lastItem;
+
+    let message = "Unknown error occurred.";
+
+    if (type === "success") {
+      const hostName = getHostName(lastItem.url);
+      const newspaperName = favicons[hostName]?.title ?? hostName;
+      message = `${newspaperName} loaded successfully.`;
+    } else if (type === "error") {
+      message = `${lastItem.name ?? "Error"}: ${lastItem.message ?? ""}`;
+    }
+
+    enqueueSnackbar(message, {
+      autoHideDuration: 5000,
+      variant: type ?? "default",
+      preventDuplicate: true,
+      anchorOrigin: { horizontal: "right", vertical: "bottom" },
+    });
+  }, [newsData, enqueueSnackbar]);
+
+  return null;
+};
+
+export default ShowResponseAlert;
+
