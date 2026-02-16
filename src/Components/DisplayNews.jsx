@@ -88,7 +88,6 @@ const DisplayNews = React.memo(function DisplayNews() {
 export default DisplayNews;
 */
 import React from "react";
-import { Box, Typography } from "@mui/material";
 import { useNewspaper } from "../Context/NewspaperContext";
 import DisplayNewsItem from "./DisplayNewsItem";
 import LinearProgressBar from "./LinearProgressBar";

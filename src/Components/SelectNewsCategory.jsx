@@ -112,10 +112,11 @@ const categories = [
 ];
 
 const SelectNewsCategory = () => {
-  const { newsCategory, setNewsCategory } = useNewspaper();
+  const { newsCategory, setNewsCategory, setSelectedUrls } = useNewspaper();
 
   const handleChange = (event) => {
     setNewsCategory(event.target.value);
+    setSelectedUrls([])
   };
 
   return (

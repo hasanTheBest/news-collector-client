@@ -95,7 +95,8 @@ const NewspaperProvider = ({ children }) => {
   const [newsData, setNewsData] = useState([]);
   const [newsError, setNewsError] = useState(false);
   const [shouldFetch, setShouldFetch] = useState(false);
-  const [fetchIndicator, setFetchIndicator] = useState([]);
+  const [fetchIndicator, setFetchIndicator] = useState(["prothomalo",
+    "thedailystar"]);
 
   const urlToFetch = useMemo(() => {
     return `${BASEURL}/news?newspaperNames=${selectedUrls.join(
@@ -104,17 +105,19 @@ const NewspaperProvider = ({ children }) => {
   }, [selectedUrls, newsCategory]);
 
   const startFetchingNews = () => {
-  setNewsData([]);
-  setFetchIndicator(selectedUrls);
-  setShouldFetch(true);
-};
+    setNewsData([]);
+    setFetchIndicator(selectedUrls);
+    setShouldFetch(true);
+    setNewsData([])
+    setNewsError(false)
+  };
 
   useEffect(() => {
     // reset state when inputs change
-    setNewsData([]);
-    setSelectedUrls([]);
-    setFetchIndicator(selectedUrls);
-    setNewsError(false);
+    // setNewsData([]);
+    // setSelectedUrls([]);
+    // setFetchIndicator(selectedUrls);
+    // setNewsError(false);
 
     const eventSource = new EventSource(urlToFetch);
 
@@ -134,13 +137,17 @@ const NewspaperProvider = ({ children }) => {
     eventSource.onerror = (error) => {
       console.error("SSE Error:", error);
       setNewsError(true);
+      setFetchIndicator([])
       eventSource.close();
     };
 
     return () => {
       eventSource.close();
     };
-  }, [urlToFetch, newsCategory, selectedUrls]);
+  }, [shouldFetch]);
+  // }, [urlToFetch]);
+  // }, [urlToFetch, selectedUrls]);
+  // }, [urlToFetch, newsCategory, selectedUrls]);
 
   return (
     <NewspaperContext.Provider
@@ -154,7 +161,9 @@ const NewspaperProvider = ({ children }) => {
         newsError,
         fetchIndicator,
         urlToFetch,
-        setShouldFetch
+        setShouldFetch,
+        startFetchingNews,
+        shouldFetch
       }}
     >
       {children}
